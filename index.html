@@ -506,20 +506,23 @@
         </div>
       </div>
       <div>
-        <!-- NOTE: design placeholder — replace with a Wix Forms block after import so submissions are captured. -->
-        <form onsubmit="return false">
+        <!-- Submissions POST to a Google Apps Script web app → emails help@alamsekitar.com.my → CSD Jira.
+             Deploy the script (see code.gs) and paste its /exec URL into FORM_ENDPOINT in the script at the bottom of this file. -->
+        <form id="enquiry-form">
+          <input type="text" name="botcheck" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true" />
           <div class="two">
-            <div class="field"><label for="name">Name</label><input id="name" type="text" autocomplete="name" placeholder="Your name" /></div>
-            <div class="field"><label for="company">Company</label><input id="company" type="text" autocomplete="organization" placeholder="Company" /></div>
+            <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required /></div>
+            <div class="field"><label for="company">Company</label><input id="company" name="company" type="text" autocomplete="organization" placeholder="Company" /></div>
           </div>
           <div class="two">
-            <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" placeholder="you@company.com" /></div>
-            <div class="field"><label for="phone">Phone</label><input id="phone" type="tel" autocomplete="tel" placeholder="+60" /></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required /></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+60" /></div>
           </div>
           <div class="field"><label for="facility">Facility type</label>
-            <select id="facility"><option>Palm oil mill</option><option>Energy &amp; power</option><option>Cement</option><option>Manufacturing</option><option>Other</option></select></div>
-          <div class="field"><label for="msg">How can we help?</label><textarea id="msg" rows="4" placeholder="Tell us about your facility or requirement"></textarea></div>
+            <select id="facility" name="facility_type"><option>Palm oil mill</option><option>Energy &amp; power</option><option>Cement</option><option>Manufacturing</option><option>Other</option></select></div>
+          <div class="field"><label for="msg">How can we help?</label><textarea id="msg" name="message" rows="4" placeholder="Tell us about your facility or requirement" required></textarea></div>
           <button class="btn btn-primary" type="submit">Send enquiry</button>
+          <p id="form-status" role="status" style="margin-top:12px;font-size:.92rem;display:none"></p>
         </form>
       </div>
     </div>
@@ -571,6 +574,23 @@
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  // Paste your deployed Google Apps Script web app URL (ends in /exec) between the quotes:
+  var FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyWMIqVfsbuRRgGjxvhylYBMjlTGBmiBUI-zJCGxAQlmd5ZiqAbso_EDRfDCbSHdKDp/exec';
+  var f=document.getElementById('enquiry-form'); if(!f) return;
+  var s=document.getElementById('form-status');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    if(f.botcheck && f.botcheck.value){ return; } // honeypot: ignore bots
+    s.style.display='block'; s.style.color='rgba(255,255,255,.7)'; s.textContent='Sending…';
+    fetch(FORM_ENDPOINT,{method:'POST',mode:'no-cors',body:new FormData(f)})
+      .then(function(){ f.reset(); s.style.color='#37c957'; s.textContent='Thanks — your enquiry has been sent. We’ll be in touch shortly.'; })
+      .catch(function(){ s.style.color='#ff8a80'; s.textContent='Sorry, something went wrong. Please email help@alamsekitar.com.my directly.'; });
+  });
+})();
+</script>
 
 </body>
 </html>
