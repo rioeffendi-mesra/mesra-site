@@ -10,7 +10,14 @@ url: "https://rioeffendi-mesra.github.io"
 baseurl: "/mesra-site"
 
 # Blog post URLs look like /insights/your-title/
-permalink: /insights/:title/
+# Scoped to posts only, so pages (blog.html, index.html) keep their normal URLs.
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /insights/:title/
 
 # Don't publish these as pages.
 exclude:
