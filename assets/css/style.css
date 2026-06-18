@@ -186,6 +186,9 @@ footer .grid{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:40px;margin-bo
 footer h4{font-family:var(--mono);color:#fff;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:14px}
 footer a{color:rgba(255,255,255,.6);font-size:.92rem;line-height:2.05}
 footer a:hover{color:#fff}
+/* Footer column links: distinct, separated blocks (esp. when they wrap on mobile) */
+footer .grid > div > a{display:block;line-height:1.35;padding:7px 0}
+footer .grid > div > br{display:none}
 footer .desc{font-size:.92rem;margin-top:14px;max-width:32ch}
 .social{display:flex;gap:10px;margin-top:16px}
 .social a{width:36px;height:36px;border:1px solid rgba(255,255,255,.22);border-radius:8px;display:flex;align-items:center;justify-content:center}
