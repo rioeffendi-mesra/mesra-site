@@ -51,7 +51,7 @@
         <li><a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">Get in touch</a></li>
       </ul>
     </nav>
-    <button class="menu-toggle" aria-label="Open menu">
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
       <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#15191c" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
     </button>
   </div>
@@ -107,6 +107,22 @@
 </footer>
 
 <script>
+(function(){
+  // Mobile nav toggle
+  var mt=document.querySelector('.menu-toggle');
+  var navm=document.querySelector('nav.main');
+  if(mt&&navm){
+    mt.addEventListener('click',function(){
+      var open=navm.classList.toggle('open');
+      mt.setAttribute('aria-expanded', open?'true':'false');
+      mt.setAttribute('aria-label', open?'Close menu':'Open menu');
+    });
+    // Close the menu after tapping any link
+    navm.addEventListener('click',function(e){
+      if(e.target.closest('a')){ navm.classList.remove('open'); mt.setAttribute('aria-expanded','false'); mt.setAttribute('aria-label','Open menu'); }
+    });
+  }
+})();
 (function(){
   // Google Apps Script web app endpoint → emails help@alamsekitar.com.my → CSD Jira.
   var FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyWMIqVfsbuRRgGjxvhylYBMjlTGBmiBUI-zJCGxAQlmd5ZiqAbso_EDRfDCbSHdKDp/exec';
