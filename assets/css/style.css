@@ -240,7 +240,8 @@ section.inner{padding:56px 0 84px}
   .hero h1{font-size:2.7rem}
   .hero .sub p{font-size:1.1rem}
   .shead h2{font-size:1.9rem}
-  .cards,.path,.tstats,.team,.accred,.values,.ind,.cdetails,form .two,.facts .row,.kpis,.post-list{grid-template-columns:1fr}
+  .cards,.path,.tstats,.team,.accred,.values,.ind,.cdetails,form .two,.facts .row,.kpis,.post-list,footer .grid{grid-template-columns:1fr}
+  footer .grid{gap:32px}
   .facts .cell,.kpis .kpi{border-left:0;padding-left:0}
   .contact h2{font-size:2rem}
   .page-head h1{font-size:2.2rem}
