@@ -1,0 +1,29 @@
+---
+layout: default
+title: Insights & Compliance Guides
+description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014, QAL 2 & QAL 3, MS 1596 and MS 2564 — from Malaysia's CEMS specialists.
+---
+<section class="inner">
+  <div class="wrap">
+    <div class="page-head">
+      <p class="label">Insights &amp; Compliance Guides</p>
+      <h1>CEMS &amp; compliance, explained.</h1>
+      <p>Practical, plain-English guidance for EHS and plant managers navigating Malaysia's emissions-monitoring requirements — from the team that helped write the DOE CEMS Guidelines.</p>
+    </div>
+
+    {% if site.posts.size > 0 %}
+    <div class="post-list">
+      {% for post in site.posts %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        <div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+        <span class="more">Read more →</span>
+      </a>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p style="margin-top:40px;color:var(--muted)">New articles are on the way — check back soon.</p>
+    {% endif %}
+  </div>
+</section>

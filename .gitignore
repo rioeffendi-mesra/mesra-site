@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Jekyll build output (GitHub Pages builds this for you)
+_site/
+.jekyll-cache/
+.jekyll-metadata

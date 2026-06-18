@@ -1,0 +1,19 @@
+# Mesra Alam Sekitar — Jekyll site config
+title: "Mesra Alam Sekitar Sdn Bhd | Continuous Emission Monitoring System | Malaysia"
+description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sekitar designs, installs, certifies (QAL 2/QAL 3) and maintains Continuous Emission Monitoring Systems for Malaysian industry — and helped write the DOE CEMS Guidelines."
+
+# Site address.
+# While previewing on the GitHub Pages project URL (rioeffendi-mesra.github.io/mesra-site),
+# keep baseurl as "/mesra-site".
+# WHEN YOU CONNECT A ROOT DOMAIN (e.g. new.alamsekitar.com.my), change baseurl to "" (empty).
+url: "https://rioeffendi-mesra.github.io"
+baseurl: "/mesra-site"
+
+# Blog post URLs look like /insights/your-title/
+permalink: /insights/:title/
+
+# Don't publish these as pages.
+exclude:
+  - README.md
+  - "*.pdf"
+  - "*.psd"

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="inner">
+  <div class="wrap">
+    <article class="article">
+      <div class="date">{{ page.date | date: "%-d %B %Y" }}</div>
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+      <a class="back-link" href="{{ '/blog.html' | relative_url }}">← All insights</a>
+    </article>
+  </div>
+</section>
