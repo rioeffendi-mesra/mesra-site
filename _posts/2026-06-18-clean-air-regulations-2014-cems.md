@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What the Clean Air Regulations 2014 mean for your CEMS"
-date: 2026-06-20
+date: 2026-06-18
 description: "A plain-English guide to how Malaysia's Environmental Quality (Clean Air) Regulations 2014 shape Continuous Emission Monitoring System obligations — and how to stay inspection-ready."
 ---
 
