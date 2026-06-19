@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What 'compliant' actually means: the daily-average and 2× half-hourly rule"
-date: 2026-06-19 08:00:00
+date: 2026-06-19 02:00:00
 description: "Part 1 of our Enforcing the Clean Air Regulations 2014 series: the precise two-part compliance test in Reg 17(3) — no daily average above the ELV, and no half-hourly average above twice the ELV — with a worked example."
 ---
 

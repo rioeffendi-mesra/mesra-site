@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "QAL1 and certification: what 'DOE-registered CEMS' and MCERT/TÜV actually mean"
-date: 2026-06-19 09:00:00
+date: 2026-06-19 02:20:00
 description: "Part 2 of our Buying a CEMS series: how QAL1 type-certification (MCERT/TÜV) works, why the certified range must match your daily ELV, and the difference between a certified system and a DOE-registered one."
 ---
 
