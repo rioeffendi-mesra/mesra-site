@@ -6,8 +6,8 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
 # While previewing on the GitHub Pages project URL (rioeffendi-mesra.github.io/mesra-site),
 # keep baseurl as "/mesra-site".
 # WHEN YOU CONNECT A ROOT DOMAIN (e.g. new.alamsekitar.com.my), change baseurl to "" (empty).
-url: "https://rioeffendi-mesra.github.io"
-baseurl: "/mesra-site"
+url: "https://www.alamsekitar.com.my"
+baseurl: ""
 
 # Blog post URLs look like /insights/your-title/
 # Scoped to posts only, so pages (blog.html, index.html) keep their normal URLs.
