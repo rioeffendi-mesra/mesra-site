@@ -229,14 +229,17 @@ section.inner{padding:56px 0 84px}
   .reasons{grid-template-columns:1fr}
   .path .step .arrow{display:none}
 }
-@media(max-width:680px){
-  section{padding:62px 0}
+/* Nav collapses to the hamburger below 900px so iPads (≈768–834px portrait) don't show a cramped, wrapping desktop nav */
+@media(max-width:900px){
   nav.main ul{display:none}
   nav.main.open ul{display:flex;flex-direction:column;align-items:stretch;gap:4px;position:absolute;top:100%;left:0;right:0;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 14px 30px rgba(21,25,28,.10);padding:14px 24px 20px;z-index:59}
   nav.main.open ul li{width:100%}
   nav.main.open ul a{display:block;padding:11px 0}
   nav.main.open ul .btn{width:100%;text-align:center;margin-top:8px;padding:13px}
   .menu-toggle{display:block}
+}
+@media(max-width:680px){
+  section{padding:62px 0}
   .hero h1{font-size:2.7rem}
   .hero .sub p{font-size:1.1rem}
   .shead h2{font-size:1.9rem}

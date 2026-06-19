@@ -20,7 +20,7 @@ A CEMS continuously measures parameters such as **particulate matter (dust)** an
 In our experience sitting on both sides of the table — as a consultant and as a contributor to the DOE CEMS Guidelines — compliance comes down to three questions:
 
 1. **Is the system measuring the right things, accurately?** The analysers must be appropriate for your source and kept within accepted tolerances through scheduled calibration.
-2. **Can you prove it?** This is where **QAL 2 and QAL 3** testing (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
+2. **Can you prove it?** This is where **QAL2 and QAL3** testing (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
 3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **iRemote / CEMS 3.0** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
 
 ## Where operators get caught out
@@ -28,7 +28,7 @@ In our experience sitting on both sides of the table — as a consultant and as 
 The most common compliance gaps we see aren't dramatic failures — they're quiet ones:
 
 - **Calibration drift** that goes unnoticed until an audit.
-- **A lapsed QAL certification**, because QAL 3 is an ongoing obligation, not a one-time event.
+- **A lapsed QAL certification**, because QAL3 is an ongoing obligation, not a one-time event.
 - **A broken iRemote connection** that stops transmitting without anyone noticing for days.
 
 Any of these can turn a well-run facility into a non-compliant one on paper — and that's what triggers notices, fines, or in the worst case, a shutdown order.
