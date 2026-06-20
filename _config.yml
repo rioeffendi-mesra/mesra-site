@@ -19,8 +19,19 @@ defaults:
       layout: post
       permalink: /insights/:title/
 
+# Plugins.
+# jekyll-sitemap auto-generates /sitemap.xml on every build (GitHub Pages
+# supported, zero-config). It uses the absolute `url:` above for entries.
+# NOTE: also listed in the Gemfile so local Jekyll 4.x preview matches the
+# live GitHub Pages build.
+plugins:
+  - jekyll-sitemap
+
 # Don't publish these as pages.
 exclude:
   - README.md
   - "*.pdf"
   - "*.psd"
+  - Gemfile
+  - Gemfile.lock
+  - vendor
