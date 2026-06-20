@@ -15,10 +15,19 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
       <a class="btn btn-ghost" href="#services">What we do</a>
     </div>
     <div class="stream" aria-hidden="true">
-      <svg viewBox="0 0 1100 42" preserveAspectRatio="none">
-        <polyline points="0,28 90,18 150,30 230,12 300,26 380,20 470,30 540,8 620,28 700,18 790,30 860,16 950,28 1030,20 1100,26"
-          fill="none" stroke="#2CB34A" stroke-width="2.5" stroke-linejoin="round"/>
-      </svg>
+      <div class="cems">
+        <div class="cems-readout">
+          <div class="cems-val"><span class="cems-num">—</span><span class="cems-unit">mg/Nm³</span></div>
+          <div class="cems-pill">Compliant · limit 150</div>
+        </div>
+        <div class="cems-graph"><canvas class="cems-trace" data-variant="light"></canvas></div>
+      </div>
+      <noscript>
+        <svg viewBox="0 0 1100 42" preserveAspectRatio="none">
+          <polyline points="0,28 90,18 150,30 230,12 300,26 380,20 470,30 540,8 620,28 700,18 790,30 860,16 950,28 1030,20 1100,26"
+            fill="none" stroke="#2CB34A" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+      </noscript>
     </div>
     <div class="meta-row">
       <span>Established 2010</span><span>DOE iRemote Registered</span><span>CIDB Grade G3</span><span>200+ Installations Nationwide</span>
@@ -133,9 +142,18 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
     </div>
     <div class="stream-dark">
       <div class="top"><span>CEMS data stream · Particulate mg/Nm³</span><span class="live">● Live</span></div>
-      <svg viewBox="0 0 1080 46" preserveAspectRatio="none" aria-hidden="true">
-        <polyline points="0,30 80,22 150,32 220,14 300,28 380,20 460,32 540,10 620,30 700,18 780,32 860,16 940,30 1010,22 1080,28" fill="none" stroke="#37c957" stroke-width="2.5" stroke-linejoin="round"/>
-      </svg>
+      <div class="cems cems-on-dark">
+        <div class="cems-readout">
+          <div class="cems-val"><span class="cems-num">—</span><span class="cems-unit">mg/Nm³</span></div>
+          <div class="cems-pill">Compliant · limit 150</div>
+        </div>
+        <div class="cems-graph"><canvas class="cems-trace" data-variant="dark" aria-hidden="true"></canvas></div>
+      </div>
+      <noscript>
+        <svg viewBox="0 0 1080 46" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,30 80,22 150,32 220,14 300,28 380,20 460,32 540,10 620,30 700,18 780,32 860,16 940,30 1010,22 1080,28" fill="none" stroke="#37c957" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+      </noscript>
     </div>
     <div class="tstats">
       <div class="tstat"><div class="n">200+</div><div class="l">Data acquisition systems deployed</div></div>
@@ -271,3 +289,143 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
     </div>
   </div>
 </section>
+
+<!-- ============ LIVE CEMS TRACE ANIMATION ============ -->
+<script>
+(function(){
+  var nodes = [].slice.call(document.querySelectorAll('canvas.cems-trace'));
+  if(!nodes.length || !window.requestAnimationFrame) return;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var N = 150;
+  var palettes = {
+    light: { line:'#1E7D33', fill:'rgba(44,179,74,0.10)', limit:'#C0392B', limitA:0.50, band:0.16 },
+    dark:  { line:'#37c957', fill:'rgba(55,201,87,0.13)', limit:'#F0795F', limitA:0.62, band:0.16 }
+  };
+
+  function makeTrace(canvas){
+    var ctx = canvas.getContext('2d');
+    if(!ctx) return null;
+    var pal = palettes[canvas.getAttribute('data-variant')] || palettes.light;
+    var st = { canvas:canvas, ctx:ctx, pal:pal, w:0, h:0, dpr:1,
+               buf:[], acc:0, pulse:Math.random(),
+               visible:true, reduce:reduce, limit:150, scaleMax:175 };
+
+    var box = canvas.closest ? canvas.closest('.cems') : null;
+    st.numEl  = box ? box.querySelector('.cems-num')  : null;
+    st.pillEl = box ? box.querySelector('.cems-pill') : null;
+
+    st.nextVal = function(){
+      /* random particulate reading in mg/Nm3 */
+      if(Math.random() < 0.05){            /* ~1 in 20 ticks: exceedance above the limit */
+        return 152 + Math.random() * 16;   /* 152 - 168 mg/Nm3 (breach) */
+      }
+      return 25 + Math.random() * 115;     /* 25 - 140 mg/Nm3 (normal) */
+    };
+    for(var i=0;i<N;i++) st.buf.push(st.nextVal());
+    updateReadout(st);
+
+    st.resize = function(){
+      var r = canvas.getBoundingClientRect();
+      if(!r.width || !r.height) return;
+      st.dpr = window.devicePixelRatio || 1;
+      st.w = r.width; st.h = r.height;
+      canvas.width = Math.round(r.width * st.dpr);
+      canvas.height = Math.round(r.height * st.dpr);
+      ctx.setTransform(st.dpr,0,0,st.dpr,0,0);
+      draw(st);
+    };
+    st.resize();
+
+    if(window.ResizeObserver){ new ResizeObserver(st.resize).observe(canvas); }
+    else { window.addEventListener('resize', st.resize); }
+    if(window.IntersectionObserver){
+      new IntersectionObserver(function(es){ es.forEach(function(e){ st.visible = e.isIntersecting; }); }, {threshold:0}).observe(canvas);
+    }
+    return st;
+  }
+
+  function draw(st){
+    var ctx=st.ctx, w=st.w, h=st.h, pal=st.pal;
+    if(!w || !h) return;
+    ctx.clearRect(0,0,w,h);
+    var padT=5, padB=5, plotH=h-padT-padB;
+    function py(v){ return padT + (1 - v/st.scaleMax) * plotH; }   /* v in mg/Nm3 */
+    var ly = py(st.limit);
+
+    /* soft band above limit + dashed limit line */
+    ctx.save();
+    ctx.globalAlpha = pal.limitA * pal.band;
+    ctx.fillStyle = pal.limit;
+    ctx.fillRect(0, padT, w, Math.max(0, ly-padT));
+    ctx.restore();
+    ctx.save();
+    ctx.globalAlpha = pal.limitA;
+    ctx.setLineDash([5,4]);
+    ctx.strokeStyle = pal.limit;
+    ctx.lineWidth = 1.25;
+    ctx.beginPath(); ctx.moveTo(0,ly); ctx.lineTo(w,ly); ctx.stroke();
+    ctx.restore();
+
+    var n=st.buf.length, stepX = w/(N-1);
+
+    /* area under trace */
+    ctx.beginPath();
+    ctx.moveTo(0, h-padB);
+    for(var i=0;i<n;i++){ ctx.lineTo(i*stepX, py(st.buf[i])); }
+    ctx.lineTo((n-1)*stepX, h-padB);
+    ctx.closePath();
+    ctx.fillStyle = pal.fill; ctx.fill();
+
+    /* the trace */
+    ctx.beginPath();
+    for(var j=0;j<n;j++){ var x=j*stepX, y=py(st.buf[j]); if(j===0) ctx.moveTo(x,y); else ctx.lineTo(x,y); }
+    ctx.strokeStyle = pal.line; ctx.lineWidth = 2; ctx.lineJoin='round'; ctx.lineCap='round';
+    ctx.stroke();
+
+    /* leading point + pulse */
+    var lx=(n-1)*stepX, lyp=py(st.buf[n-1]);
+    if(!st.reduce){
+      var pr = 3 + (Math.sin(st.pulse*Math.PI*2)*0.5+0.5)*4;
+      ctx.save(); ctx.globalAlpha = 0.18; ctx.fillStyle = pal.line;
+      ctx.beginPath(); ctx.arc(lx,lyp,pr,0,6.2832); ctx.fill(); ctx.restore();
+    }
+    ctx.beginPath(); ctx.arc(lx,lyp,2.6,0,6.2832); ctx.fillStyle = pal.line; ctx.fill();
+  }
+
+  function updateReadout(st){
+    if(!st.numEl) return;
+    var v = st.buf[st.buf.length-1];
+    st.numEl.textContent = Math.round(v);
+    if(st.pillEl){
+      var breach = v >= st.limit;
+      st.pillEl.textContent = breach ? 'Exceedance · limit 150' : 'Compliant · limit 150';
+      if(st.pillEl.classList) st.pillEl.classList.toggle('breach', breach);
+    }
+  }
+
+  var states = nodes.map(makeTrace).filter(Boolean);
+  if(!states.length) return;
+  if(reduce){ states.forEach(function(s){ draw(s); updateReadout(s); }); return; }   /* static frame, no motion */
+
+  var paused = false;
+  document.addEventListener('visibilitychange', function(){ paused = document.hidden; });
+
+  var last = performance.now();
+  function loop(now){
+    var dt = now - last; last = now;
+    if(dt > 100) dt = 100;
+    if(!paused){
+      for(var i=0;i<states.length;i++){
+        var s = states[i];
+        if(!s.visible) continue;
+        s.pulse += dt/1000;
+        s.acc += dt;
+        if(s.acc >= 1000){ s.acc = 0; s.buf.push(s.nextVal()); if(s.buf.length > N) s.buf.shift(); updateReadout(s); }
+        draw(s);
+      }
+    }
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+})();
+</script>
