@@ -9,9 +9,11 @@ source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
 
-# SEO: auto-generate sitemap.xml. Listed here so local preview matches the
-# live GitHub Pages build (which also supports this plugin natively).
+# SEO: auto-generate sitemap.xml and an Atom feed (/feed.xml). Listed here so
+# local preview matches the live GitHub Pages build (both plugins are
+# supported by GitHub Pages natively).
 gem "jekyll-sitemap"
+gem "jekyll-feed"
 
 # Ruby 3.0+ removed webrick from the standard library; Jekyll's local
 # server needs it to start.

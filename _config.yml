@@ -26,6 +26,7 @@ defaults:
 # live GitHub Pages build.
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 
 # Don't publish these as pages.
 exclude:

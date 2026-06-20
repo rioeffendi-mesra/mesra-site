@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BlogPosting",
+  "headline":{{ page.title | jsonify }},
+  "description":{{ page.description | default: site.description | jsonify }},
+  "datePublished":"{{ page.date | date_to_xmlschema }}",
+  "dateModified":"{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "url":{{ page.url | absolute_url | jsonify }},
+  "mainEntityOfPage":{{ page.url | absolute_url | jsonify }},
+  "image":{{ page.image | default: '/assets/og/mesra-og.png' | absolute_url | jsonify }},
+  "inLanguage":"en-MY",
+  "author":{"@type":"Organization","name":"Mesra Alam Sekitar Sdn. Bhd.","url":"https://www.alamsekitar.com.my"},
+  "publisher":{"@type":"Organization","name":"Mesra Alam Sekitar Sdn. Bhd.","logo":{"@type":"ImageObject","url":"https://www.alamsekitar.com.my/assets/logo-512.png"}}
+}
+</script>
 <section class="inner">
   <div class="wrap">
     <article class="article">

@@ -12,6 +12,18 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
 <meta property="og:site_name" content="Mesra Alam Sekitar" />
 <meta property="og:locale" content="en_MY" />
+<meta property="og:image" content="{{ page.image | default: '/assets/og/mesra-og.png' | absolute_url }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Mesra Alam Sekitar — Clean. Compliant. Connected. CEMS, Malaysia." />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+<meta name="twitter:description" content="{{ page.description | default: site.description }}" />
+<meta name="twitter:image" content="{{ page.image | default: '/assets/og/mesra-og.png' | absolute_url }}" />
+<link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml" />
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any" />
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}" />
+<link rel="alternate" type="application/atom+xml" title="Mesra Alam Sekitar — Insights" href="{{ '/feed.xml' | relative_url }}" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -28,8 +40,12 @@
   "telephone":"+60163221812",
   "foundingDate":"2010-04-28",
   "description":"DOE iRemote-registered Continuous Emission Monitoring System (CEMS) consultant serving Malaysian industry since 2010.",
+  "logo":"https://www.alamsekitar.com.my/assets/logo-512.png",
+  "image":"https://www.alamsekitar.com.my/assets/og/mesra-og.png",
   "address":{"@type":"PostalAddress","streetAddress":"C-3A-09 Centum @ Oasis Corporate Park, No. 2 Jalan PJU 1A/2, Ara Damansara","addressLocality":"Petaling Jaya","addressRegion":"Selangor","postalCode":"47301","addressCountry":"MY"},
-  "areaServed":"MY"
+  "areaServed":{"@type":"Country","name":"Malaysia"},
+  "sameAs":["https://www.linkedin.com/company/mesra-alam-sekitar-sdn-bhd"],
+  "contactPoint":{"@type":"ContactPoint","contactType":"sales","telephone":"+60163221812","email":"help@alamsekitar.com.my","areaServed":"MY","availableLanguage":["en","ms"]}
 }
 </script>
 </head>
