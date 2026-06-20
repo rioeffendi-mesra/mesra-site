@@ -268,8 +268,24 @@ section.inner{padding:56px 0 84px}
   .article h1{font-size:1.9rem}
 }
 
-/* ---- explanatory diagrams (inline SVG figures) ---- */
-.fig{margin:34px 0;border:1px solid var(--line);border-radius:14px;background:var(--white);padding:22px 22px 16px;overflow-x:auto}
-.fig svg{display:block;width:100%;min-width:460px;max-width:680px;height:auto;margin:0 auto}
+/* ---- explanatory diagrams ---- */
+.fig{margin:34px 0;border:1px solid var(--line);border-radius:14px;background:var(--white);padding:22px}
+.fig svg{display:block;width:100%;max-width:680px;height:auto;margin:0 auto}
+.fig.ring svg{max-width:520px}
 .fig figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:14px;text-align:center;line-height:1.5}
-.fig.ring svg{max-width:560px}
+.fig .fig-title{font-size:1.02rem;font-weight:800;color:var(--ink);text-align:center;margin:0 0 16px;letter-spacing:-.01em}
+.fig .fig-note{font-size:.84rem;color:var(--body);text-align:center;margin:14px 0 0}
+/* flow component — reflows to a vertical stack on mobile */
+.fig.flow .flow-row{display:flex;align-items:stretch;gap:8px}
+.fig.flow .flow-step{flex:1;border:2px solid var(--green);border-radius:11px;padding:15px 10px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.fig.flow .flow-step.muted{border-color:var(--grey)}
+.fig.flow .flow-step.hl{background:var(--green-tint)}
+.fig.flow .fs-k{font-family:var(--mono);font-size:.62rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green-d);margin-bottom:6px}
+.fig.flow .fs-name{font-weight:700;font-size:1.12rem;color:var(--ink);line-height:1.1}
+.fig.flow .fs-q{color:var(--body);font-size:.85rem;margin-top:5px}
+.fig.flow .fs-own{color:var(--muted);font-size:.74rem;margin-top:9px}
+.fig.flow .flow-arrow{display:flex;align-items:center;justify-content:center;color:var(--green-d);font-size:1.3rem;font-weight:700;flex:none}
+@media(max-width:600px){
+  .fig.flow .flow-row{flex-direction:column;gap:6px}
+  .fig.flow .flow-arrow{transform:rotate(90deg);padding:2px 0}
+}
