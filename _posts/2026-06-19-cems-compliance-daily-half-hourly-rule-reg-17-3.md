@@ -58,6 +58,15 @@ A single valid exceedance of either threshold is non-compliance for that period 
 
 *Next in the series — Part 2: Valid averages and the 75% rule — when a reading counts, and when it doesn't.*
 
+<div class="related">
+  <p class="label">Related insights</p>
+  <ul>
+    <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
+    <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice. For the precise legal position, refer to the Environmental Quality (Clean Air) Regulations 2014, the EQA 1974, and the DOE CEMS Guidelines.*

@@ -20,7 +20,7 @@ A CEMS continuously measures parameters such as **particulate matter (dust)** an
 In our experience sitting on both sides of the table — as a consultant and as a contributor to the DOE CEMS Guidelines — compliance comes down to three questions:
 
 1. **Is the system measuring the right things, accurately?** The analysers must be appropriate for your source and kept within accepted tolerances through scheduled calibration.
-2. **Can you prove it?** This is where **QAL2 and QAL3** testing (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
+2. **Can you prove it?** This is where [**QAL2 and QAL3** testing]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
 3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **iRemote / CEMS 3.0** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
 
 ## Where operators get caught out
@@ -42,6 +42,15 @@ The goal isn't to pass one inspection; it's to be ready for any inspection, any 
 That full-lifecycle ownership is exactly what we do for the operators we work with across Malaysia's palm oil, energy, cement and manufacturing sectors.
 
 **Not sure where your facility stands?** [Get in touch]({{ '/' | relative_url }}#contact) and we'll help you find out — from the team that helped write the DOE CEMS Guidelines.
+
+<div class="related">
+  <p class="label">Related insights</p>
+  <ul>
+    <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
+    <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
+    <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
+  </ul>
+</div>
 
 ---
 

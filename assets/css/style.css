@@ -208,6 +208,15 @@ section.inner{padding:56px 0 84px}
 .post-card h3{font-size:1.2rem;margin-bottom:8px}
 .post-card p{font-size:.95rem}
 .post-card .more{display:inline-block;margin-top:12px;color:var(--green-d);font-weight:600;font-size:.9rem}
+.insights{background:var(--light)}
+.ins-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:10px}
+.ins-all{margin-top:34px}
+.related{margin-top:40px;padding-top:26px;border-top:1px solid var(--line)}
+.related .label{margin-bottom:14px}
+.related ul{list-style:none;margin:0;padding:0}
+.related li{margin-bottom:10px}
+.related a{color:var(--green-d);font-weight:600;text-decoration:none}
+.related a:hover{text-decoration:underline}
 .article{max-width:760px;margin:0 auto}
 .article .date{font-family:var(--mono);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--green);margin-bottom:14px}
 .article h1{font-size:2.6rem;margin-bottom:20px}
@@ -223,7 +232,7 @@ section.inner{padding:56px 0 84px}
 @media(max-width:960px){
   .hero h1{font-size:3.6rem}
   .who .grid,.vm,.contact .grid{grid-template-columns:1fr}
-  .cards,.path,.tstats,.team,.accred{grid-template-columns:1fr 1fr}
+  .cards,.path,.tstats,.team,.accred,.ins-grid{grid-template-columns:1fr 1fr}
   .facts .row,.kpis{grid-template-columns:1fr 1fr}
   .facts .cell:nth-child(3),.kpis .kpi:nth-child(3){border-left:0;padding-left:0}
   .reasons{grid-template-columns:1fr}
@@ -243,7 +252,7 @@ section.inner{padding:56px 0 84px}
   .hero h1{font-size:2.7rem}
   .hero .sub p{font-size:1.1rem}
   .shead h2{font-size:1.9rem}
-  .cards,.path,.tstats,.team,.accred,.values,.ind,.cdetails,form .two,.facts .row,.kpis,.post-list,footer .grid{grid-template-columns:1fr}
+  .cards,.path,.tstats,.team,.accred,.values,.ind,.cdetails,form .two,.facts .row,.kpis,.post-list,.ins-grid,footer .grid{grid-template-columns:1fr}
   footer .grid{gap:32px}
   .facts .cell,.kpis .kpi{border-left:0;padding-left:0}
   .contact h2{font-size:2rem}

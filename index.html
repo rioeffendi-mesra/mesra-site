@@ -207,6 +207,26 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
   </div>
 </section>
 
+<!-- ============ INSIGHTS ============ -->
+<section class="insights" id="insights">
+  <div class="wrap">
+    <div class="shead"><p class="label">08 — Insights</p><h2>CEMS &amp; compliance, explained</h2><p>Plain-English guidance on the DOE Clean Air Regulations 2014, QAL2/QAL3 testing and staying inspection-ready — from the team that helped write the DOE CEMS Guidelines.</p></div>
+    {% if site.posts.size > 0 %}
+    <div class="ins-grid">
+      {% for post in site.posts limit:3 %}
+      <a class="post-card" href="{{ post.url | relative_url }}">
+        <div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 130 }}</p>
+        <span class="more">Read more →</span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="ins-all"><a class="btn btn-ghost" href="{{ '/blog.html' | relative_url }}">View all insights →</a></div>
+    {% endif %}
+  </div>
+</section>
+
 <!-- ============ CONTACT (dark) ============ -->
 <section class="contact" id="contact">
   <div class="wrap">

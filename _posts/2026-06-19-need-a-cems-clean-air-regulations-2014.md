@@ -34,7 +34,7 @@ This matters before you buy because your activity's pollutant list and ELV direc
 Here's the sequence DOE's guidelines set out — and the steps people most often get wrong by doing them out of order:
 
 1. **Register as a CEMS Industry** with DOE, and **apply for CEMS installation through the DOE System for CEMS — before any site installation.** Installing first and asking later is the wrong way round.
-2. **Buy a registered, certified system.** The CEMS must be **MCERT or TÜV QAL1-certified** (more on what QAL1 means in Part 2), and it must be **supplied and installed by a DOE-registered CEMS consultant** — one listed on the DOE website and DOE System for CEMS.
+2. **Buy a registered, certified system.** The CEMS must be **MCERT or TÜV QAL1-certified** (more on what QAL1 means in [Part 2]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }})), and it must be **supplied and installed by a DOE-registered CEMS consultant** — one listed on the DOE website and DOE System for CEMS.
 3. **Match the system to your stack.** The consultant is responsible for ensuring the supplied design matches your plant process, flue-gas characteristics, the pollutants you must monitor and your ELV — not just selling a box.
 4. **Have it verified by an independent tester.** After installation, a **DOE-registered CEMS tester** conducts the performance audit. Crucially, the tester must be *independent of whoever installed it* — they cannot test their own company's installation.
 
@@ -55,7 +55,16 @@ Before you shortlist a single product, you should be able to answer: *Am I requi
 
 **Not sure where your facility stands?** [Talk to us]({{ '/' | relative_url }}#contact) — we'll help you map your obligations before you commit, drawing on the DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 2: QAL1 and certification — what "DOE-registered CEMS" and MCERT/TÜV really mean.*
+*Next in the series — [Part 2: QAL1 and certification]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}) — what "DOE-registered CEMS" and MCERT/TÜV really mean.*
+
+<div class="related">
+  <p class="label">Related insights</p>
+  <ul>
+    <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">Part 2 — QAL1 and certification: MCERT/TÜV and "DOE-registered"</a></li>
+    <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
+    <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+  </ul>
+</div>
 
 ---
 

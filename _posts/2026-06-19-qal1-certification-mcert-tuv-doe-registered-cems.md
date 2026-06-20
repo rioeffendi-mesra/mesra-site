@@ -7,7 +7,7 @@ description: "Part 2 of our Buying a CEMS series: how QAL1 type-certification (M
 
 *Buying a CEMS — Part 2 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
-In [Part 1]({{ '/blog.html' | relative_url }}) we covered whether your facility needs a CEMS and the steps to take before installing one. Now to the single most important quality marker when you actually choose equipment: **certification**. Get this wrong and everything downstream — your QAL2 test, your compliance data, your inspection record — is built on sand.
+In [Part 1]({{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}) we covered whether your facility needs a CEMS and the steps to take before installing one. Now to the single most important quality marker when you actually choose equipment: **certification**. Get this wrong and everything downstream — your QAL2 test, your compliance data, your inspection record — is built on sand.
 
 ## What QAL1 is (and isn't)
 
@@ -15,7 +15,7 @@ Malaysia's CEMS quality framework follows the international **EN 14181** standar
 
 **QAL1 is the one that happens before the system ever reaches your stack.** It certifies that the *instrument design* — the make and model — has been independently type-tested in the laboratory and the field, and meets the required performance standards. Think of it as the analyser's "type approval": proof the technology itself is fit for purpose.
 
-It does **not** prove the system works on *your* stack — that's QAL2, which we cover in the Operating series. QAL1 is about the equipment; QAL2 is about your installation.
+It does **not** prove the system works on *your* stack — that's QAL2, which we cover in the [Operating series]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}). QAL1 is about the equipment; QAL2 is about your installation.
 
 ## MCERT and TÜV — the certification schemes
 
@@ -57,6 +57,15 @@ Miss any one of these and you risk a system that can't be registered, can't pass
 **Want a second pair of eyes on a quotation or certificate?** [Talk to us]({{ '/' | relative_url }}#contact) — we check exactly these points every day, using the same DOE CEMS Guidelines we helped write.
 
 *Next in the series — Part 3: Extractive vs in-situ — choosing the right sampling system for your stack.*
+
+<div class="related">
+  <p class="label">Related insights</p>
+  <ul>
+    <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Part 1 — Do you even need a CEMS? What the law requires before you buy</a></li>
+    <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
+    <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+  </ul>
+</div>
 
 ---
 
