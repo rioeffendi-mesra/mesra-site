@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}" />
 <script type="application/ld+json">
 {
@@ -135,9 +136,16 @@
   f.addEventListener('submit', function(e){
     e.preventDefault();
     if(f.botcheck && f.botcheck.value){ return; } // honeypot: ignore bots
+    // Require a Cloudflare Turnstile token before sending.
+    var tk = f.querySelector('[name="cf-turnstile-response"]');
+    if(!tk || !tk.value){
+      s.style.display='block'; s.style.color='#ff8a80';
+      s.textContent='Please complete the verification check above before sending.';
+      return;
+    }
     s.style.display='block'; s.style.color='rgba(255,255,255,.7)'; s.textContent='Sending…';
     fetch(FORM_ENDPOINT,{method:'POST',mode:'no-cors',body:new FormData(f)})
-      .then(function(){ f.reset(); s.style.color='#37c957'; s.textContent='Thanks — your enquiry has been sent. We’ll be in touch shortly.'; })
+      .then(function(){ f.reset(); if(window.turnstile){ try{ turnstile.reset(); }catch(_){} } s.style.color='#37c957'; s.textContent='Thanks — your enquiry has been sent. We’ll be in touch shortly.'; })
       .catch(function(){ s.style.color='#ff8a80'; s.textContent='Sorry, something went wrong. Please email help@alamsekitar.com.my directly.'; });
   });
 })();
