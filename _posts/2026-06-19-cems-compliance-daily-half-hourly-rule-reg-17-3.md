@@ -31,6 +31,36 @@ So:
 - A day averaging **160 mg/m³** is an **exceedance** of the daily ELV — non-compliant, even though no single half-hour may have looked dramatic.
 - A half-hour spiking to **320 mg/m³** breaches the 2× half-hourly limit — an exceedance, regardless of where the daily average lands.
 
+<figure class="fig">
+<svg viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="r17-t r17-d" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="r17-t">Regulation 17(3): the two-part compliance test</title>
+<desc id="r17-d">A chart of half-hourly averages across one day. The daily ELV of 150 and the half-hourly ceiling of twice the ELV (300) are shown as limit lines. A normal half-hour at 280 stays below the ceiling, while a spike to 320 breaches it.</desc>
+<rect x="72" y="196" width="576" height="104" fill="var(--green-tint)"/>
+<rect x="72" y="58" width="576" height="35" fill="#FBE9E7"/>
+<line x1="72" y1="93" x2="648" y2="93" stroke="var(--grey)" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="72" y1="196" x2="648" y2="196" stroke="var(--green-d)" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="72" y1="58" x2="72" y2="300" stroke="var(--grey)" stroke-width="1"/>
+<line x1="72" y1="300" x2="648" y2="300" stroke="var(--grey)" stroke-width="1"/>
+<text x="66" y="97" text-anchor="end" font-size="10.5" fill="var(--muted)">300</text>
+<text x="66" y="200" text-anchor="end" font-size="10.5" fill="var(--muted)">150</text>
+<text x="66" y="304" text-anchor="end" font-size="10.5" fill="var(--muted)">0</text>
+<text x="360" y="332" text-anchor="middle" font-size="11" fill="var(--muted)">Half-hourly averages across one operating day</text>
+<text x="28" y="182" text-anchor="middle" font-size="11" fill="var(--muted)" transform="rotate(-90 28 182)">mg/m³</text>
+<text x="644" y="88" text-anchor="end" font-size="10.5" fill="var(--grey)">Half-hourly ceiling = 300 (2× ELV)</text>
+<text x="644" y="191" text-anchor="end" font-size="10.5" fill="var(--green-d)">Daily ELV = 150</text>
+<text x="80" y="78" text-anchor="start" font-size="10.5" fill="#C0392B">Above 2× ELV — exceedance</text>
+<text x="80" y="290" text-anchor="start" font-size="10.5" fill="var(--green-d)">At/below ELV — daily-average compliant zone</text>
+<polyline points="100,155 147,134 194,144 241,120 288,106 335,127 382,138 429,117 476,124 523,79 570,134 617,141" fill="none" stroke="var(--green-d)" stroke-width="2.5" stroke-linejoin="round"/>
+<circle cx="100" cy="155" r="2.4" fill="var(--green-d)"/><circle cx="147" cy="134" r="2.4" fill="var(--green-d)"/><circle cx="194" cy="144" r="2.4" fill="var(--green-d)"/><circle cx="241" cy="120" r="2.4" fill="var(--green-d)"/><circle cx="335" cy="127" r="2.4" fill="var(--green-d)"/><circle cx="382" cy="138" r="2.4" fill="var(--green-d)"/><circle cx="429" cy="117" r="2.4" fill="var(--green-d)"/><circle cx="476" cy="124" r="2.4" fill="var(--green-d)"/><circle cx="570" cy="134" r="2.4" fill="var(--green-d)"/><circle cx="617" cy="141" r="2.4" fill="var(--green-d)"/>
+<circle cx="288" cy="106" r="4.5" fill="var(--green)" stroke="#fff" stroke-width="1.5"/>
+<text x="288" y="124" text-anchor="middle" font-size="11" font-weight="600" fill="var(--green-d)">280 ✓</text>
+<circle cx="523" cy="79" r="4.5" fill="#C0392B" stroke="#fff" stroke-width="1.5"/>
+<text x="523" y="70" text-anchor="middle" font-size="11" font-weight="600" fill="#C0392B">320 ✗ breach</text>
+<text x="340" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="var(--ink)">Regulation 17(3): two thresholds, one verdict</text>
+</svg>
+<figcaption>Half-hourly averages may sit between the ELV and the 2× ceiling — but a day averaging 160 mg/m³ still fails the 150 daily ELV. Both parts must hold.</figcaption>
+</figure>
+
 ## Why two thresholds?
 
 The structure is deliberate. The **daily average** governs *sustained* performance — it stops a facility running persistently high. The **2× half-hourly** ceiling caps *short-term* behaviour — it tolerates brief, normal process variation but draws a hard line on spikes. Together they prevent both "always a bit over" and "occasionally way over."
