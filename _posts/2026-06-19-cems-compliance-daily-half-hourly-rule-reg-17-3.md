@@ -69,7 +69,7 @@ The structure is deliberate. The **daily average** governs *sustained* performan
 
 The daily figure isn't measured directly; it's **derived**. Under Reg 17(4), for each calendar day the owner or occupier calculates the **daily mean value (relating to the daily operating time) from the half-hourly mean values.** In other words, half-hourly averages are the building blocks, and the daily average is computed from them.
 
-That's why data quality at the half-hourly level matters so much for enforcement — if the underlying half-hours aren't *valid*, the daily figure built on them can't be relied on. (We cover exactly when a reading counts as valid in Part 2 of this series.)
+That's why data quality at the half-hourly level matters so much for enforcement — if the underlying half-hours aren't *valid*, the daily figure built on them can't be relied on. (We cover exactly when a reading counts as valid in [Part 2]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) of this series.)
 
 ## What counts as an "excess emission"
 
@@ -86,11 +86,12 @@ A single valid exceedance of either threshold is non-compliance for that period 
 
 **Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers the way the regulator does, using the DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 2: Valid averages and the 75% rule — when a reading counts, and when it doesn't.*
+*Next in the series — [Part 2: Valid averages and the 75% rule]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) — when a reading counts, and when it doesn't.*
 
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
+    <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Part 2 — Valid averages and the 75% rule: when a reading counts</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
