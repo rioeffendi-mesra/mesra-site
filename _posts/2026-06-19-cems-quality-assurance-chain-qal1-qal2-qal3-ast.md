@@ -68,11 +68,12 @@ One more thing to plan for: certain **modifications, upgrades or repairs** reset
 
 **Not sure your QA programme covers all four stages?** [Talk to us]({{ '/' | relative_url }}#contact) — we run this chain for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 2: QAL2 and the Calibration & Variability Test — getting certified after install.*
+*Next in the series — [Part 2: QAL2 and the Calibration & Variability Test]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) — getting certified after install.*
 
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
+    <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">Part 2 — QAL2 and the Calibration & Variability Test: certifying your CEMS after install</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">QAL1 and certification: what "DOE-registered CEMS" and MCERT/TÜV mean</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
