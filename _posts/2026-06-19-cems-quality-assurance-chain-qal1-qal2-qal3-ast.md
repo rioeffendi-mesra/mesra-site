@@ -36,7 +36,7 @@ This is the type-certification you sorted out at purchase: the make and model is
 
 ## QAL2 — *Is it right on YOUR stack?*
 
-A certified instrument still has to be proven on *your* chimney, with *your* flue gas. That's the **Calibration and Variability Test (CVT)**, done after installation. A **DOE-registered CEMS tester** runs **Standard Reference Method (SRM)** measurements in parallel with your CEMS, establishes the **calibration function** that relates your analyser's signal to true concentration, and confirms the system's **variability** is within allowed limits.
+A certified instrument still has to be proven on *your* chimney, with *your* flue gas. That's the **Calibration and Variability Test (CVT)**, done after installation. A **DOE-registered CEMS tester** runs **Standard Reference Method (SRM)** measurements ([the manual stack test behind the calibration]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }})) in parallel with your CEMS, establishes the **calibration function** that relates your analyser's signal to true concentration, and confirms the system's **variability** is within allowed limits.
 
 Two things matter here: a **functional test** must pass first (more below), and the tester must be **independent** — they cannot test a system their own company installed. That independence is what makes your calibration credible.
 
