@@ -3,6 +3,8 @@ layout: post
 title: "QAL1 and certification: what 'DOE-registered CEMS' and MCERT/TÜV actually mean"
 date: 2026-06-19 02:20:00
 description: "Part 2 of our Buying a CEMS series: how QAL1 type-certification (MCERT/TÜV) works, why the certified range must match your daily ELV, and the difference between a certified system and a DOE-registered one."
+series: buying
+part: 2
 ---
 
 *Buying a CEMS — Part 2 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -56,12 +58,9 @@ Miss any one of these and you risk a system that can't be registered, can't pass
 
 **Want a second pair of eyes on a quotation or certificate?** [Talk to us]({{ '/' | relative_url }}#contact) — we check exactly these points every day, using the same DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 3: Extractive vs in-situ — choosing the right sampling system for your stack.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Part 1 — Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
   </ul>

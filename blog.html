@@ -9,22 +9,115 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     <div class="page-head">
       <p class="label">Insights &amp; Compliance Guides</p>
       <h1>CEMS &amp; compliance, explained.</h1>
-      <p>Practical, plain-English guidance for EHS and plant managers navigating Malaysia's emissions-monitoring requirements — from the team that helped write the DOE CEMS Guidelines.</p>
+      <p>Practical, plain-English guidance for EHS and plant managers navigating Malaysia's emissions-monitoring requirements — from the team that helped write the DOE CEMS Guidelines. Browse by where you are in the journey.</p>
     </div>
 
     {% if site.posts.size > 0 %}
-    <div class="post-list">
-      {% for post in site.posts %}
-      <a class="post-card" href="{{ post.url | relative_url }}">
-        <div class="date">{{ post.date | date: "%-d %b %Y" }}</div>
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
-        <span class="more">Read more →</span>
-      </a>
-      {% endfor %}
+
+    {%- comment -%} Foundational "start here" post, featured above the tracks {%- endcomment -%}
+    {%- assign foundation = site.posts | where: "series", "foundation" | first -%}
+    {%- if foundation -%}
+    <a class="post-feature" href="{{ foundation.url | relative_url }}" data-series="foundation">
+      <span class="ff-label">Start here</span>
+      <h2>{{ foundation.title }}</h2>
+      <p>{{ foundation.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
+      <span class="meta">{{ foundation.date | date: "%-d %b %Y" }} · {{ foundation.content | number_of_words | divided_by: 200 | plus: 1 }} min read · Read more →</span>
+    </a>
+    {%- endif -%}
+
+    {%- comment -%} Filter chips {%- endcomment -%}
+    <div class="series-filter" role="tablist" aria-label="Filter insights by series">
+      <button class="chip active" data-filter="all" aria-pressed="true">All insights</button>
+      {%- assign tracks = site.data.series | sort: "order" -%}
+      {%- for s in tracks -%}{%- unless s.slug == "foundation" -%}
+        {%- assign count = site.posts | where: "series", s.slug | size -%}
+        {%- if count > 0 -%}
+      <button class="chip" data-filter="{{ s.slug }}" aria-pressed="false">{{ s.name }}</button>
+        {%- endif -%}
+      {%- endunless -%}{%- endfor -%}
     </div>
+
+    {%- comment -%} One labelled group per series, in track order {%- endcomment -%}
+    {%- for s in tracks -%}{%- unless s.slug == "foundation" -%}
+      {%- assign group = site.posts | where: "series", s.slug | sort: "part" -%}
+      {%- if group.size > 0 -%}
+    <section class="series-group" id="{{ s.slug }}" data-series="{{ s.slug }}">
+      <div class="sg-head">
+        <h2>{{ s.name }}</h2>
+        <span class="sg-for">{{ s.audience }}</span>
+      </div>
+      <div class="post-list">
+        {%- for post in group -%}
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <div class="date">Part {{ post.part }} · {{ post.date | date: "%-d %b %Y" }} · {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+          <span class="more">Read more →</span>
+        </a>
+        {%- endfor -%}
+      </div>
+    </section>
+      {%- endif -%}
+    {%- endunless -%}{%- endfor -%}
+
+    {%- comment -%} Catch any posts whose series isn't in series.yml, so nothing is ever hidden {%- endcomment -%}
+    {%- assign known = site.data.series | map: "slug" -%}
+    {%- assign orphan_count = 0 -%}
+    {%- for post in site.posts -%}{%- unless known contains post.series -%}{%- assign orphan_count = orphan_count | plus: 1 -%}{%- endunless -%}{%- endfor -%}
+    {%- if orphan_count > 0 -%}
+    <section class="series-group" id="more" data-series="more">
+      <div class="sg-head"><h2>More insights</h2></div>
+      <div class="post-list">
+        {%- for post in site.posts -%}{%- unless known contains post.series -%}
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <div class="date">{{ post.date | date: "%-d %b %Y" }} · {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+          <span class="more">Read more →</span>
+        </a>
+        {%- endunless -%}{%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
+
     {% else %}
     <p style="margin-top:40px;color:var(--muted)">New articles are on the way — check back soon.</p>
     {% endif %}
   </div>
 </section>
+
+<script>
+(function(){
+  var chips = document.querySelectorAll('.series-filter .chip');
+  var groups = document.querySelectorAll('.series-group');
+  var feature = document.querySelector('.post-feature');
+  if(!chips.length) return;
+
+  function apply(filter){
+    groups.forEach(function(g){
+      g.style.display = (filter === 'all' || g.getAttribute('data-series') === filter) ? '' : 'none';
+    });
+    if(feature){ feature.style.display = (filter === 'all' || filter === 'foundation') ? '' : 'none'; }
+    chips.forEach(function(c){
+      var on = c.getAttribute('data-filter') === filter;
+      c.classList.toggle('active', on);
+      c.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+  }
+
+  chips.forEach(function(c){
+    c.addEventListener('click', function(){
+      var f = c.getAttribute('data-filter');
+      apply(f);
+      if(history.replaceState){ history.replaceState(null, '', f === 'all' ? location.pathname : '#' + f); }
+    });
+  });
+
+  // Deep-link support: /blog.html#operating opens that track pre-filtered.
+  var hash = (location.hash || '').replace('#','');
+  if(hash){
+    var match = Array.prototype.some.call(chips, function(c){ return c.getAttribute('data-filter') === hash; });
+    if(match){ apply(hash); }
+  }
+})();
+</script>

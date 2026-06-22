@@ -71,7 +71,16 @@
         <li><a href="{{ '/services/' | relative_url }}">Services</a></li>
         <li><a href="{{ '/' | relative_url }}#technology">Technology</a></li>
         <li><a href="{{ '/' | relative_url }}#track">Track Record</a></li>
-        <li><a href="{{ '/blog.html' | relative_url }}">Insights</a></li>
+        <li class="has-dropdown">
+          <a href="{{ '/blog.html' | relative_url }}" aria-haspopup="true" aria-expanded="false">Insights</a>
+          <ul class="dropdown" aria-label="Insights series">
+            <li><a href="{{ '/blog.html' | relative_url }}">All insights</a></li>
+            {%- assign nav_series = site.data.series | sort: "order" -%}
+            {%- for s in nav_series -%}{%- if s.nav -%}
+            <li><a href="{{ '/blog.html' | relative_url }}#{{ s.slug }}">{{ s.name }}</a></li>
+            {%- endif -%}{%- endfor -%}
+          </ul>
+        </li>
         <li><a class="btn btn-primary" href="{{ '/' | relative_url }}#contact">Get in touch</a></li>
       </ul>
     </nav>

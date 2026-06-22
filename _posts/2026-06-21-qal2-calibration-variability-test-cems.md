@@ -3,6 +3,8 @@ layout: post
 title: "QAL2 and the Calibration & Variability Test: certifying your CEMS after install"
 date: 2026-06-21 02:00:00
 description: "Part 2 of our Operating a Compliant CEMS series: how the QAL2 Calibration & Variability Test certifies your CEMS against the Standard Reference Method — the parallel measurements, the calibration function, the valid calibration range, and the variability test that has the final say."
+series: operating
+part: 2
 ---
 
 *Operating a compliant CEMS — Part 2 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -102,12 +104,9 @@ And then the job shifts from *proving it once* to *keeping it true every day* �
 
 **Facing a QAL2 and want it to pass first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we prepare and run CEMS for facilities across Malaysia against the same DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 3: QAL3 in practice — drift checks, control charts, and catching problems before they become exceedances.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">Part 1 — The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">QAL1 and certification: what "DOE-registered" and MCERT/TÜV mean</a></li>
     <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
   </ul>

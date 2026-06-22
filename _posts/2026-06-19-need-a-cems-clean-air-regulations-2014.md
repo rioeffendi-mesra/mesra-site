@@ -3,6 +3,8 @@ layout: post
 title: "Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy"
 date: 2026-06-19
 description: "Part 1 of our Buying a CEMS series: who is actually required to install a Continuous Emission Monitoring System under Malaysia's Clean Air Regulations 2014, and the steps the law expects before you spend a ringgit."
+series: buying
+part: 1
 ---
 
 *Buying a CEMS — Part 1 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -55,12 +57,9 @@ Before you shortlist a single product, you should be able to answer: *Am I requi
 
 **Not sure where your facility stands?** [Talk to us]({{ '/' | relative_url }}#contact) — we'll help you map your obligations before you commit, drawing on the DOE CEMS Guidelines we helped write.
 
-*Next in the series — [Part 2: QAL1 and certification]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}) — what "DOE-registered CEMS" and MCERT/TÜV really mean.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">Part 2 — QAL1 and certification: MCERT/TÜV and "DOE-registered"</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
   </ul>

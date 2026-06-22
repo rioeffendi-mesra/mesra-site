@@ -3,6 +3,7 @@ layout: post
 title: "What the Clean Air Regulations 2014 mean for your CEMS"
 date: 2026-06-18
 description: "A plain-English guide to how Malaysia's Environmental Quality (Clean Air) Regulations 2014 shape Continuous Emission Monitoring System obligations — and how to stay inspection-ready."
+series: foundation
 ---
 
 If your facility operates a regulated stationary emission source in Malaysia, the **Environmental Quality (Clean Air) Regulations 2014** — made under the Environmental Quality Act 1974 — are the rules that ultimately decide whether your operation stays running. For many industrial operators, the practical expression of those rules is a **Continuous Emission Monitoring System (CEMS)**.

@@ -20,9 +20,52 @@ layout: default
 <section class="inner">
   <div class="wrap">
     <article class="article">
-      <div class="date">{{ page.date | date: "%-d %B %Y" }}</div>
+      {%- comment -%} Series stepper — auto-built from `series` + `part` front matter via _data/series.yml {%- endcomment -%}
+      {%- if page.series and page.part -%}
+        {%- assign s = site.data.series | where: "slug", page.series | first -%}
+        {%- assign parts = site.posts | where: "series", page.series | sort: "part" -%}
+        {%- if s -%}
+      <nav class="series-nav" aria-label="{{ s.name }} series navigation">
+        <div class="series-nav-head">
+          <a class="series-name" href="{{ '/blog.html' | relative_url }}#{{ s.slug }}">{{ s.name }}</a>
+          <span class="series-meta">Part {{ page.part }} of {{ s.total }}</span>
+        </div>
+        <ol class="series-steps">
+          {%- for p in parts -%}
+          <li class="step{% if p.url == page.url %} current{% endif %}">
+            {%- if p.url == page.url -%}
+            <span aria-current="step"><span class="sn">{{ p.part }}</span>{{ p.title }}</span>
+            {%- else -%}
+            <a href="{{ p.url | relative_url }}"><span class="sn">{{ p.part }}</span>{{ p.title }}</a>
+            {%- endif -%}
+          </li>
+          {%- endfor -%}
+        </ol>
+      </nav>
+        {%- endif -%}
+      {%- endif -%}
+      <div class="date">{{ page.date | date: "%-d %B %Y" }} · {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
       <h1>{{ page.title }}</h1>
       {{ content }}
+      {%- comment -%} Auto prev/next within the same series {%- endcomment -%}
+      {%- if page.series and page.part -%}
+        {%- assign parts = site.posts | where: "series", page.series | sort: "part" -%}
+        {%- assign prev = nil -%}{%- assign next = nil -%}
+        {%- for p in parts -%}
+          {%- if p.part < page.part -%}{%- assign prev = p -%}{%- endif -%}
+          {%- if p.part > page.part and next == nil -%}{%- assign next = p -%}{%- endif -%}
+        {%- endfor -%}
+        {%- if prev or next -%}
+      <nav class="series-pager" aria-label="Series pagination">
+        {%- if prev -%}
+        <a class="pg prev" href="{{ prev.url | relative_url }}"><span class="dir">← Previous · Part {{ prev.part }}</span><span class="t">{{ prev.title }}</span></a>
+        {%- else -%}<span class="pg empty"></span>{%- endif -%}
+        {%- if next -%}
+        <a class="pg next" href="{{ next.url | relative_url }}"><span class="dir">Next · Part {{ next.part }} →</span><span class="t">{{ next.title }}</span></a>
+        {%- else -%}<span class="pg empty"></span>{%- endif -%}
+      </nav>
+        {%- endif -%}
+      {%- endif -%}
       <a class="back-link" href="{{ '/blog.html' | relative_url }}">← All insights</a>
     </article>
   </div>

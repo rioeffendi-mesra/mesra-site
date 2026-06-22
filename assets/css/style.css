@@ -307,3 +307,78 @@ section.inner{padding:56px 0 84px}
   .fig.flow .flow-row{flex-direction:column;gap:6px}
   .fig.flow .flow-arrow{transform:rotate(90deg);padding:2px 0}
 }
+
+/* =====================================================================
+   Insights series navigation — stepper, pager, nav dropdown, blog landing
+   All colours/fonts use existing design-system tokens.
+   ===================================================================== */
+
+/* --- Global nav: Insights dropdown --- */
+.has-dropdown{position:relative}
+/* Scoped under nav.main so it out-specifies `nav.main ul{display:flex}`, which
+   also matches this nested ul and would otherwise leave it permanently visible
+   as a horizontal strip whenever it isn't being hovered. */
+nav.main .dropdown{display:none;list-style:none;margin:0;padding:0;gap:0}
+@media(min-width:901px){
+  nav.main .dropdown{position:absolute;top:100%;right:0;left:auto;min-width:300px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 16px 36px rgba(21,25,28,.10);padding:8px;margin-top:12px;z-index:70}
+  .has-dropdown:hover .dropdown,.has-dropdown:focus-within .dropdown{display:block}
+  nav.main .dropdown li{width:100%}
+  nav.main .dropdown a{display:block;padding:9px 12px;border-radius:8px;font-size:.9rem;color:var(--body);white-space:nowrap}
+  nav.main .dropdown a:hover{background:var(--green-tint);color:var(--green-d)}
+  /* invisible hover bridge across the gap so the menu doesn't flicker shut */
+  .has-dropdown::after{content:"";position:absolute;left:0;right:0;top:100%;height:14px}
+}
+@media(max-width:900px){
+  /* Reset the absolute-panel styling that `nav.main.open ul` also applies to this
+     nested ul, so the submenu flows inline as an indented list instead of a
+     floating card over the page. */
+  nav.main.open .dropdown{display:block;position:static;background:none;box-shadow:none;min-width:0;padding:2px 0 6px 14px;border:0;border-left:2px solid var(--line);margin:2px 0 8px}
+  nav.main.open .dropdown a{padding:8px 0;font-size:.9rem;color:var(--muted)}
+}
+
+/* --- Series stepper (top of post) --- */
+.series-nav{border:1px solid var(--line);border-radius:14px;background:var(--light);padding:18px 20px;margin-bottom:26px}
+.series-nav-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+.series-nav-head .series-name{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--green-d);font-weight:600;text-decoration:none}
+.series-nav-head .series-name:hover{text-decoration:underline}
+.series-nav-head .series-meta{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.series-steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.series-steps .step a,.series-steps .step span{display:flex;gap:12px;align-items:baseline;padding:9px 10px;border-radius:8px;font-size:.95rem;color:var(--body);text-decoration:none;line-height:1.35}
+.series-steps .step a:hover{background:#fff;color:var(--green-d)}
+.series-steps .step .sn{flex:none;width:22px;height:22px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.72rem;font-weight:600;background:#fff;border:1px solid var(--line);color:var(--muted)}
+.series-steps .step.current>span{background:var(--green-tint);color:var(--ink);font-weight:600}
+.series-steps .step.current .sn{background:var(--green-d);border-color:var(--green-d);color:#fff}
+
+/* --- Prev/next pager (bottom of post) --- */
+.series-pager{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:40px 0 0;padding-top:26px;border-top:1px solid var(--line)}
+.series-pager .pg{display:flex;flex-direction:column;gap:5px;border:1px solid var(--line);border-radius:12px;padding:16px 18px;text-decoration:none;transition:.18s}
+.series-pager a.pg:hover{border-color:#d7e6da;box-shadow:0 12px 28px rgba(21,25,28,.07);transform:translateY(-2px)}
+.series-pager .pg.next{text-align:right;align-items:flex-end}
+.series-pager .pg .dir{font-family:var(--mono);font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--green-d)}
+.series-pager .pg .t{font-size:.96rem;font-weight:600;color:var(--ink);line-height:1.3}
+.series-pager .pg.empty{border:0}
+
+/* --- Blog landing: feature, filter chips, series groups --- */
+.post-feature{display:block;background:var(--ink);color:#fff;border-radius:16px;padding:30px 32px;margin:40px 0 8px;text-decoration:none;transition:.18s}
+.post-feature:hover{transform:translateY(-3px);box-shadow:0 18px 40px rgba(21,25,28,.16)}
+.post-feature .ff-label{font-family:var(--mono);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--green-br)}
+.post-feature h2{color:#fff;font-size:1.6rem;margin:10px 0 8px;line-height:1.15}
+.post-feature p{color:rgba(255,255,255,.78);font-size:1rem;margin:0 0 14px;max-width:70ch}
+.post-feature .meta{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--green-br)}
+
+.series-filter{display:flex;flex-wrap:wrap;gap:8px;margin:30px 0 8px}
+.series-filter .chip{font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;font-weight:500;padding:8px 14px;border-radius:30px;border:1px solid var(--line);background:#fff;color:var(--body);cursor:pointer;transition:.15s}
+.series-filter .chip:hover{border-color:var(--green-d);color:var(--green-d)}
+.series-filter .chip.active{background:var(--green-d);border-color:var(--green-d);color:#fff}
+
+.series-group{margin-top:44px;scroll-margin-top:90px}
+.series-group .sg-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;margin-bottom:18px;padding-bottom:12px;border-bottom:2px solid var(--ink)}
+.series-group .sg-head h2{font-size:1.5rem;line-height:1.1}
+.series-group .sg-head .sg-for{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.series-group .post-list{margin-top:0}
+
+@media(max-width:680px){
+  .series-pager{grid-template-columns:1fr}
+  .series-pager .pg.next{text-align:left;align-items:flex-start}
+  .series-pager .pg.empty{display:none}
+}

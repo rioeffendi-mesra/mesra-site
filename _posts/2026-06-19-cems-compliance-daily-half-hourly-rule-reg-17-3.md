@@ -3,6 +3,8 @@ layout: post
 title: "What 'compliant' actually means: the daily-average and 2× half-hourly rule"
 date: 2026-06-19 02:00:00
 description: "Part 1 of our Enforcing the Clean Air Regulations 2014 series: the precise two-part compliance test in Reg 17(3) — no daily average above the ELV, and no half-hourly average above twice the ELV — with a worked example."
+series: enforcing
+part: 1
 ---
 
 *Enforcing the Clean Air Regulations 2014 — Part 1 of 5. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -86,12 +88,9 @@ A single valid exceedance of either threshold is non-compliance for that period 
 
 **Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers the way the regulator does, using the DOE CEMS Guidelines we helped write.
 
-*Next in the series — [Part 2: Valid averages and the 75% rule]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) — when a reading counts, and when it doesn't.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Part 2 — Valid averages and the 75% rule: when a reading counts</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>

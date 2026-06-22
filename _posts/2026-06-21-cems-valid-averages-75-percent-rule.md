@@ -3,6 +3,8 @@ layout: post
 title: "Valid averages and the 75% rule: when a reading counts, and when it doesn't"
 date: 2026-06-21 03:00:00
 description: "Part 2 of our Enforcing the Clean Air Regulations 2014 series: how a valid average is built from the minute up — the 45-second minute, the 22-of-30 half-hour, and the daily mean — and why invalid data is excluded, not counted as zero."
+series: enforcing
+part: 2
 ---
 
 *Enforcing the Clean Air Regulations 2014 — Part 2 of 5. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -119,12 +121,9 @@ That is the foundation the rest of enforcement stands on: a clear, mechanical ru
 
 **Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this, helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
 
-*Next in the series — Part 3: The notification clock — the 24-hour excess-emission rule and the 1-hour CEMS-failure rule.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">Part 1 — What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
   </ul>

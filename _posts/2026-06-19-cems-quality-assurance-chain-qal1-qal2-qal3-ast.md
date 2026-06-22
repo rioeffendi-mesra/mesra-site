@@ -3,6 +3,8 @@ layout: post
 title: "The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST, and why each exists"
 date: 2026-06-19 02:10:00
 description: "Part 1 of our Operating a Compliant CEMS series: the four-stage EN 14181 quality-assurance programme explained — what each stage proves, and who is responsible for it."
+series: operating
+part: 1
 ---
 
 *Operating a compliant CEMS — Part 1 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -68,12 +70,9 @@ One more thing to plan for: certain **modifications, upgrades or repairs** reset
 
 **Not sure your QA programme covers all four stages?** [Talk to us]({{ '/' | relative_url }}#contact) — we run this chain for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
 
-*Next in the series — [Part 2: QAL2 and the Calibration & Variability Test]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) — getting certified after install.*
-
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
-    <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">Part 2 — QAL2 and the Calibration & Variability Test: certifying your CEMS after install</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">QAL1 and certification: what "DOE-registered CEMS" and MCERT/TÜV mean</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>

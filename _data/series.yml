@@ -1,0 +1,47 @@
+# Single source of truth for the Insights blog series.
+# Read by post.html (stepper + prev/next), blog.html (grouped landing + filter
+# chips) and default.html (nav dropdown). Add a new series by adding a block
+# here and tagging posts with `series: <slug>` + `part: <n>` in their front matter.
+#
+# fields:
+#   slug     – matches the `series:` value in post front matter + the blog.html anchor (#slug)
+#   name     – display name
+#   audience – short "for whom / when" label
+#   total    – intended number of parts in the finished arc (for the "Part X of N" label)
+#   order    – sort order of the tracks on the landing page and nav
+#   nav      – show in the global-nav dropdown (foundation is excluded)
+
+- slug: foundation
+  name: "Start here"
+  audience: "the essential primer"
+  total: 1
+  order: 0
+  nav: false
+
+- slug: buying
+  name: "Buying a CEMS"
+  audience: "for industry · pre-purchase"
+  total: 5
+  order: 1
+  nav: true
+
+- slug: operating
+  name: "Operating a compliant CEMS"
+  audience: "for industry · post-install"
+  total: 5
+  order: 2
+  nav: true
+
+- slug: enforcing
+  name: "Enforcing the Clean Air Regulations 2014"
+  audience: "for regulators & compliance staff"
+  total: 5
+  order: 3
+  nav: true
+
+- slug: reference-methods
+  name: "The reference methods behind your CEMS"
+  audience: "industry + regulator crossover"
+  total: 5
+  order: 4
+  nav: true
