@@ -16,6 +16,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
 
     {%- comment -%} Foundational "start here" post, featured above the tracks {%- endcomment -%}
     {%- assign foundation = site.posts | where: "series", "foundation" | first -%}
+    {%- assign f_meta = site.data.series | where: "slug", "foundation" | first -%}
     {%- if foundation -%}
     <a class="post-feature" href="{{ foundation.url | relative_url }}" data-series="foundation">
       <span class="ff-label">Start here</span>
@@ -28,6 +29,9 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     {%- comment -%} Filter chips {%- endcomment -%}
     <div class="series-filter" role="tablist" aria-label="Filter insights by series">
       <button class="chip active" data-filter="all" aria-pressed="true">All insights</button>
+      {%- if foundation -%}
+      <button class="chip" data-filter="foundation" aria-pressed="false">{{ f_meta.name }}</button>
+      {%- endif -%}
       {%- assign tracks = site.data.series | sort: "order" -%}
       {%- for s in tracks -%}{%- unless s.slug == "foundation" -%}
         {%- assign count = site.posts | where: "series", s.slug | size -%}
@@ -36,6 +40,27 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
         {%- endif -%}
       {%- endunless -%}{%- endfor -%}
     </div>
+
+    {%- comment -%} Full "Start here" track listing — every foundation post (incl. the featured pillar), so none is hidden {%- endcomment -%}
+    {%- assign foundation_posts = site.posts | where: "series", "foundation" -%}
+    {%- if foundation_posts.size > 0 -%}
+    <section class="series-group" id="foundation" data-series="foundation">
+      <div class="sg-head">
+        <h2>{{ f_meta.name }}</h2>
+        <span class="sg-for">{{ f_meta.audience }}</span>
+      </div>
+      <div class="post-list">
+        {%- for post in foundation_posts -%}
+        <a class="post-card" href="{{ post.url | relative_url }}">
+          <div class="date">{{ post.date | date: "%-d %b %Y" }} · {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
+          <span class="more">Read more →</span>
+        </a>
+        {%- endfor -%}
+      </div>
+    </section>
+    {%- endif -%}
 
     {%- comment -%} One labelled group per series, in track order {%- endcomment -%}
     {%- for s in tracks -%}{%- unless s.slug == "foundation" -%}
