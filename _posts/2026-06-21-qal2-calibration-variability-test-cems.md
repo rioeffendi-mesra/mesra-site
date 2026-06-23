@@ -9,6 +9,8 @@ part: 2
 
 *Operating a compliant CEMS — Part 2 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
+> **New to EN 14181?** Our [plain-English overview of EN 14181]({{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}) explains where QAL2 sits in the wider quality-assurance programme.
+
 In [Part 1]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) we mapped the four-stage quality-assurance chain. [QAL1]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}) proved the instrument *design* is sound before it ever reached your stack. But a certified analyser bolted onto *your* chimney, breathing *your* flue gas, still has to prove it reads true. That proof is **QAL2** — and until it passes, your data officially counts for nothing.
 
 ## What QAL2 actually certifies

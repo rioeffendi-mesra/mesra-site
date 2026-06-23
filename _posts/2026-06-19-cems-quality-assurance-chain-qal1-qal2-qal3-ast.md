@@ -9,6 +9,8 @@ part: 1
 
 *Operating a compliant CEMS — Part 1 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
+> **New to EN 14181?** Start with our plain-English overview — [EN 14181 explained: the standard that keeps your CEMS data trustworthy]({{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}) — then come back here for the stage-by-stage detail.
+
 Buying a certified CEMS is the easy part. Keeping it producing data the regulator will accept — every hour, all year — is a continuous **quality-assurance programme**. Under the international **EN 14181** standard that Malaysia's guidelines follow, that programme has four stages. Each answers a different question, and each has a clearly assigned owner. Skip one and the whole chain of trust in your data breaks.
 
 Here's the chain, in plain terms.

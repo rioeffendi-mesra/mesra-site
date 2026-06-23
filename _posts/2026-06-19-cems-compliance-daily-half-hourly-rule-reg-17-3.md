@@ -93,6 +93,7 @@ A single valid exceedance of either threshold is non-compliance for that period 
   <ul>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
+    <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
   </ul>
 </div>
