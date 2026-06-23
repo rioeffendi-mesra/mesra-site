@@ -19,7 +19,7 @@ Time, wear and process conditions can erode a calibration that was perfect on co
 
 ## A lighter QAL2 — same method, fewer runs
 
-The AST isn't a different procedure; it's the QAL2 method, scaled down. It uses the **same Functional Test and the same Standard Reference Method (SRM) parallel measurements** as the [QAL2-CVT]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) — the one real difference is how many parallel runs you do (§5.6.2):
+The AST isn't a different procedure; it's the QAL2 method, scaled down. It uses the **same Functional Test and the same Standard Reference Method (SRM) parallel measurements** as the [QAL2-CVT]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) — the same manual method ([MS 1596]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }}) for dust) — the one real difference is how many parallel runs you do (§5.6.2):
 
 - **Five parallel SRM measurements**, not the fifteen a full QAL2 requires (it's advised to run at least one extra in case a test is ruled invalid).
 - Spread **uniformly over the whole measuring day**.
@@ -40,7 +40,7 @@ The Functional Test is the gate: it stops you wasting a day's stack testing on a
 
 ## Who runs it
 
-Like QAL2 — and unlike QAL3 — the AST is **not a job you do yourself**. You appoint an **independent, DOE-registered CEMS tester** to perform the SRM, with your CEMS consultant present, and the Functional Test performed before testing begins. The tester reports the results to you and to DOE. The completed **AST report is submitted to DOE through the DOE System for CEMS** for verification, with all raw data (softcopy and hardcopy) needed to recalculate the reported parameters, in the format Appendix 2 sets out (§5.6.8). That independence is the same principle that makes QAL2 credible: the party checking your data can't be the party that runs your plant.
+Like QAL2 — and unlike QAL3 — the AST is **not a job you do yourself**. You appoint an **independent, DOE-registered CEMS tester** to perform the SRM, with your CEMS consultant present, and the Functional Test performed before testing begins. The tester reports the results to you and to DOE. The completed **AST report is submitted to DOE through the DOE System for CEMS** for verification, with all raw data (softcopy and hardcopy) needed to recalculate the reported parameters, in the format Appendix 2 sets out (§5.6.8) — one report in the broader [records-and-reporting regime]({{ '/insights/cems-records-reports-doe-compliance-verification/' | relative_url }}). That independence is the same principle that makes QAL2 credible: the party checking your data can't be the party that runs your plant.
 
 ## When the AST says no
 

@@ -40,7 +40,7 @@ Before any of the real measurement happens, the system has to clear a **function
 
 ## The parallel measurement: CEMS against the SRM
 
-This is the heart of QAL2. A **DOE-registered, independent CEMS tester** runs the **Standard Reference Method (SRM)** — the trusted manual measurement method ([what the SRM actually is, and why your CEMS depends on it]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }})) — *alongside* your CEMS, sampling the same flue gas at the same time. Pair after pair, the SRM gives the "true" value to compare your analyser against.
+This is the heart of QAL2. A **DOE-registered, independent CEMS tester** runs the **Standard Reference Method (SRM)** — the trusted manual measurement method ([what the SRM actually is, and why your CEMS depends on it]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}); for dust in Malaysia that's [MS 1596]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }})) — *alongside* your CEMS, sampling the same flue gas at the same time. Pair after pair, the SRM gives the "true" value to compare your analyser against.
 
 The guidelines are specific about how this is done:
 
