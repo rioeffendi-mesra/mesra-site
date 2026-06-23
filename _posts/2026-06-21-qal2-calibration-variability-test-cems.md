@@ -102,7 +102,22 @@ This is the **definitive test**. A CEMS can have a tidy-looking calibration line
 
 Once the system passes, the tester compiles the **Calibration and Variability Test report** (to the Appendix 2 format) and submits it to **DOE for verification**. Only after that verification can your CEMS data connect to the DOE System for CEMS as **valid, compliant data**.
 
-And then the job shifts from *proving it once* to *keeping it true every day* — which is **QAL3**, the subject of the next part.
+Appendix 2 isn't a loose guideline — it fixes both the *contents* and the *order* of the report, every listed item must appear, and DOE may reject a report that doesn't comply. It's built around six core sections plus annexes:
+
+<figure class="fig report">
+<p class="fig-title">What the report must contain · Appendix 2 of the Guidelines</p>
+<div class="rep-rows">
+<div class="rep-row hl"><span class="rep-k">1</span><span class="rep-body"><span class="rep-name">Title page &amp; executive summary</span><span class="rep-desc">The headline results: whether it's a QAL2 or AST, the stack and substance, the calibration-function values <em>a</em> and <em>b</em>, the valid calibration range, and the pass/fail verdict on the variability test.</span></span></div>
+<div class="rep-row"><span class="rep-k">2</span><span class="rep-body"><span class="rep-name">The regulated installation</span><span class="rep-desc">Details of the plant and its provisions for monitoring.</span></span></div>
+<div class="rep-row"><span class="rep-k">3</span><span class="rep-body"><span class="rep-name">The test laboratory</span><span class="rep-desc">Information about the monitoring the independent tester performs.</span></span></div>
+<div class="rep-row"><span class="rep-k">4</span><span class="rep-body"><span class="rep-name">Data &amp; calculations</span><span class="rep-desc">The full working — Section 4A for QAL2, Section 4B for the Annual Surveillance Test.</span></span></div>
+<div class="rep-row"><span class="rep-k">5</span><span class="rep-body"><span class="rep-name">Functional test results</span><span class="rep-desc">The outcome of the functional checks, and who performed them.</span></span></div>
+<div class="rep-row"><span class="rep-k">+</span><span class="rep-body"><span class="rep-name">Annexes</span><span class="rep-desc">All supporting data — raw data as an Excel softcopy — and the tester's scope of accreditation.</span></span></div>
+</div>
+<figcaption>The authoritative format is Appendix 2 of the DOE CEMS Guidelines. The softcopy of raw data must be submitted with the report.</figcaption>
+</figure>
+
+The executive summary even has to carry a firm statement that the calibration function stays valid only while the day-to-day monitoring data remains within control limits. And that is the shift the next part is about — from *proving it once* to *keeping it true every day*, which is **[QAL3]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }})**.
 
 **Facing a QAL2 and want it to pass first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we prepare and run CEMS for facilities across Malaysia against the same DOE CEMS Guidelines we helped write.
 
