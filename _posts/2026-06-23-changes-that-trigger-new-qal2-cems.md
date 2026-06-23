@@ -50,7 +50,7 @@ Beyond fuel, **any significant change in plant operation that changes the emissi
 
 Sometimes the trigger comes from the monitoring itself rather than a planned change:
 
-- **QAL3 or AST shows a need.** If your [ongoing drift checks]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) or the annual surveillance test indicate the calibration no longer holds, a QAL2-CVT is required.
+- **QAL3 or AST shows a need.** If your [ongoing drift checks]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) or the [annual surveillance test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }}) indicate the calibration no longer holds, a QAL2-CVT is required.
 - **You drift outside the valid calibration range (VCR).** A QAL2 calibration is only valid across the concentration range it was established over. If your CEMS is routinely reading outside that range, a new QAL2 is needed to re-establish a valid range. One sensible exception: if the VCR exceedances were caused by a **plant failure**, a full new QAL2 isn't required once the failure is fixed.
 - **Legacy non-EN 14181 calibration.** If your system was previously set up using other procedures (RATA, CGA, RCA and the like) with no EN 14181 calibration function to verify at AST, it needs a proper QAL2-CVT to bring it into the framework.
 

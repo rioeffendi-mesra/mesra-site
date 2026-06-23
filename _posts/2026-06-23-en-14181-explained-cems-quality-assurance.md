@@ -77,7 +77,7 @@ There's one local adaptation worth knowing. EN 14181's calibration (QAL2) and an
 
 You don't need to read all 90 pages of EN 14181 to run a compliant CEMS. In practice it comes down to keeping four things alive at once:
 
-> Buy a **QAL1**-certified system → calibrate it with an independent **QAL2** after install → run **QAL3** drift checks continuously → pass the **AST** every year — and keep the documentation behind all of it.
+> Buy a **QAL1**-certified system → calibrate it with an independent **QAL2** after install → run **QAL3** drift checks continuously → pass the **[AST]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }})** every year — and keep the documentation behind all of it.
 
 Miss any one and the chain of trust breaks: a perfect QAL2 means little if QAL3 drift goes unwatched, and last year's calibration means little without this year's AST. The regulator trusts your data because — and only because — the whole programme is intact.
 

@@ -51,6 +51,7 @@ That full-lifecycle ownership is exactly what we do for the operators we work wi
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
+    <li><a href="{{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}">What non-compliance costs: offences and penalties behind the Clean Air Regulations</a></li>
   </ul>
 </div>
 

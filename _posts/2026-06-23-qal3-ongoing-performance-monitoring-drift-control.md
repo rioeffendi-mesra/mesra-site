@@ -65,7 +65,7 @@ The Guidelines note that DOE **prefers CEMS with automatic zero and span checks*
 
 ## The takeaway
 
-QAL2 certifies, AST re-confirms once a year — but **QAL3 is what holds the line in between**, and it's yours to run. Done well, it surfaces a drifting analyser as a quiet maintenance ticket. Skipped, the same drift surfaces as suspect data, a failed AST, or an awkward conversation with DOE. Keep the checks on the certificate's interval, plot every point, and treat the first alarm-limit crossing as the maintenance call it's meant to be. Next in this series: the **Annual Surveillance Test** — the yearly check that ties QAL3 and QAL2 together.
+QAL2 certifies, AST re-confirms once a year — but **QAL3 is what holds the line in between**, and it's yours to run. Done well, it surfaces a drifting analyser as a quiet maintenance ticket. Skipped, the same drift surfaces as suspect data, a failed AST, or an awkward conversation with DOE. Keep the checks on the certificate's interval, plot every point, and treat the first alarm-limit crossing as the maintenance call it's meant to be. Next in this series: the **[Annual Surveillance Test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }})** — the yearly check that ties QAL3 and QAL2 together.
 
 **Want your QAL3 routine and control charts set up so drift never becomes a surprise?** [Talk to us]({{ '/' | relative_url }}#contact) — keeping CEMS [in control between tests]({{ '/services/cems-maintenance/' | relative_url }}) is exactly what we do, using the same DOE CEMS Guidelines we helped write.
 

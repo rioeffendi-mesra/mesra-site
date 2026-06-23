@@ -86,7 +86,7 @@ The Appendix 4 report is not a one-line email. Before you file, it helps to know
 <figcaption>The authoritative form is Appendix 4 of the DOE CEMS Guidelines. Have these ready before the clock runs out.</figcaption>
 </figure>
 
-That last section is the one operators underestimate. By signing, the operator doesn't just report the event — it commits to corrective action and puts its name to the acknowledgement that an unresolved problem is an offence under CAR 2014. Notifying is not an admission that closes the matter; it opens a documented corrective process the regulator can follow and hold the facility to.
+That last section is the one operators underestimate. By signing, the operator doesn't just report the event — it commits to corrective action and puts its name to the acknowledgement that an unresolved problem is [an offence under CAR 2014]({{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}). Notifying is not an admission that closes the matter; it opens a documented corrective process the regulator can follow and hold the facility to.
 
 ## Why this matters for enforcement
 

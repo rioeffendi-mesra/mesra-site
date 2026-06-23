@@ -52,7 +52,7 @@ QAL2 proves the system on the day. QAL3 — **[On-Going Performance Monitoring (
 
 ## AST — *Is the QAL2 calibration still valid this year?*
 
-Calibrations don't last forever. The **Annual Surveillance Test** checks, once a year, whether the calibration function established at QAL2 is still valid. It uses the **same functional checks as QAL2** and is, again, run by an independent registered tester.
+Calibrations don't last forever. The **[Annual Surveillance Test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }})** checks, once a year, whether the calibration function established at QAL2 is still valid. It uses the **same functional checks as QAL2** and is, again, run by an independent registered tester.
 
 **Owner:** an independent DOE-registered CEMS tester (appointed by the operator).
 
