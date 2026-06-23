@@ -75,7 +75,7 @@ That's why data quality at the half-hourly level matters so much for enforcement
 
 ## What counts as an "excess emission"
 
-An **excess emission** is an **exceedance of the applicable ELV as shown by a valid measurement**, reported in the correct units and averaging period. The emphasis on *valid* is the point: enforcement stands on data that has passed the validity rules — not on raw, unqualified numbers. An exceedance also triggers specific notification duties (the 24-hour rule), which we'll cover in Part 3.
+An **excess emission** is an **exceedance of the applicable ELV as shown by a valid measurement**, reported in the correct units and averaging period. The emphasis on *valid* is the point: enforcement stands on data that has passed the validity rules — not on raw, unqualified numbers. An exceedance also triggers specific notification duties — the 24-hour rule, covered in [Part 3]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}).
 
 ## The yardstick, for regulators
 

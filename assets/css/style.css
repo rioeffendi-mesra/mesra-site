@@ -406,3 +406,14 @@ nav.main .dropdown{display:none;list-style:none;margin:0;padding:0;gap:0}
 @media(max-width:680px){
   .fig.lineage .lin-cols{grid-template-columns:1fr}
 }
+
+/* --- Report-format card (Enforcing Part 3: Appendix 4 sections) --- */
+.fig.report .rep-rows{display:flex;flex-direction:column;gap:0;margin:0;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.fig.report .rep-row{display:flex;gap:14px;align-items:flex-start;padding:15px 16px;background:var(--white)}
+.fig.report .rep-row + .rep-row{border-top:1px solid var(--line)}
+.fig.report .rep-row.hl{background:var(--green-tint)}
+.fig.report .rep-k{flex:none;width:26px;height:26px;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;font-family:var(--mono);font-size:.78rem;font-weight:700;background:var(--green-d);color:#fff}
+.fig.report .rep-row.hl .rep-k{background:var(--ink)}
+.fig.report .rep-body{flex:1;min-width:0}
+.fig.report .rep-name{display:block;font-weight:700;font-size:.98rem;color:var(--ink);line-height:1.25}
+.fig.report .rep-desc{display:block;font-size:.86rem;color:var(--body);margin-top:3px;line-height:1.45}

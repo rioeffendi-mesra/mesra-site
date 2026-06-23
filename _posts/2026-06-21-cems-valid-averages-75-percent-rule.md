@@ -117,7 +117,7 @@ Three practical consequences follow, and they're worth holding onto when reviewi
 - **Invalid data is a story, not a gap to ignore.** Persistent downtime can mean a CEMS that isn't being maintained, isn't holding [calibration]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}), or is being run out of its valid range. Low data availability is itself a compliance concern, even when the valid readings that remain look clean.
 - **The 75% gates are deliberate.** They tolerate brief, normal interruptions while refusing to let a facility certify a half-hour — or a day — on too little real data.
 
-That is the foundation the rest of enforcement stands on: a clear, mechanical rule for which numbers are real. With validity settled, the next question is what an operator must *do* the moment a valid exceedance — or a CEMS failure — occurs.
+That is the foundation the rest of enforcement stands on: a clear, mechanical rule for which numbers are real. With validity settled, the next question is what an operator must *do* the moment a valid exceedance — or a CEMS failure — occurs, which is exactly where [Part 3]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) picks up.
 
 **Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this, helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
 
