@@ -88,6 +88,8 @@ Miss any one and the chain of trust breaks: a perfect QAL2 means little if QAL3 
   <ul>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST, and why each exists</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration & Variability Test: certifying your CEMS after install</a></li>
+    <li><a href="{{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}">QAL3: the drift checks that keep your CEMS in control between tests</a></li>
+    <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
   </ul>
 </div>

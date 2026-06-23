@@ -37,7 +37,7 @@ Here's the sequence DOE's guidelines set out — and the steps people most often
 
 1. **Register as a CEMS Industry** with DOE, and **apply for CEMS installation through the DOE System for CEMS — before any site installation.** Installing first and asking later is the wrong way round.
 2. **Buy a registered, certified system.** The CEMS must be **MCERT or TÜV QAL1-certified** (more on what QAL1 means in [Part 2]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }})), and it must be **supplied and installed by a DOE-registered CEMS consultant** — one listed on the DOE website and DOE System for CEMS.
-3. **Match the system to your stack.** The consultant is responsible for ensuring the supplied design matches your plant process, flue-gas characteristics, the pollutants you must monitor and your ELV — not just selling a box.
+3. **Match the system to your stack.** The consultant is responsible for ensuring the supplied design matches your plant process, [flue-gas characteristics and the right sampling method]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}), the pollutants you must monitor and your ELV — not just selling a box.
 4. **Have it verified by an independent tester.** After installation, a **DOE-registered CEMS tester** conducts the performance audit. Crucially, the tester must be *independent of whoever installed it* — they cannot test their own company's installation.
 
 ## Who's who in a CEMS project

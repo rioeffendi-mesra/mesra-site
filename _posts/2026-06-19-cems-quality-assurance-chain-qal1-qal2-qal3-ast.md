@@ -46,7 +46,7 @@ Two things matter here: a **functional test** must pass first (more below), and 
 
 ## QAL3 — *Is it staying right, day to day?*
 
-QAL2 proves the system on the day. QAL3 — **On-Going Performance Monitoring (OGPM)** — keeps it honest *between* formal tests. It's the routine discipline of **zero and span drift checks** plotted on **control charts**, so you catch drift early and act before it becomes an exceedance or a failed audit. These checks are done at the maintenance intervals set in the **MCERTS/TÜV certificate** (and never longer than that interval).
+QAL2 proves the system on the day. QAL3 — **[On-Going Performance Monitoring (OGPM)]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }})** — keeps it honest *between* formal tests. It's the routine discipline of **zero and span drift checks** plotted on **control charts**, so you catch drift early and act before it becomes an exceedance or a failed audit. These checks are done at the maintenance intervals set in the **MCERTS/TÜV certificate** (and never longer than that interval).
 
 **Owner:** the plant operator — who may use competent personnel (your maintenance team, the consultant, or a tester) to perform the drift checks, plotting and corrective action.
 
