@@ -109,6 +109,7 @@ And then the job shifts from *proving it once* to *keeping it true every day* �
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
+    <li><a href="{{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}">Which changes trigger a fresh QAL2 — and the clock that starts when they do</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">QAL1 and certification: what "DOE-registered" and MCERT/TÜV mean</a></li>
     <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
   </ul>

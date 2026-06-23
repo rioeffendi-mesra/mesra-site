@@ -63,7 +63,7 @@ EN 14181 maps onto the *life* of your CEMS, not a single event:
 - **QAL3 — continuously.** Routine zero and span drift checks plotted on control charts, at the intervals set in the instrument's certificate.
 - **AST — every year.** An independent annual check that the QAL2 calibration is still valid.
 
-And one trigger to plan for: certain **modifications, upgrades or major repairs reset the clock** and require a fresh QAL2. EN 14181 is a cycle you stay inside for as long as the CEMS is running — not a certificate you earn once.
+And one trigger to plan for: certain [**modifications, upgrades or major repairs reset the clock**]({{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}) and require a fresh QAL2. EN 14181 is a cycle you stay inside for as long as the CEMS is running — not a certificate you earn once.
 
 ## Where it applies — the Europe-to-Malaysia bridge
 
