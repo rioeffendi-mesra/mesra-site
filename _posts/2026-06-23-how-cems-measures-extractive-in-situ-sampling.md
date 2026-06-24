@@ -99,7 +99,7 @@ Separately, the *pollutant* you're measuring narrows the **analyser technique** 
 
 ## You have to justify the choice to DOE
 
-One point buyers miss: the sampling system isn't a free pick. Under §3.2, the **applicant must justify to DOE which sampling system is best suited** to their application — installed, operated and maintained accordingly. That justification is a design argument grounded in exactly the gas characteristics above, and it's submitted as part of your application through the **[DOE System for CEMS]({{ '/services/doe-iremote-integration/' | relative_url }})**. A competent DOE-registered consultant builds that case with you, rather than leaving you to defend a box someone sold you. We unpack siting, ports and the rest of the physical install in a later part of this series.
+One point buyers miss: the sampling system isn't a free pick. Under §3.2, the **applicant must justify to DOE which sampling system is best suited** to their application — installed, operated and maintained accordingly. That justification is a design argument grounded in exactly the gas characteristics above, and it's submitted as part of your application through the **[DOE System for CEMS]({{ '/services/doe-iremote-integration/' | relative_url }})**. A competent DOE-registered consultant builds that case with you, rather than leaving you to defend a box someone sold you. We unpack [siting, ports and the rest of the physical install]({{ '/insights/cems-siting-sample-ports-measurement-plane/' | relative_url }}) in Part 4 of this series.
 
 ## A buyer's sampling-system checklist
 
