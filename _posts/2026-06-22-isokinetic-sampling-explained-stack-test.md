@@ -5,7 +5,6 @@ date: 2026-06-22 01:45:00
 description: "Part 2 of our Reference Methods series: a plain-English explanation of isokinetic sampling — why a stack test has to draw its sample at exactly the flue's own velocity, what happens to your dust result when it doesn't, and the isokinetic % that decides whether a test is valid."
 series: reference-methods
 part: 2
-published: false  # held back until the latest ISO 9096 & MS 1596 PDFs are in the folder for fact-check
 ---
 
 *The reference methods behind your CEMS — Part 2 of 5. A series for industry and regulators, drawn from the DOE CEMS Guidelines (Version 8, 2025) we helped develop and the standards-committee work behind MS 1596.*
@@ -88,7 +87,7 @@ Only when the nozzle velocity matches the flue velocity do the streamlines run s
 
 Because this bias is predictable, the reference-method standards turn it into a simple pass/fail check: the **isokinetic ratio**, reported as a percentage of the flue velocity. Sample exactly at flue speed and you're at 100%.
 
-Tests are only accepted inside a tight window around 100% — broadly **95–115%** under ISO 9096, with the exact band set by the governing standard. (Those standards — MS 1596, ISO 9096 and EN 13284 — and how they fit together are the subject of [Part 3]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }}).) Fall outside the window and the run isn't "a bit off" — it's **invalid**, and it has to be repeated.
+Tests are only accepted inside a tight window around 100% — within **±10%** of flue speed, a **90–110%** band, under ISO 9096, with the exact figure set by the governing standard. (Those standards — MS 1596, ISO 9096 and EN 13284 — and how they fit together are the subject of [Part 3]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }}).) Fall outside the window and the run isn't "a bit off" — it's **invalid**, and it has to be repeated.
 
 ## How a tester actually hits it
 

@@ -9,7 +9,7 @@ part: 3
 
 *The reference methods behind your CEMS — Part 3 of 5. A series for industry and regulators, drawn from the DOE CEMS Guidelines (Version 8, 2025) we helped develop and the standards-committee work behind MS 1596.*
 
-When your CEMS is calibrated, the [QAL2 test]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) measures it against a **Standard Reference Method (SRM)** — a [manual stack test]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}) run alongside your analyser. For particulate (dust), that manual method is a *gravimetric isokinetic* measurement: pull a sample from the flue at the right velocity, catch the dust on a filter, weigh it, report the concentration.
+When your CEMS is calibrated, the [QAL2 test]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}) measures it against a **Standard Reference Method (SRM)** — a [manual stack test]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}) run alongside your analyser. For particulate (dust), that manual method is a *gravimetric [isokinetic]({{ '/insights/isokinetic-sampling-explained-stack-test/' | relative_url }})* measurement: pull a sample from the flue at the right velocity, catch the dust on a filter, weigh it, report the concentration.
 
 But read three different stack-test reports and you'll see that same method called by three different names — **MS 1596**, **ISO 9096**, **EN 13284**. It's a reasonable moment to ask: are these competing methods? Which one applies in Malaysia? And does it matter which your tester quotes?
 

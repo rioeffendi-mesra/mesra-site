@@ -45,7 +45,7 @@ Because the CEMS gives you *speed and coverage* — a reading every moment, fore
 
 That's the bridge. The rest of this series is about the reference method itself — the thing your whole CEMS quietly depends on:
 
-- **Part 2** explains **isokinetic sampling** — why the sample has to be drawn at exactly the flue's own velocity, in plain English.
+- **[Part 2]({{ '/insights/isokinetic-sampling-explained-stack-test/' | relative_url }})** explains **isokinetic sampling** — why the sample has to be drawn at exactly the flue's own velocity, in plain English.
 - **Part 3** maps the standards that govern it — **[MS 1596, ISO 9096 and EN 13284]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }})**.
 - **Part 4** looks at the **MS 1596 revision** now under way.
 - **Part 5** shows you how to **read a stack-test report** — concentration, mass flow and isokinetic %.
