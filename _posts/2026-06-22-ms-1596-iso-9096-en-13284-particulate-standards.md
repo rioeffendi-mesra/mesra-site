@@ -90,7 +90,7 @@ They are siblings descended from a common parent — not a parent and child. Quo
 
 This isn't academic. Malaysia's stacks are getting cleaner. A modern palm-oil-mill boiler with proper abatement can emit dust low enough that it sits in the very range where the **1992-based MS 1596 loses accuracy** — and where **EN 13284-1 is at its strongest**.
 
-That gap is precisely why **MS 1596 is being revised to align with the current ISO 9096** — work now under way in the national standards committee. As the revision moves the Malaysian standard onto the present ISO edition, it inherits much of the low-range thinking that Europe built into EN 13284-1. We'll cover what that revision actually changes in **Part 4** of this series.
+That gap is precisely why **MS 1596 is being revised to align with the current ISO 9096** — work now under way in the national standards committee. As the revision moves the Malaysian standard onto the present ISO edition, it inherits much of the low-range thinking that Europe built into EN 13284-1. We cover why that revision is happening and where it's heading in [Part 4]({{ '/insights/ms-1596-revision-low-dust-alignment/' | relative_url }}) of this series.
 
 ## Where this sits relative to CEMS calibration
 
