@@ -45,7 +45,7 @@ Here's the sequence DOE's guidelines set out — and the steps people most often
 It helps to know the four parties you'll deal with, because their roles are defined and separate:
 
 - **CEMS manufacturer** — makes the equipment and holds its QAL1 certification.
-- **CEMS consultant** — the DOE-registered company that supplies, installs, commissions and maintains the system, and advises you on compliance. (This is our role.)
+- **CEMS consultant** — the DOE-registered company that [supplies, installs, commissions]({{ '/services/cems-installation/' | relative_url }}) and maintains the system, and advises you on compliance. (This is our role.)
 - **CEMS tester** — a *separate*, DOE-registered party that independently verifies and certifies performance.
 - **Plant operator** — you: responsible for applying to DOE, running the quality-assurance programme, monitoring compliance and reporting.
 

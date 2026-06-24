@@ -70,7 +70,7 @@ Each stage assumes the one before it held. A facility that nails QAL2 but neglec
 
 One more thing to plan for: certain **modifications, upgrades or repairs** reset the clock and require a fresh QAL2. We cover exactly which ones — and the three-month deadline they start — in [Part 3: which changes trigger a fresh QAL2]({{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}).
 
-**Not sure your QA programme covers all four stages?** [Talk to us]({{ '/' | relative_url }}#contact) — we run this chain for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
+**Not sure your QA programme covers all four stages?** [Talk to us]({{ '/' | relative_url }}#contact) — we run [this chain]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

@@ -64,7 +64,7 @@ You are not left without valid data in the meantime: until the new calibration f
 
 A QAL2 isn't a one-off certificate; it's a calibration that's only true under the conditions it was made. Repairs and upgrades, fuel switches, process changes, a failed AST, or drifting out of the valid range each break that link — and each starts a three-month clock to re-establish it. The operators who stay compliant are the ones who recognise a trigger *before* the work happens and book the re-test in step with it.
 
-**Planning a repair, fuel switch or process change and not sure if it triggers a new QAL2?** [Talk to us]({{ '/' | relative_url }}#contact) — we help facilities across Malaysia time their re-tests correctly, using the DOE CEMS Guidelines we helped write.
+**Planning a repair, fuel switch or process change and not sure if it triggers a new QAL2?** [Talk to us]({{ '/' | relative_url }}#contact) — we help facilities across Malaysia [time their re-tests correctly]({{ '/services/qal2-qal3-testing/' | relative_url }}), using the DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

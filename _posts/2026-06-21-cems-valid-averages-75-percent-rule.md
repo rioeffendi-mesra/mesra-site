@@ -119,7 +119,7 @@ Three practical consequences follow, and they're worth holding onto when reviewi
 
 That is the foundation the rest of enforcement stands on: a clear, mechanical rule for which numbers are real. With validity settled, the next question is what an operator must *do* the moment a valid exceedance — or a CEMS failure — occurs, which is exactly where [Part 3]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) picks up.
 
-**Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this, helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
+**Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this — and our [data platform builds and validates these averages]({{ '/services/doe-iremote-integration/' | relative_url }}) — helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

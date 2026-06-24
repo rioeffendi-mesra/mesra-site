@@ -98,7 +98,7 @@ One last clarification, because it's the source of a lot of confusion: **none of
 
 So when your CEMS is certified, the chain is: your analyser is regressed against MS 1596 manual measurements during [QAL2]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}), and that calibration is what makes your continuous data defensible. The standard underneath the SRM is the foundation the whole calibration stands on — which is why it's worth knowing which one you're standing on.
 
-**Running a compliance stack test or a QAL2 and want the reference method done right?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and reference-method work for facilities across Malaysia, and we sit on the committee revising MS 1596.
+**Running a compliance stack test or a QAL2 and want the reference method done right?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and [reference-method work]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, and we sit on the committee revising MS 1596.
 
 <div class="related">
   <p class="label">Related insights</p>

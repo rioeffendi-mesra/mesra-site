@@ -86,7 +86,7 @@ Assessing a year's data comes down to two passes:
 
 A single valid exceedance of either threshold is non-compliance for that period — and the basis for the reporting and enforcement steps that follow.
 
-**Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers the way the regulator does, using the DOE CEMS Guidelines we helped write.
+**Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers [the way the regulator does]({{ '/services/doe-iremote-integration/' | relative_url }}), using the DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

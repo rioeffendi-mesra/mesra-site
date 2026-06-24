@@ -42,7 +42,7 @@ You need **both**. A certified system that isn't registered through DOE, or that
 
 ## Certified is necessary, not sufficient
 
-Even the right certificate isn't the whole story. The DOE-registered consultant is responsible for ensuring the **supplied design matches your plant process, flue-gas characteristics, the pollutants you must monitor and your ELV** — exactly as per the QAL1 certificate. "MCERT-certified" tells you the model is sound; it doesn't tell you it's the *right* model for your stack, gas composition and operating conditions. That matching judgement is precisely what a competent consultant is for.
+Even the right certificate isn't the whole story. The DOE-registered consultant is responsible for ensuring the **[supplied design matches your plant process, flue-gas characteristics, the pollutants you must monitor and your ELV]({{ '/services/cems-installation/' | relative_url }})** — exactly as per the QAL1 certificate. "MCERT-certified" tells you the model is sound; it doesn't tell you it's the *right* model for your stack, gas composition and operating conditions. That matching judgement is precisely what a competent consultant is for.
 
 ## A buyer's certification checklist
 

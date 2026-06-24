@@ -150,7 +150,7 @@ If you're paying for a stack test — for compliance, or to calibrate your CEMS 
 
 In **Part 5** we'll walk through reading a stack-test report end to end — concentration, mass flow and that isokinetic % — so you can sanity-check the work you've paid for.
 
-**Booking a compliance stack test or a QAL2?** [Talk to us]({{ '/' | relative_url }}#contact) — we run isokinetic reference-method testing for facilities across Malaysia, to the same DOE CEMS Guidelines we helped write.
+**Booking a compliance stack test or a QAL2?** [Talk to us]({{ '/' | relative_url }}#contact) — we run [isokinetic reference-method testing]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, to the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

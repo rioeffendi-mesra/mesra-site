@@ -83,7 +83,7 @@ You don't have to wait for the gazette to act on this. The direction is already 
 
 When JSM publishes the new edition, we'll follow this part with a dedicated breakdown of what actually changed, clause by clause — and link it here. Until then, the safe planning assumption is simple: **MS 1596 is moving toward the current ISO 9096 and EN 13284-1.**
 
-**Want to test the way the standard is heading, not the way it's leaving behind?** [Talk to us]({{ '/' | relative_url }}#contact) — we run reference-method particulate testing to the current international methods, and we sit on the committee revising MS 1596.
+**Want to test the way the standard is heading, not the way it's leaving behind?** [Talk to us]({{ '/' | relative_url }}#contact) — we run [reference-method particulate testing]({{ '/services/qal2-qal3-testing/' | relative_url }}) to the current international methods, and we sit on the committee revising MS 1596.
 
 <div class="related">
   <p class="label">Related insights</p>

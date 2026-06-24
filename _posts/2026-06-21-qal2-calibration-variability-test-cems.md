@@ -119,7 +119,7 @@ Appendix 2 isn't a loose guideline — it fixes both the *contents* and the *ord
 
 The executive summary even has to carry a firm statement that the calibration function stays valid only while the day-to-day monitoring data remains within control limits. And that is the shift the next part is about — from *proving it once* to *keeping it true every day*, which is **[QAL3]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }})**.
 
-**Facing a QAL2 and want it to pass first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we prepare and run CEMS for facilities across Malaysia against the same DOE CEMS Guidelines we helped write.
+**Facing a QAL2 and want it to pass first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we [prepare and run your QAL2]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia against the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

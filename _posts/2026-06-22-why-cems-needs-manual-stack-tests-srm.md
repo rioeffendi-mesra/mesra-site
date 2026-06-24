@@ -50,7 +50,7 @@ That's the bridge. The rest of this series is about the reference method itself 
 - **Part 4** looks at the **MS 1596 revision** now under way.
 - **Part 5** shows you how to **read a stack-test report** — concentration, mass flow and isokinetic %.
 
-**Facing your first QAL2, or an AST that has to pass?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and the reference-method stack tests behind them for facilities across Malaysia, against the same DOE CEMS Guidelines we helped write.
+**Facing your first QAL2, or an AST that has to pass?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and the [reference-method stack tests]({{ '/services/qal2-qal3-testing/' | relative_url }}) behind them for facilities across Malaysia, against the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

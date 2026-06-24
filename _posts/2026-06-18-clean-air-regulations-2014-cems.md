@@ -22,7 +22,7 @@ In our experience sitting on both sides of the table — as a consultant and as 
 
 1. **Is the system measuring the right things, accurately?** The analysers must be appropriate for your source and kept within accepted tolerances through scheduled calibration.
 2. **Can you prove it?** This is where [**QAL2 and QAL3** testing]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
-3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **iRemote / CEMS 3.0** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
+3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **[iRemote / CEMS 3.0]({{ '/services/doe-iremote-integration/' | relative_url }})** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
 
 ## Where operators get caught out
 

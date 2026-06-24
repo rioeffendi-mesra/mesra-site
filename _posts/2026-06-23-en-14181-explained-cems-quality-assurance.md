@@ -81,7 +81,7 @@ You don't need to read all 90 pages of EN 14181 to run a compliant CEMS. In prac
 
 Miss any one and the chain of trust breaks: a perfect QAL2 means little if QAL3 drift goes unwatched, and last year's calibration means little without this year's AST. The regulator trusts your data because — and only because — the whole programme is intact.
 
-**Want to know whether your QA programme covers all four checkpoints?** [Talk to us]({{ '/' | relative_url }}#contact) — we run the full EN 14181 cycle for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
+**Want to know whether your QA programme covers all four checkpoints?** [Talk to us]({{ '/' | relative_url }}#contact) — we run [the full EN 14181 cycle]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, using the DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

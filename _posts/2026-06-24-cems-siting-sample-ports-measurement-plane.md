@@ -244,7 +244,7 @@ Siting is the part of a CEMS project with the longest tail. The analyser you can
 
 So before you sign off a stack design or accept an installer's proposal, make sure someone has checked: the **5 D / 2 D straight run** (or a passed homogeneity test), the **cross-section position** for your point or path analyser, the **ports and traverse** the SRM will need, and a **permanent platform** with safe access. Get those onto the drawings now and the rest of the project — [QAL2]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}), and years of routine testing — has somewhere proper to happen.
 
-**Designing a new stack, or unsure an existing one can be sited compliantly?** [Talk to us]({{ '/' | relative_url }}#contact) — we assess sampling planes, run the homogeneity tests and prepare the DOE siting submission, using the same DOE CEMS Guidelines we helped write.
+**Designing a new stack, or unsure an existing one can be sited compliantly?** [Talk to us]({{ '/' | relative_url }}#contact) — we [assess sampling planes]({{ '/services/cems-installation/' | relative_url }}), run the homogeneity tests and prepare the DOE siting submission, using the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>
