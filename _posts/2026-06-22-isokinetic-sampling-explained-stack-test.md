@@ -148,7 +148,7 @@ How many points depends on the duct: a circular plane takes from **5 points** on
 
 If you're paying for a stack test — for compliance, or to calibrate your CEMS at QAL2 — the isokinetic % is the first thing worth checking on the report. A figure outside the accepted range means a repeat visit: more cost, more downtime, and a delay to getting your CEMS signed off. It's also a fair proxy for how carefully the whole test was run.
 
-In **Part 5** we'll walk through reading a stack-test report end to end — concentration, mass flow and that isokinetic % — so you can sanity-check the work you've paid for.
+In **[Part 5]({{ '/insights/reading-a-stack-test-report/' | relative_url }})** we walk through reading a stack-test report end to end — concentration, mass flow and that isokinetic % — so you can sanity-check the work you've paid for.
 
 **Booking a compliance stack test or a QAL2?** [Talk to us]({{ '/' | relative_url }}#contact) — we run [isokinetic reference-method testing]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, to the same DOE CEMS Guidelines we helped write.
 

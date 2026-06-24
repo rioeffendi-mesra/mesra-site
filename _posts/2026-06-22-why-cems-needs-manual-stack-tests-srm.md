@@ -48,7 +48,7 @@ That's the bridge. The rest of this series is about the reference method itself 
 - **[Part 2]({{ '/insights/isokinetic-sampling-explained-stack-test/' | relative_url }})** explains **isokinetic sampling** — why the sample has to be drawn at exactly the flue's own velocity, in plain English.
 - **Part 3** maps the standards that govern it — **[MS 1596, ISO 9096 and EN 13284]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }})**.
 - **Part 4** looks at the **MS 1596 revision** now under way.
-- **Part 5** shows you how to **read a stack-test report** — concentration, mass flow and isokinetic %.
+- **[Part 5]({{ '/insights/reading-a-stack-test-report/' | relative_url }})** shows you how to **read a stack-test report** — concentration, mass flow and isokinetic %.
 
 **Facing your first QAL2, or an AST that has to pass?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and the [reference-method stack tests]({{ '/services/qal2-qal3-testing/' | relative_url }}) behind them for facilities across Malaysia, against the same DOE CEMS Guidelines we helped write.
 

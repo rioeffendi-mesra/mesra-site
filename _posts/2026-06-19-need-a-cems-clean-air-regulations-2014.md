@@ -53,7 +53,7 @@ That separation between installer and tester is deliberate: it's what makes your
 
 ## The takeaway
 
-Before you shortlist a single product, you should be able to answer: *Am I required to monitor? Which pollutants and ELVs apply to my activity? Have I registered and applied to DOE? Am I buying a QAL1-certified system through a registered consultant?* Getting those four right at the start is what keeps a CEMS purchase from becoming a costly do-over.
+Before you shortlist a single product, you should be able to answer: *Am I required to monitor? Which pollutants and ELVs apply to my activity? Have I registered and applied to DOE? Am I buying a QAL1-certified system through a registered consultant?* Getting those four right at the start is what keeps a CEMS purchase from becoming a costly do-over — and [Part 5]({{ '/insights/cems-buying-decision-cost-compliance/' | relative_url }}) turns the whole series into a single buying decision: choosing a partner, the true cost, and the project order.
 
 **Not sure where your facility stands?** [Talk to us]({{ '/' | relative_url }}#contact) — we'll help you map your obligations before you commit, drawing on the DOE CEMS Guidelines we helped write.
 
