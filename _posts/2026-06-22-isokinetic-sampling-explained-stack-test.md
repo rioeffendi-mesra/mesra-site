@@ -99,6 +99,51 @@ Isokinetic sampling isn't guesswork. Before and during the run, the tester:
 
 Done well, the final isokinetic % lands comfortably inside the window. Done carelessly, an otherwise good test is wasted — and as we noted in the QAL2 article, [sloppy reference-method work can even make a perfectly good CEMS fail its calibration]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}).
 
+## Not one point, but a traverse
+
+There's a second reason a single reading won't do. The flue isn't uniform: gas moves faster down the centre of a duct and slower near the walls, and dust can be spread unevenly across the section. A sample drawn at one spot would represent *that spot*, not the stack. So the reference method samples a **traverse** — a set of points spread across the cross-section, each standing for an equal slice of it, with the isokinetic speed re-matched at every one.
+
+Where those points sit isn't left to the tester's eye. ISO 9096 divides the measurement plane into **equal areas** and puts a sampling point at the centre of each. A **circular** duct is split into equal-area rings, so the points fall along two perpendicular diameters and bunch closer together near the wall, where each ring is thinner. A **rectangular or square** duct is split into an even grid, with one point per cell.
+
+<figure class="fig">
+<svg viewBox="0 0 680 290" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tv-t tv-d" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="tv-t">Traverse points in a circular versus a rectangular duct</title>
+<desc id="tv-d">A circular duct is divided into equal-area rings with points along two diameters that cluster toward the wall, and the probe traverses them; a rectangular or square duct is divided into an even grid with a point at the centre of each cell.</desc>
+<!-- Circular -->
+<text x="180" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">Circular duct</text>
+<circle cx="180" cy="135" r="74" fill="none" stroke="var(--ink)" stroke-width="2"/>
+<circle cx="180" cy="135" r="52" fill="none" stroke="var(--grey)" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="106" y1="135" x2="254" y2="135" stroke="var(--line)" stroke-width="1"/>
+<line x1="180" y1="61" x2="180" y2="209" stroke="var(--line)" stroke-width="1"/>
+<!-- probe traversing along the horizontal diameter from a right-side port -->
+<line x1="300" y1="135" x2="116" y2="135" stroke="var(--grey)" stroke-width="2"/>
+<text x="300" y="128" font-size="9" fill="var(--muted)">probe</text>
+<circle cx="180" cy="135" r="4" fill="var(--ink)"/>
+<circle cx="217" cy="135" r="4" fill="var(--ink)"/><circle cx="244" cy="135" r="4" fill="var(--ink)"/>
+<circle cx="143" cy="135" r="4" fill="var(--ink)"/>
+<circle cx="116" cy="135" r="5.5" fill="var(--green-d)"/>
+<circle cx="180" cy="98" r="4" fill="var(--ink)"/><circle cx="180" cy="71" r="4" fill="var(--ink)"/>
+<circle cx="180" cy="172" r="4" fill="var(--ink)"/><circle cx="180" cy="199" r="4" fill="var(--ink)"/>
+<text x="180" y="252" text-anchor="middle" font-size="9.5" fill="var(--muted)">equal-area rings — points cluster</text>
+<text x="180" y="265" text-anchor="middle" font-size="9.5" fill="var(--muted)">toward the wall (5 to 17 by size)</text>
+<!-- Rectangular -->
+<text x="500" y="30" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">Rectangular / square duct</text>
+<rect x="430" y="65" width="140" height="140" fill="none" stroke="var(--ink)" stroke-width="2"/>
+<line x1="476.7" y1="65" x2="476.7" y2="205" stroke="var(--line)" stroke-width="1"/>
+<line x1="523.3" y1="65" x2="523.3" y2="205" stroke="var(--line)" stroke-width="1"/>
+<line x1="430" y1="111.7" x2="570" y2="111.7" stroke="var(--line)" stroke-width="1"/>
+<line x1="430" y1="158.3" x2="570" y2="158.3" stroke="var(--line)" stroke-width="1"/>
+<circle cx="453.3" cy="88.3" r="4" fill="var(--ink)"/><circle cx="500" cy="88.3" r="4" fill="var(--ink)"/><circle cx="546.7" cy="88.3" r="4" fill="var(--ink)"/>
+<circle cx="453.3" cy="135" r="4" fill="var(--ink)"/><circle cx="500" cy="135" r="4" fill="var(--ink)"/><circle cx="546.7" cy="135" r="4" fill="var(--ink)"/>
+<circle cx="453.3" cy="181.7" r="4" fill="var(--ink)"/><circle cx="500" cy="181.7" r="4" fill="var(--ink)"/><circle cx="546.7" cy="181.7" r="4" fill="var(--ink)"/>
+<text x="500" y="252" text-anchor="middle" font-size="9.5" fill="var(--muted)">equal grid — one point per cell</text>
+<text x="500" y="265" text-anchor="middle" font-size="9.5" fill="var(--muted)">(4, 9 or 16 by area)</text>
+</svg>
+<figcaption>The SRM samples a traverse, not a single point. ISO 9096:2017 sets the points at the centres of equal areas — rings for circular ducts (Table 1), a grid for rectangular and square ducts (Table 2 / Annex B) — and the tester re-matches isokinetic speed at each.</figcaption>
+</figure>
+
+How many points depends on the duct: a circular plane takes from **5 points** on a small duct up to **17** on one over 2 m across (ISO 9096 Table 1), and a rectangular plane takes **4, 9 or 16** as its area grows (Table 2). A bigger plane means more points — and a longer test, because each point is its own isokinetic sample. The dust caught across all of them, over the full sampling time, is what becomes your reported concentration. It's also why the stack needs [access ports placed and sized for the probe]({{ '/insights/cems-siting-sample-ports-measurement-plane/' | relative_url }}) at every traverse line (ISO 9096 recommends at least 125 mm diameter, or 100 × 250 mm).
+
 ## Why it matters to you
 
 If you're paying for a stack test — for compliance, or to calibrate your CEMS at QAL2 — the isokinetic % is the first thing worth checking on the report. A figure outside the accepted range means a repeat visit: more cost, more downtime, and a delay to getting your CEMS signed off. It's also a fair proxy for how carefully the whole test was run.
