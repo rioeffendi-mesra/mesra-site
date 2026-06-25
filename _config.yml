@@ -31,6 +31,7 @@ plugins:
 # Don't publish these as pages.
 exclude:
   - README.md
+  - LOCAL-PREVIEW.md
   - "*.pdf"
   - "*.psd"
   - Gemfile
