@@ -289,7 +289,7 @@ section.inner{padding:56px 0 84px}
 /* ---- explanatory diagrams ---- */
 .fig{margin:34px 0;border:1px solid var(--line);border-radius:14px;background:var(--white);padding:22px}
 .fig svg{display:block;width:100%;max-width:680px;height:auto;margin:0 auto}
-.fig.ring svg{max-width:520px}
+.fig.ring svg{max-width:680px}
 .fig figcaption{font-family:var(--mono);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:14px;text-align:center;line-height:1.5}
 .fig .fig-title{font-size:1.02rem;font-weight:800;color:var(--ink);text-align:center;margin:0 0 16px;letter-spacing:-.01em}
 .fig .fig-note{font-size:.84rem;color:var(--body);text-align:center;margin:14px 0 0}
