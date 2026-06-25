@@ -19,8 +19,24 @@ description: "Complete Continuous Emission Monitoring System services in Malaysi
   ]
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":{{ '/' | absolute_url | jsonify }}},
+    {"@type":"ListItem","position":2,"name":"Services","item":{{ '/services/' | absolute_url | jsonify }}}
+  ]
+}
+</script>
 <section class="inner">
   <div class="wrap">
+    <nav class="breadcrumbs" aria-label="Breadcrumb" style="max-width:none;margin:0 0 22px">
+      <ol>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li aria-current="page">Services</li>
+      </ol>
+    </nav>
     <div class="page-head">
       <p class="label">What we do</p>
       <h1>CEMS services, end to end.</h1>
