@@ -180,6 +180,76 @@
       .catch(function(){ s.style.color='#ff8a80'; s.textContent='Sorry, something went wrong. Please email help@alamsekitar.com.my directly.'; });
   });
 })();
+(function(){
+  // Tap-to-zoom for detailed post diagrams. Diagrams are too dense to read at
+  // mobile scale, so we let any figure containing an SVG/image open full-screen
+  // at a legible size with pan + zoom controls. Desktop rendering is unchanged.
+  var figs = Array.prototype.slice.call(document.querySelectorAll('.article .fig'))
+    .filter(function(f){ return f.querySelector('svg, img'); });
+  if(!figs.length) return;
+
+  var hintSVG = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"></circle><path d="M21 21l-4.3-4.3M11 8.5v5M8.5 11h5"></path></svg>';
+
+  var lb=document.createElement('div');
+  lb.className='fig-lightbox';
+  lb.setAttribute('role','dialog'); lb.setAttribute('aria-modal','true'); lb.setAttribute('aria-label','Enlarged diagram');
+  lb.innerHTML='<div class="flb-bar">'+
+      '<button type="button" class="flb-btn" data-act="out" aria-label="Zoom out">−</button>'+
+      '<button type="button" class="flb-btn" data-act="in" aria-label="Zoom in">+</button>'+
+      '<button type="button" class="flb-btn" data-act="close" aria-label="Close">×</button>'+
+    '</div><div class="flb-stage"><div class="flb-inner"></div></div>';
+  document.body.appendChild(lb);
+  var stage=lb.querySelector('.flb-stage'), inner=lb.querySelector('.flb-inner');
+  var baseW=680, curScale=1, lastFocus=null;
+
+  function vbWidth(svg){
+    var vb=svg.getAttribute('viewBox');
+    if(vb){ var p=vb.split(/[ ,]+/); if(p.length===4){ var w=parseFloat(p[2]); if(w>0) return w; } }
+    return svg.clientWidth||680;
+  }
+  function applyScale(){
+    var el=inner.firstChild; if(el){ el.style.width=Math.round(baseW*curScale)+'px'; }
+  }
+  function open(fig){
+    var src=fig.querySelector('svg, img'); if(!src) return;
+    var clone=src.cloneNode(true);
+    var isSvg = clone.tagName && clone.tagName.toLowerCase()==='svg';
+    clone.removeAttribute('width'); clone.removeAttribute('height'); clone.style.height='auto';
+    inner.innerHTML=''; inner.appendChild(clone);
+    var natW = isSvg ? vbWidth(clone) : (src.naturalWidth||src.clientWidth||680);
+    baseW = Math.max(natW*1.4, Math.min(window.innerWidth*1.25, natW*2.2));
+    curScale=1; applyScale();
+    lastFocus=document.activeElement;
+    lb.classList.add('open');
+    document.documentElement.style.overflow='hidden';
+    lb.querySelector('[data-act="close"]').focus();
+  }
+  function close(){
+    lb.classList.remove('open'); document.documentElement.style.overflow=''; inner.innerHTML='';
+    if(lastFocus && lastFocus.focus){ lastFocus.focus(); }
+  }
+  lb.addEventListener('click', function(e){
+    var b=e.target.closest && e.target.closest('.flb-btn');
+    if(b){ var a=b.getAttribute('data-act');
+      if(a==='close'){ close(); }
+      else if(a==='in'){ curScale=Math.min(curScale*1.3,4); applyScale(); }
+      else if(a==='out'){ curScale=Math.max(curScale/1.3,0.5); applyScale(); }
+      return;
+    }
+    if(e.target===lb || e.target===stage){ close(); }
+  });
+  document.addEventListener('keydown', function(e){ if(e.key==='Escape' && lb.classList.contains('open')){ close(); } });
+
+  figs.forEach(function(fig){
+    fig.classList.add('is-zoomable');
+    fig.setAttribute('role','button'); fig.setAttribute('tabindex','0'); fig.setAttribute('aria-label','Enlarge diagram');
+    var hint=document.createElement('span'); hint.className='fig-zoom-hint';
+    hint.innerHTML=hintSVG+'<span>Tap to enlarge</span>';
+    fig.appendChild(hint);
+    fig.addEventListener('click', function(e){ if(e.target.closest('a')){ return; } open(fig); });
+    fig.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); open(fig); } });
+  });
+})();
 </script>
 
 <!-- Cloudflare Web Analytics (privacy-first, no cookie banner needed) -->
