@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "EN 14181 explained: the standard that keeps your CEMS data trustworthy"
+full_title: "EN 14181 Explained: CEMS Quality Assurance | Mesra"
 date: 2026-06-23
-description: "A plain-English guide to EN 14181 — what it is, why it exists, who owns each part, when each stage happens, and how a European standard ends up governing a Malaysian CEMS."
+description: "A plain-English guide to EN 14181 — what it is, why it exists, who owns each part, when each stage happens, and how it ends up governing a Malaysian CEMS."
 series: foundation
 ---
 

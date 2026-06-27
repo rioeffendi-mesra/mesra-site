@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "MS 1596, ISO 9096 and EN 13284: how Malaysia's stack-test standard fits the international picture"
+full_title: "MS 1596, ISO 9096 & EN 13284 Particulate Standards"
 date: 2026-06-22 02:00:00
-description: "Part 3 of our Reference Methods series: the three particulate standards you'll see quoted on a stack-test report — MS 1596, ISO 9096 and EN 13284 — are one manual gravimetric method adopted at three levels. How they relate, where Malaysia's MS 1596 sits, and why the low-dust distinction matters."
+description: "MS 1596, ISO 9096 and EN 13284 are one gravimetric stack-test method at three levels. How they relate, where Malaysia's MS 1596 sits, and why low-dust matters."
 series: reference-methods
 part: 3
 ---

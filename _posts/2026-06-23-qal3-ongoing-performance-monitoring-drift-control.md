@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "QAL3: the drift checks that keep your CEMS in control between tests"
+full_title: "QAL3: Ongoing CEMS Drift Control | Mesra"
 date: 2026-06-23 04:00:00
-description: "Part 4 of our Operating a Compliant CEMS series: QAL3 On-Going Performance Monitoring — the periodic zero-and-span checks your own team runs between QAL2 tests, plotted on control charts to catch drift before it becomes non-compliant data. The levels to check at, who does it, and what a QAL3 failure means."
+description: "QAL3 ongoing performance monitoring — the zero-and-span checks your team runs between QAL2 tests, plotted on control charts to catch CEMS drift before it bites."
 series: operating
 part: 4
 ---

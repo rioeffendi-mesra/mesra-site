@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "The Annual Surveillance Test: the yearly check that confirms your calibration still holds"
+full_title: "CEMS Annual Surveillance Test (AST) Explained | Mesra"
 date: 2026-06-23 05:00:00
-description: "Part 5 of our Operating a Compliant CEMS series: the Annual Surveillance Test (AST) — the once-a-year check that your QAL2 calibration function is still valid and your CEMS variability still within limits. How it differs from QAL2 (same method, five SRM runs instead of fifteen), the Functional Test that gates it, who runs it, and what happens when it fails."
+description: "What the CEMS Annual Surveillance Test (AST) checks each year — that your QAL2 calibration still holds, how it differs from QAL2, and what a failure means."
 series: operating
 part: 5
 ---

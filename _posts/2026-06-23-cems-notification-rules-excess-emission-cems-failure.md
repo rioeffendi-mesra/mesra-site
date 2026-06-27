@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "The two clocks: notifying DOE of an excess emission and a CEMS failure"
+full_title: "DOE Notification: Excess Emission & CEMS Failure | Mesra"
 date: 2026-06-23 05:00:00
-description: "Part 3 of our Enforcing the Clean Air Regulations 2014 series: the two notification deadlines every operator must meet — 24 hours from the discovery of an excess emission (Reg 17(6)), and one hour from a CEMS failure (Reg 17(7)) — plus what the DOE report must contain."
+description: "The two DOE notification deadlines: 24 hours from an excess emission (Reg 17(6)) and one hour from a CEMS failure (Reg 17(7)) — what the report must contain."
 series: enforcing
 part: 3
 ---

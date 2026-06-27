@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Which changes trigger a fresh QAL2 — and the clock that starts when they do"
+full_title: "Changes That Trigger a New QAL2 for CEMS | Mesra"
 date: 2026-06-23 02:00:00
-description: "Part 3 of our Operating a Compliant CEMS series: the changes that reset your CEMS calibration and force a new QAL2-CVT — equipment repairs, fuel switches, process changes, drifting out of the valid calibration range — plus the three-month clock that starts the moment a trigger fires."
+description: "The changes that reset CEMS calibration and force a new QAL2-CVT — repairs, fuel switches, process changes, drift — plus the three-month clock each one starts."
 series: operating
 part: 3
 ---

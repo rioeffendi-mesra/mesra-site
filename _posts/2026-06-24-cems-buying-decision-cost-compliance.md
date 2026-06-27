@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Making the call: choosing a CEMS partner, the true cost, and the road to your first compliant report"
+full_title: "Choosing a CEMS Partner: Cost & Timeline | Mesra"
 date: 2026-06-24 04:00:00
-description: "Part 5 of our Buying a CEMS series — the finale. How to choose a CEMS partner (registration, independence, the red flags), what a system really costs once the running expenses are counted, and the project timeline from purchase order to your first compliant report to DOE."
+description: "How to choose a CEMS partner, what a system truly costs once running expenses are counted, and the timeline from purchase order to your first compliant report."
 series: buying
 part: 5
 ---

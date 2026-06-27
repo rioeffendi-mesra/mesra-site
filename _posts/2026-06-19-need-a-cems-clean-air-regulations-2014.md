@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy"
+full_title: "Do You Need a CEMS? Clean Air Regulations 2014 | Mesra"
 date: 2026-06-19
-description: "Part 1 of our Buying a CEMS series: who is actually required to install a Continuous Emission Monitoring System under Malaysia's Clean Air Regulations 2014, and the steps the law expects before you spend a ringgit."
+description: "Who is required to install a CEMS under Malaysia's Clean Air Regulations 2014, and the steps the law expects before you spend a ringgit."
 series: buying
 part: 1
 ---

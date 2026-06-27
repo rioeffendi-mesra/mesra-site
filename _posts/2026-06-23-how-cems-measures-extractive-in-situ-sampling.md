@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "How does a CEMS actually measure? Extractive vs in-situ — and what DOE accepts"
+full_title: "How a CEMS Measures: Extractive vs In-Situ | Mesra"
 date: 2026-06-23 03:00:00
-description: "Part 3 of our Buying a CEMS series: the two ways a CEMS gets a measurement — extractive (bring the gas to the analyser) and in-situ (put the analyser on the stack) — how your flue gas decides between them, and the two Malaysia-specific rules that quietly disqualify some products: no dilution sampling, and only double-pass in-situ path."
+description: "The two ways a CEMS gets a measurement — extractive and in-situ — how your flue gas decides between them, and the Malaysia-specific rules that disqualify some."
 series: buying
 part: 3
 ---

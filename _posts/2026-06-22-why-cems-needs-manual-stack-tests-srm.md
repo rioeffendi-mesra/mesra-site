@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Why a continuous monitor still needs manual stack tests"
+full_title: "Why a CEMS Still Needs Manual Stack Tests | Mesra"
 date: 2026-06-22 01:30:00
-description: "Part 1 of our Reference Methods series: you installed a CEMS so you wouldn't need a team climbing the stack — so why do the rules still require manual stack tests? Because a continuous monitor reads a proxy signal that has to be anchored to a true, weighed measurement. Here's how the two fit together."
+description: "You installed a CEMS to avoid climbing the stack — so why do the rules still require manual tests? A continuous monitor reads a proxy that needs anchoring."
 series: reference-methods
 part: 1
 ---

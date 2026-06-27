@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "What non-compliance costs: offences and penalties behind the Clean Air Regulations"
+full_title: "Offences & Penalties: Clean Air Regs, EQA 1974 | Mesra"
 date: 2026-06-23 06:00:00
-description: "Part 4 of our Enforcing the Clean Air Regulations 2014 series: the offence a CEMS exceedance actually evidences (Section 22 of the EQA 1974), what it now costs after the 2024 amendment — up to RM1 million, five years, and a daily fine for a continuing offence — plus licence-condition breaches, compounding, and why your CEMS data is the evidence on both sides."
+description: "What a CEMS exceedance evidences under Section 22 of the EQA 1974, and what it costs after the 2024 amendment — up to RM1 million, five years, and daily fines."
 series: enforcing
 part: 4
 ---

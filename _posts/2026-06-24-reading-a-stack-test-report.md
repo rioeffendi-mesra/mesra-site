@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Reading a stack-test report: concentration, mass flow and the isokinetic % that decide it"
+full_title: "How to Read a Stack-Test Report | Mesra"
 date: 2026-06-24 05:00:00
-description: "Part 5 of our Reference Methods series — the finale. How to read a manual stack-test report end to end: the corrected concentration that meets (or misses) your ELV, the mass emission rate, the isokinetic % and QA checks that decide whether the result is valid, and the reference conditions that make the number mean anything."
+description: "How to read a stack-test report end to end: corrected concentration vs your ELV, mass emission rate, the isokinetic % and QA checks, and reference conditions."
 series: reference-methods
 part: 5
 ---

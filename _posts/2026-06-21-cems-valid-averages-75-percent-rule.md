@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Valid averages and the 75% rule: when a reading counts, and when it doesn't"
+full_title: "CEMS Valid Averages & the 75% Rule | Mesra"
 date: 2026-06-21 03:00:00
-description: "Part 2 of our Enforcing the Clean Air Regulations 2014 series: how a valid average is built from the minute up — the 45-second minute, the 22-of-30 half-hour, and the daily mean — and why invalid data is excluded, not counted as zero."
+description: "How a valid CEMS average is built from the minute up — the 45-second minute, the 22-of-30 half-hour, and the daily mean — and why invalid data is excluded."
 series: enforcing
 part: 2
 ---

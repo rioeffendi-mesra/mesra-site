@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Records, reports and the regulator's view: how CEMS compliance is actually verified"
+full_title: "CEMS Records & Reports: DOE Verification | Mesra"
 date: 2026-06-23 07:00:00
-description: "Part 5 of our Enforcing the Clean Air Regulations 2014 series: how DOE actually sees and verifies compliance — the real-time data link through the DOE System for CEMS, the periodic reports you file, and the three-year record you must keep and produce on inspection. The trail that turns a continuous monitor into a defensible compliance record."
+description: "How DOE verifies CEMS compliance — the real-time data link, the periodic reports you file, and the three-year record you must keep and produce on inspection."
 series: enforcing
 part: 5
 ---
