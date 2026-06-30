@@ -62,7 +62,9 @@ layout: default
       </nav>
         {%- endif -%}
       {%- endif -%}
-      <div class="date">{{ page.date | date: "%-d %B %Y" }} · {{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+      {%- assign pub_day = page.date | date: "%Y-%m-%d" -%}
+      {%- assign mod_day = page.last_modified_at | date: "%Y-%m-%d" -%}
+      <div class="date">{{ page.date | date: "%-d %B %Y" }}{% if page.last_modified_at and mod_day != pub_day %} · <span class="updated">Updated {{ page.last_modified_at | date: "%-d %B %Y" }}</span>{% endif %} · {{ content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
       <h1>{{ page.title }}</h1>
       {{ content }}
       {%- comment -%} Auto prev/next within the same series {%- endcomment -%}

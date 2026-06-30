@@ -48,3 +48,23 @@ Notes:
 - `Gemfile` and `Gemfile.lock` are safe to commit — they pin the same versions
   GitHub Pages uses, so local matches live.
 - If a blog post doesn't appear locally, check its date isn't in the future.
+
+## Marking a post as updated (for SEO freshness)
+
+When you make a **real content revision** to an existing post — e.g. a guideline
+version, ELV table, or regulation detail changes — add one line to that post's
+front matter:
+
+```yaml
+date: 2026-06-19          # original publish date — leave unchanged
+last_modified_at: 2026-06-30   # the date you revised it
+```
+
+That single field updates three things automatically:
+- the visible "Updated 30 June 2026" date shown under the post title,
+- the `dateModified` in the post's Google schema (BlogPosting), and
+- the `<lastmod>` entry in `sitemap.xml`.
+
+Only add it for genuine edits. Bumping the date without real changes doesn't help
+SEO and can hurt trust over time. Posts without `last_modified_at` just show their
+publish date as normal.
