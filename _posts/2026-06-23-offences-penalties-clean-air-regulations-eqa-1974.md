@@ -83,6 +83,7 @@ After July 2024, an air-pollution offence under the EQA 1974 carries up to **RM1
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the Clean Air Regulations 2014 require</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-federal-authority-doe-licence/' | relative_url }}">Where your obligations actually come from: the Act, the Regulations, and the Guidelines behind your licence</a></li>
   </ul>
 </div>
 

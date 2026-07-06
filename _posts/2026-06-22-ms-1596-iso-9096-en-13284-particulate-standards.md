@@ -109,6 +109,7 @@ So when your CEMS is certified, the chain is: your analyser is regressed against
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-co-periodic-monitoring/' | relative_url }}">Why CO isn't monitored the same way as TPM and opacity at your mill</a></li>
   </ul>
 </div>
 

@@ -55,6 +55,7 @@ That full-lifecycle ownership is exactly what we do for the operators we work wi
     <li><a href="{{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}">What non-compliance costs: offences and penalties behind the Clean Air Regulations</a></li>
     <li><a href="{{ '/insights/cems-records-reports-doe-compliance-verification/' | relative_url }}">Records, reports and the regulator's view: how CEMS compliance is verified</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-federal-authority-doe-licence/' | relative_url }}">Where your obligations actually come from: the Act, the Regulations, and the Guidelines behind your licence</a></li>
   </ul>
 </div>
 

@@ -28,7 +28,7 @@ If you haven't read the full breakdown of where that table comes from and why pa
 
 Periodic monitoring is its own regulation, not just an absence of continuous monitoring — **Regulation 16 of CAR 2014** sets three specific requirements alongside the frequency tiers themselves:
 
-- **A competent person conducts it.** Reg 16(2): unless DOE directs otherwise, periodic monitoring defaults to once a year and must be carried out by a competent person — the tiered schedule from Part 1 is exactly the kind of Schedule-specific frequency that overrides that default.
+- **A competent person conducts it.** Reg 16(1)–(2): periodic monitoring is required wherever the Schedules call for it, and must be carried out by a competent person — defaulting to once a year unless DOE directs otherwise or the applicable Schedule sets its own frequency, which for solid-fuel dust load is exactly the tiered table from Part 1.
 - **An accredited laboratory analyses the samples.** Reg 16(4): any samples taken must be analysed by an accredited laboratory, not just weighed by whoever is available on the day.
 - **New facilities have a clock too.** Reg 16(3): first monitoring at a new facility must happen after three months, but no later than six, from the start of operations.
 
