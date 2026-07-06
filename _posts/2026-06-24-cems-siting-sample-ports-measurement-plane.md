@@ -3,6 +3,7 @@ layout: post
 title: "Where your CEMS goes: siting, sample ports and the measurement plane DOE accepts"
 full_title: "CEMS Siting: Sample Ports & Measurement Plane | Mesra"
 date: 2026-06-24 02:00:00
+last_modified_at: 2026-07-06
 description: "Siting a CEMS: the 5D/2D straight-length rule, where the analyser and manual SRM sit, the sample ports DOE expects, and the homogeneity route for tricky stacks."
 series: buying
 part: 4

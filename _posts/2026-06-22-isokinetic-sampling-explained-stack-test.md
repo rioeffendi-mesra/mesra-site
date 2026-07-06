@@ -3,6 +3,7 @@ layout: post
 title: "Isokinetic sampling, explained: why the sample velocity must match the flue"
 full_title: "Isokinetic Sampling in Stack Tests Explained | Mesra"
 date: 2026-06-22 01:45:00
+last_modified_at: 2026-07-06
 description: "Why a stack test must draw its sample at the flue's own velocity, what happens to your dust result when it doesn't, and the isokinetic % that decides validity."
 series: reference-methods
 part: 2
