@@ -41,3 +41,8 @@ exclude:
 # touch: trivial edit to trigger a fresh Pages deploy (2026-07-06) after run #59's
 # deploy step failed twice with GitHub's own "Deployment failed, try again later."
 # error — no functional change, just forcing a new artifact/deployment ID.
+#
+# touch 2: same "Deployment failed, try again later." error recurred on run #61
+# (Part 2 push) and its re-run — 4 failures total. Pages status page checked and
+# shows Normal / no active incident, so forcing one more fresh attempt rather
+# than continuing to re-run the same stuck deployment.
