@@ -91,7 +91,7 @@ A correlation of **R² ≥ 0.9** is the guideline's indicator of a good fit. But
 
 A calibration is only trustworthy across the span of concentrations it was actually built on — the **valid calibration range (VCR)**. The guidelines set its top at the **highest calibrated parallel reading plus a margin** (10% for gas, or 100% for particulate, of the ELV — or 20% of the ELV, whichever is greater).
 
-Operate inside the VCR and your data stands on solid ground. The operator must **check weekly** that readings stay within it; readings that persistently sit *outside* the VCR (for example, more than 5% of values over five consecutive weeks) can trigger a **fresh QAL2** — though if an exceedance was caused by a plant failure, fixing the plant is enough and a full recalibration isn't needed.
+Operate inside the VCR and your data stands on solid ground. The operator must **check weekly** that readings stay within it, and the guidelines set two separate triggers for a **fresh QAL2**: more than 5% of a week's calibrated values sitting outside the VCR for more than five weeks between two ASTs, or more than 40% of a single week's values outside the VCR even once. Either one is enough on its own — though if an exceedance was caused by a plant failure, fixing the plant is enough and a full recalibration isn't needed.
 
 ## The variability test — the decider
 
