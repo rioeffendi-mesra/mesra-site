@@ -37,3 +37,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# touch: trivial edit to trigger a fresh Pages deploy (2026-07-06) after run #59's
+# deploy step failed twice with GitHub's own "Deployment failed, try again later."
+# error — no functional change, just forcing a new artifact/deployment ID.
