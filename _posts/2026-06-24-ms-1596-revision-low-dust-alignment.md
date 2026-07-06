@@ -18,7 +18,7 @@ In [Part 3]({{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | re
 
 The case for revision is one we built in Part 3. The edition in force, **MS 1596:2003** (confirmed 2013), is built on **ISO 9096:1992** plus ISO 10780 — a method designed for the dust levels of its era. Its own text is honest about the limit: below **0.050 g/m³ (50 mg/m³)**, the method's inaccuracy exceeds ±10%.
 
-That used to be an academic corner of the range. It isn't any more. Malaysia's stacks are getting cleaner — a modern palm-oil-mill boiler or a well-abated plant can emit dust low enough to sit *exactly* in the band where the 1992-based method loses accuracy. Meanwhile Europe long ago refined the same ISO method for precisely that problem, publishing **EN 13284-1** for low dust below 50 mg/m³. The longer Malaysia's standard stays anchored to the 1992 edition, the wider the gap between what the rulebook measures well and what real stacks actually emit.
+That used to be an academic corner of the range. It isn't any more. Malaysia's stacks are getting cleaner — a modern [palm-oil-mill boiler]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}) or a well-abated plant can emit dust low enough to sit *exactly* in the band where the 1992-based method loses accuracy. Meanwhile Europe long ago refined the same ISO method for precisely that problem, publishing **EN 13284-1** for low dust below 50 mg/m³. The longer Malaysia's standard stays anchored to the 1992 edition, the wider the gap between what the rulebook measures well and what real stacks actually emit.
 
 ## What "revision" means here
 
@@ -92,6 +92,7 @@ When JSM publishes the new edition, we'll follow this part with a dedicated brea
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration & Variability Test: certifying your CEMS against the SRM</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 

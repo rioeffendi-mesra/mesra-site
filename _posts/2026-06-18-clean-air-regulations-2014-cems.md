@@ -13,7 +13,7 @@ Here's what that means in practice, without the jargon.
 
 ## Why CEMS exists
 
-The regulations set emission limits for pollutants from stationary sources — think boilers at palm oil mills, kilns at cement plants, and combustion units at power and manufacturing facilities. For higher-impact sources, periodic manual stack testing isn't enough; the Department of Environment (DOE) expects **continuous** measurement, so that emissions are demonstrably within limits every hour of operation, not just on test day.
+The regulations set emission limits for pollutants from stationary sources — think [boilers at palm oil mills]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}), kilns at cement plants, and combustion units at power and manufacturing facilities. For higher-impact sources, periodic manual stack testing isn't enough; the Department of Environment (DOE) expects **continuous** measurement, so that emissions are demonstrably within limits every hour of operation, not just on test day.
 
 A CEMS continuously measures parameters such as **particulate matter (dust)** and **opacity**, records the data, and makes it available to both the operator and the regulator.
 
@@ -54,6 +54,7 @@ That full-lifecycle ownership is exactly what we do for the operators we work wi
     <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">What "compliant" actually means: the daily-average and 2× half-hourly rule</a></li>
     <li><a href="{{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}">What non-compliance costs: offences and penalties behind the Clean Air Regulations</a></li>
     <li><a href="{{ '/insights/cems-records-reports-doe-compliance-verification/' | relative_url }}">Records, reports and the regulator's view: how CEMS compliance is verified</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 

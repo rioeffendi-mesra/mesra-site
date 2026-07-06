@@ -45,3 +45,10 @@
   total: 5
   order: 4
   nav: true
+
+- slug: palm-oil-mills
+  name: "CEMS for palm oil mills"
+  audience: "for palm oil mill operators & EHS managers"
+  total: 4
+  order: 5
+  nav: true

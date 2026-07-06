@@ -41,7 +41,7 @@ Fuel drives the flue-gas composition your CEMS reads, so a real change of fuel c
 - the fuel goes from a **single type to a mixture** (or the reverse); or
 - the **alternative fuel exceeds 10% of thermal input** per year.
 
-Biomass deserves a special mention. Plant-based biomass can differ batch to batch, shifting the emissions enough that the guidelines note such plants may need a **QAL2 every year instead of an AST**. If you co-fire or run variable biomass, plan your QA calendar around that possibility.
+Biomass deserves a special mention. Plant-based biomass can differ batch to batch, shifting the emissions enough that the guidelines note such plants may need a **QAL2 every year instead of an AST**. If you co-fire or run variable biomass — [palm oil mill boilers included]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}) — plan your QA calendar around that possibility.
 
 ## When the process changes
 
@@ -73,6 +73,7 @@ A QAL2 isn't a one-off certificate; it's a calibration that's only true under th
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration & Variability Test: certifying your CEMS after install</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 

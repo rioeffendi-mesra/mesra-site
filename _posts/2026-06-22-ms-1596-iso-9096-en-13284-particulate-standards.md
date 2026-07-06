@@ -89,7 +89,7 @@ They are siblings descended from a common parent — not a parent and child. Quo
 
 ## Why the low-dust distinction matters in Malaysia
 
-This isn't academic. Malaysia's stacks are getting cleaner. A modern palm-oil-mill boiler with proper abatement can emit dust low enough that it sits in the very range where the **1992-based MS 1596 loses accuracy** — and where **EN 13284-1 is at its strongest**.
+This isn't academic. Malaysia's stacks are getting cleaner. A modern [palm-oil-mill boiler]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}) with proper abatement can emit dust low enough that it sits in the very range where the **1992-based MS 1596 loses accuracy** — and where **EN 13284-1 is at its strongest**.
 
 That gap is precisely why **MS 1596 is being revised to align with the current ISO 9096** — work now under way in the national standards committee. As the revision moves the Malaysian standard onto the present ISO edition, it inherits much of the low-range thinking that Europe built into EN 13284-1. We cover why that revision is happening and where it's heading in [Part 4]({{ '/insights/ms-1596-revision-low-dust-alignment/' | relative_url }}) of this series.
 
@@ -108,6 +108,7 @@ So when your CEMS is certified, the chain is: your analyser is regressed against
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 

@@ -12,6 +12,8 @@ part: 1
 
 A Continuous Emission Monitoring System is a significant investment, and the worst time to discover you've bought the wrong one — or skipped a required step — is *after* it's bolted to your stack. Before you compare quotes, it's worth being clear on two things: **whether the law actually requires a CEMS at your facility**, and **what the Department of Environment (DOE) expects you to do before installation**.
 
+> **Running a palm oil mill?** The general rules below still apply, but your biomass boiler is judged on a specific measured figure. See [the 2.5 kg/hour dust-load test]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}) that decides whether you need continuous monitoring.
+
 ## Are you required to have one?
 
 Under the **Environmental Quality (Clean Air) Regulations 2014 (CAR 2014)** — made under the **Environmental Quality Act 1974 (EQA 1974)** — certain stationary emission sources must continuously monitor their emissions. A CEMS isn't optional decoration; it's the mechanism that produces a continuous, defensible record proving your stack stays within its limits.
@@ -64,6 +66,7 @@ Before you shortlist a single product, you should be able to answer: *Am I requi
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 

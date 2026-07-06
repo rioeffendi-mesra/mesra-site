@@ -20,7 +20,7 @@ Two figures carry the result, and a third decides compliance.
 
 **Concentration** is the dust loading in the flue, in **mg/m³** — but the raw figure the balance produces isn't the number that meets your limit. It has to be *corrected* before it means anything (more on that below). The result you compare to your ELV is the **corrected concentration**.
 
-**Mass emission rate** is that concentration multiplied by the stack's gas flow — the actual quantity of dust leaving the stack, typically in kg/h. It's what matters for load-based limits and for understanding your real environmental output, as opposed to the per-cubic-metre concentration.
+**Mass emission rate** is that concentration multiplied by the stack's gas flow — the actual quantity of dust leaving the stack, typically in kg/h. It's what matters for load-based limits and for understanding your real environmental output, as opposed to the per-cubic-metre concentration. For some sources this figure is more than informational — for [palm oil mill boilers, it's the exact number]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}) that decides how often you're tested, or whether you need a CEMS at all.
 
 **The verdict** is the corrected concentration set against your **Emission Limit Value**. Pass or fail turns on the corrected number, not the raw one — which is why the corrections are not a technicality.
 
@@ -111,6 +111,7 @@ That closes this series. From the [reason a CEMS needs a manual test]({{ '/insig
     <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Valid averages and the 75% rule: when a reading counts</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
   </ul>
 </div>
 
