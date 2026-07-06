@@ -84,6 +84,7 @@ That closes our *Enforcing the Clean Air Regulations 2014* series — from what 
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-periodic-testing-tiers-dust-load/' | relative_url }}">Below 2.5 kg/hour: the periodic tiers in practice, and what moves your number</a></li>
   </ul>
 </div>
 
