@@ -108,6 +108,7 @@ With the limits (Part 1), the data that counts (Part 2), and now the duties that
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the variability test: how a CEMS earns the right to report</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
+    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
   </ul>
 </div>
 

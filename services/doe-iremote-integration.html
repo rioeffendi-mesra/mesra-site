@@ -42,8 +42,8 @@ description: "Connect your CEMS to the DOE iRemote / CEMS 3.0 system. We are DOE
 
       <p class="lead">Compliant monitoring isn't finished when your CEMS is calibrated — the data has to reach the Department of Environment. Mesra is <strong>DOE iRemote-registered</strong>, and our data acquisition platform integrates directly with the Department's <strong>iRemote / CEMS 3.0</strong> system, so accurate emission data flows to the regulator continuously and automatically.</p>
 
-      <h2>What iRemote / CEMS 3.0 is</h2>
-      <p>iRemote is the Department of Environment's national system for receiving continuous emission data from industry. Once your CEMS passes its Calibration and Variability Test, the validated data has to be transmitted from your premise to the DOE server on an ongoing basis. That data connection is a registered activity — it has to be executed by a DOE-registered CEMS party, not improvised.</p>
+      <h2>What "iRemote" and "CEMS 3.0" actually refer to</h2>
+      <p>The DOE CEMS Guidelines (Version 8, 2025) call the regulator's platform the <strong>DOE System for CEMS</strong> — a web-based system that receives CEMS data from industrial premises and shows each premise's compliance status based on its own readings. <strong>iRemote</strong> is DOE's public portal name for that system. You'll also hear "CEMS 2.0" or "CEMS 3.0" in the market — informal shorthand for whichever version of the portal is current, not a term the Guidelines themselves use. Once your CEMS passes its Calibration and Variability Test, validated data has to reach that system from your premise on an ongoing basis, through a component the Guidelines specify precisely: the <strong>CEMS Data Interface System (CEMS-DIS)</strong>. Setting that connection up is a registered activity — it has to be executed by a DOE-registered CEMS party, not improvised. We go deeper on the naming and the CEMS-DIS specification in <a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">this Insights article</a>.</p>
 
       <figure class="fig flow">
         <p class="fig-title">From stack to regulator — one owned chain</p>
@@ -54,21 +54,21 @@ description: "Connect your CEMS to the DOE iRemote / CEMS 3.0 system. We are DOE
           <div class="flow-arrow" aria-hidden="true">→</div>
           <div class="flow-step"><span class="fs-k">Acquire</span><span class="fs-name">Mesra DAS</span><span class="fs-q">Captures &amp; validates</span></div>
           <div class="flow-arrow" aria-hidden="true">→</div>
-          <div class="flow-step hl"><span class="fs-k">Regulator</span><span class="fs-name">DOE iRemote</span><span class="fs-q">CEMS 3.0 platform</span></div>
+          <div class="flow-step hl"><span class="fs-k">Regulator</span><span class="fs-name">DOE System for CEMS</span><span class="fs-q">"iRemote" in everyday use</span></div>
         </div>
         <p class="fig-note">Continuous, validated transmission — no third-party black box</p>
         <figcaption>Because Mesra owns the analysers, the acquisition platform and the integration, the chain from stack to regulator is accountable end to end.</figcaption>
       </figure>
 
-      <h2>Our own platform, built for compliance</h2>
-      <p>Mesra's CEMS services are built around our own data acquisition platform, engineered to format, validate and transmit emission data exactly as the DOE system expects. Because we control the platform, the analysers and the integration, the chain from stack to regulator is owned end to end — there is no third-party black box between your data and your compliance.</p>
+      <h2>Our own platform, built to the CEMS-DIS specification</h2>
+      <p>Mesra's CEMS services are built around our own data acquisition platform, engineered to format, validate and transmit emission data exactly as the CEMS-DIS specification in Volume II of the Guidelines requires — direct transmission to the DOE System for CEMS with no intermediate storage server, a 24/7-available interface, and the exact database and field formats DOE expects. Because we control the platform, the analysers and the integration, the chain from stack to regulator is owned end to end — there is no third-party black box between your data and your compliance.</p>
 
       <h2>What integration covers</h2>
       <ul>
         <li>Data acquisition from your analysers into a compliant platform.</li>
-        <li>Validation and formatting to DOE iRemote / CEMS 3.0 requirements.</li>
-        <li>Establishing and registering the data connection from your premise to the DOE server.</li>
-        <li>Ongoing transmission, with monitoring for data gaps and faults.</li>
+        <li>Validation and formatting to the CEMS-DIS specification the DOE System for CEMS requires.</li>
+        <li>Establishing and registering the data connection from your premise to the DOE server — the registration, application and connection steps DOE requires before any data flows.</li>
+        <li>Ongoing transmission, with monitoring for data gaps and faults, and DOE notification if a connection ever drops.</li>
         <li>Alignment with the daily and half-hourly basis on which compliance is assessed.</li>
       </ul>
 
@@ -83,6 +83,7 @@ description: "Connect your CEMS to the DOE iRemote / CEMS 3.0 system. We are DOE
       <div class="related">
         <p class="label">Related insights</p>
         <ul>
+          <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
           <li><a href="{{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}">The daily and half-hourly rule: how CEMS compliance is judged</a></li>
           <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
         </ul>
