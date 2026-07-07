@@ -1,0 +1,40 @@
+---
+layout: null
+permalink: /search.json
+sitemap: false
+---
+[
+{%- assign n = 0 -%}
+{%- for post in site.posts -%}
+{%- if n > 0 -%},{%- endif -%}
+{
+  "title": {{ post.title | jsonify }},
+  "url": {{ post.url | relative_url | jsonify }},
+  "excerpt": {{ post.excerpt | strip_html | strip_newlines | truncate: 200 | jsonify }},
+  "date": {{ post.date | date: "%-d %b %Y" | jsonify }},
+  "type": "insight"
+}
+{%- assign n = n | plus: 1 -%}
+{%- endfor -%}
+{%- comment -%}
+  All Jekyll-rendered pages with a description (index.html, blog.html hub,
+  services/*.html). Utility files like search.json itself, the Google
+  verification file, and any page marked `search: false` are skipped.
+{%- endcomment -%}
+{%- assign all_pages = site.pages | where_exp: "p", "p.url != '/search.json'" -%}
+{%- assign all_pages = all_pages | where_exp: "p", "p.search != false" -%}
+{%- assign all_pages = all_pages | where_exp: "p", "p.description" -%}
+{%- for p in all_pages -%}
+{%- if n > 0 -%},{%- endif -%}
+{%- assign p_type = "page" -%}
+{%- if p.url contains "/services/" -%}{%- assign p_type = "service" -%}{%- endif -%}
+{
+  "title": {{ p.title | default: p.full_title | default: site.title | jsonify }},
+  "url": {{ p.url | relative_url | jsonify }},
+  "excerpt": {{ p.description | jsonify }},
+  "date": "",
+  "type": {{ p_type | jsonify }}
+}
+{%- assign n = n | plus: 1 -%}
+{%- endfor -%}
+]
