@@ -58,7 +58,8 @@ nav.main a.btn-primary{color:#fff}
 .search-overlay .search-panel{width:100%;max-width:600px;background:#fff;border-radius:14px;box-shadow:0 24px 60px rgba(21,25,28,.28);overflow:hidden;display:flex;flex-direction:column;max-height:70vh}
 .search-form{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line);flex:none}
 .search-form svg{flex:none}
-.search-input{flex:1;border:0;outline:0;font-size:1.05rem;font-family:var(--sans);color:var(--ink);background:none}
+.search-input{-webkit-appearance:none;appearance:none;flex:1;border:0;outline:0;font-size:1.05rem;font-family:var(--sans);color:var(--ink);background:none;background-color:transparent;caret-color:var(--ink)}
+.search-input::-webkit-search-decoration,.search-input::-webkit-search-cancel-button{-webkit-appearance:none}
 .search-input::placeholder{color:var(--muted)}
 .search-close{background:none;border:0;cursor:pointer;font-size:1.4rem;line-height:1;color:var(--muted);padding:4px 6px;flex:none}
 .search-close:hover{color:var(--ink)}
@@ -219,12 +220,12 @@ nav.main a.btn-primary{color:#fff}
 .cdetails .d a.maplink{display:inline-flex;align-items:center;gap:7px;margin-top:10px;color:var(--green-br);font-weight:600;font-size:.9rem}
 .cdetails .d a.maplink:hover{color:#fff}
 .cdetails .d a.maplink svg{flex:none}
-form .field{margin-bottom:15px}
-form label{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.85);display:block;margin-bottom:6px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
-form input,form select,form textarea{width:100%;padding:12px 14px;border:1px solid rgba(255,255,255,.18);border-radius:7px;font-family:var(--sans);font-size:.96rem;background:rgba(255,255,255,.06);color:#fff}
-form input::placeholder,form textarea::placeholder{color:rgba(255,255,255,.4)}
-form .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-form button{width:100%;margin-top:4px}
+.contact form .field{margin-bottom:15px}
+.contact form label{font-size:.82rem;font-weight:600;color:rgba(255,255,255,.85);display:block;margin-bottom:6px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
+.contact form input,.contact form select,.contact form textarea{width:100%;padding:12px 14px;border:1px solid rgba(255,255,255,.18);border-radius:7px;font-family:var(--sans);font-size:.96rem;background:rgba(255,255,255,.06);color:#fff}
+.contact form input::placeholder,.contact form textarea::placeholder{color:rgba(255,255,255,.4)}
+.contact form .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.contact form button{width:100%;margin-top:4px}
 
 /* FOOTER */
 footer.site{background:#070d09;color:rgba(255,255,255,.6);padding:56px 0 28px}
