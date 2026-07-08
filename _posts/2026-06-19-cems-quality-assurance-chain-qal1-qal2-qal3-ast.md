@@ -33,7 +33,7 @@ Here's the chain, in plain terms.
 
 ## QAL1 — *Does the instrument design work?*
 
-This is the type-certification you sorted out at purchase: the make and model is independently tested and holds an **MCERTS or TÜV QAL1 certificate**. It proves the technology is fit for purpose before it ever reaches your stack.
+This is the type-certification you sorted out at purchase: the make and model is independently tested and holds an **MCERTS or TÜV QAL1 certificate**. It proves the technology is fit for purpose before it ever reaches your stack — Malaysia's own standard for that testing is **[MS 2564]({{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }})**.
 
 **Owner:** the CEMS manufacturer (who achieves and maintains the certification). *(We covered QAL1 in detail in the [Buying a CEMS series]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}).)*
 
@@ -79,6 +79,7 @@ One more thing to plan for: certain **modifications, upgrades or repairs** reset
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">QAL1 and certification: what "DOE-registered CEMS" and MCERT/TÜV mean</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
   </ul>
 </div>
 

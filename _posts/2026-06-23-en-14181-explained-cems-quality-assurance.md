@@ -49,7 +49,7 @@ That's why "is it calibrated to EN 14181?" is shorthand for "can we rely on this
 
 One of the most useful things about EN 14181 is that responsibility is never vague — each checkpoint has a clear owner:
 
-- **QAL1 — the manufacturer.** They achieve and maintain the type-certification (MCERTS / TÜV under EN 15267) proving the make and model is fit for purpose. More on that in [QAL1 and certification]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}).
+- **QAL1 — the manufacturer.** They achieve and maintain the type-certification (MCERTS / TÜV under EN 15267) proving the make and model is fit for purpose. Malaysia's own counterpart to that certification framework is **[MS 2564]({{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }})**. More on that in [QAL1 and certification]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}).
 - **QAL2 and AST — an independent, DOE-registered tester.** Independence is the point: a tester cannot certify a system their own company installed. That's what makes your calibration credible.
 - **QAL3 — you, the plant operator.** The day-to-day drift checks are yours to run (your maintenance team, consultant or tester may carry them out on your behalf, but the obligation is the operator's).
 

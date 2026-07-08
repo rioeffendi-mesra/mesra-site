@@ -9,6 +9,15 @@ description: "DOE iRemote-registered CEMS consultants since 2010. Mesra Alam Sek
 url: "https://www.alamsekitar.com.my"
 baseurl: ""
 
+# Pin post-date interpretation to Malaysia time explicitly. Without this,
+# Jekyll compares front-matter dates against whatever system timezone the
+# build machine happens to be set to — which caused a same-day post to be
+# silently skipped as "future dated" during local preview (2026-07-08) when
+# the machine's clock wasn't reading Malaysia time. Also keeps local preview
+# and the GitHub Actions build (which runs on UTC servers) consistent with
+# each other.
+timezone: "Asia/Kuala_Lumpur"
+
 # Blog post URLs look like /insights/your-title/
 # Scoped to posts only, so pages (blog.html, index.html) keep their normal URLs.
 defaults:

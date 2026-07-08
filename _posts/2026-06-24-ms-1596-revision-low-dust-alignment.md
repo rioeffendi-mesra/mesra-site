@@ -93,6 +93,7 @@ When JSM publishes the new edition, we'll follow this part with a dedicated brea
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration & Variability Test: certifying your CEMS against the SRM</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
+    <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
   </ul>
 </div>
 

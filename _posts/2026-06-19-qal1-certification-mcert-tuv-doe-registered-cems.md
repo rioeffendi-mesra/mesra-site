@@ -28,7 +28,7 @@ So your first question to any supplier is simple: *show me the QAL1 certificate.
 
 ## The certified range must match your ELV
 
-Here's a subtlety that trips up buyers. A QAL1 certificate doesn't just say "this analyser is good" — it certifies the instrument over a **specific measuring range**, and that **certification range is always related to the daily ELV.**
+Here's a subtlety that trips up buyers. A QAL1 certificate doesn't just say "this analyser is good" — it certifies the instrument over a **specific measuring range**, and — per **[MS 2564]({{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }})**, Malaysia's CEMS performance-certification standard — that **certification range is always related to the daily ELV.**
 
 In practice: if your activity's daily Emission Limit Value for a pollutant is, say, 150 mg/m³, the instrument's certified range has to be appropriate for measuring around that limit. A system certified for a very different range — even a genuine, MCERT-certified one — may be the wrong tool for your facility. Match the certified range to *your* ELV, not just to a brand name.
 
@@ -65,6 +65,7 @@ Miss any one of these and you risk a system that can't be registered, can't pass
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
   </ul>
 </div>
 

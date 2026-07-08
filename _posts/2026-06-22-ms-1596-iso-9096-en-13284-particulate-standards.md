@@ -99,6 +99,8 @@ One last clarification, because it's the source of a lot of confusion: **none of
 
 So when your CEMS is certified, the chain is: your analyser is regressed against MS 1596 manual measurements during [QAL2]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}), and that calibration is what makes your continuous data defensible. The standard underneath the SRM is the foundation the whole calibration stands on — which is why it's worth knowing which one you're standing on.
 
+MS 1596 isn't the only Malaysian standard in this picture, either — it's the SRM side. The instrument itself is certified against a separate standard, **[MS 2564]({{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }})**, which is also under revision by the same working group.
+
 **Running a compliance stack test or a QAL2 and want the reference method done right?** [Talk to us]({{ '/' | relative_url }}#contact) — we run CEMS and [reference-method work]({{ '/services/qal2-qal3-testing/' | relative_url }}) for facilities across Malaysia, and we sit on the committee revising MS 1596.
 
 <div class="related">
@@ -110,6 +112,7 @@ So when your CEMS is certified, the chain is: your analyser is regressed against
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-co-periodic-monitoring/' | relative_url }}">Why CO isn't monitored the same way as TPM and opacity at your mill</a></li>
+    <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
   </ul>
 </div>
 

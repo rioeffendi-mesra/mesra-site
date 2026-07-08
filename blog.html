@@ -27,6 +27,10 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     {%- endif -%}
 
     {%- comment -%} Filter chips {%- endcomment -%}
+    {%- comment -%} Computed once here and reused below by the "More insights" catch-all group, so both the chip and the section stay in sync. {%- endcomment -%}
+    {%- assign known = site.data.series | map: "slug" -%}
+    {%- assign orphan_count = 0 -%}
+    {%- for post in site.posts -%}{%- unless known contains post.series -%}{%- assign orphan_count = orphan_count | plus: 1 -%}{%- endunless -%}{%- endfor -%}
     <div class="series-filter" role="tablist" aria-label="Filter insights by series">
       <button class="chip active" data-filter="all" aria-pressed="true">All insights</button>
       {%- if foundation -%}
@@ -39,6 +43,9 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
       <button class="chip" data-filter="{{ s.slug }}" aria-pressed="false">{{ s.name }}</button>
         {%- endif -%}
       {%- endunless -%}{%- endfor -%}
+      {%- if orphan_count > 0 -%}
+      <button class="chip" data-filter="more" aria-pressed="false">More insights</button>
+      {%- endif -%}
     </div>
 
     {%- comment -%} Full "Start here" track listing — every foundation post (incl. the featured pillar), so none is hidden {%- endcomment -%}
@@ -85,10 +92,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
       {%- endif -%}
     {%- endunless -%}{%- endfor -%}
 
-    {%- comment -%} Catch any posts whose series isn't in series.yml, so nothing is ever hidden {%- endcomment -%}
-    {%- assign known = site.data.series | map: "slug" -%}
-    {%- assign orphan_count = 0 -%}
-    {%- for post in site.posts -%}{%- unless known contains post.series -%}{%- assign orphan_count = orphan_count | plus: 1 -%}{%- endunless -%}{%- endfor -%}
+    {%- comment -%} Catch any posts whose series isn't in series.yml, so nothing is ever hidden. `known`/`orphan_count` already computed above, next to the filter chips. {%- endcomment -%}
     {%- if orphan_count > 0 -%}
     <section class="series-group" id="more" data-series="more">
       <div class="sg-head"><h2>More insights</h2></div>
