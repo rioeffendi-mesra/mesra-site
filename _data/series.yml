@@ -52,3 +52,14 @@
   total: 4
   order: 5
   nav: true
+
+# Standalone posts that don't fit a fixed how-to track: standards revisions,
+# platform/naming changes, anything that needs updating as the framework
+# itself moves. Posts here intentionally omit `part` (no fixed length, no
+# stepper) — see the `unless post.part` guard in blog.html's series-group loop.
+- slug: watch
+  name: "Standards & platform watch"
+  audience: "for anyone tracking what's changing"
+  total: 2
+  order: 6
+  nav: true

@@ -5,6 +5,7 @@ full_title: "DOE iRemote & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
 date: 2026-07-07 05:00:00
 last_modified_at: 2026-07-08 09:00:00
 description: "iRemote, \"CEMS 2.0\" and \"CEMS 3.0\" all point to the same destination. Here's what the DOE CEMS Guidelines actually call it, what CEMS-DIS requires on your end, and how your data gets there."
+series: watch
 ---
 
 If you've spent any time around Malaysian CEMS, you've heard the platform your data lands on called at least three different names — **iRemote**, **"CEMS 2.0"**, **"CEMS 3.0"** — often in the same conversation, sometimes by the same person. That's not sloppiness on anyone's part. The **DOE CEMS Guidelines (Version 8, 2025)**, which we helped develop, are surprisingly candid about why: describing the platform in detail isn't actually their job. Volume II says so directly — "*the details of DOE's CEMS System will not be described in this guideline*." So the naming has been left to whoever's talking, and it drifts.

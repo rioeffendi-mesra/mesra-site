@@ -4,6 +4,7 @@ title: "The MS 2564 revision: why Malaysia's CEMS certification standard is beco
 full_title: "The MS 2564 Revision: Toward MS 2564-1 | Mesra"
 date: 2026-07-08 00:30:00
 description: "MS 2564, Malaysia's CEMS performance-certification standard, is under revision and set to be renamed MS 2564-1. What it covers today, why it's changing, and the direction it's heading."
+series: watch
 ---
 
 *A standard for industry, regulators and equipment buyers, drawn from MS 2564:2014 and the standards-committee work behind its revision.*

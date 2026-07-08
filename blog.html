@@ -81,7 +81,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
       <div class="post-list">
         {%- for post in group -%}
         <a class="post-card" href="{{ post.url | relative_url }}">
-          <div class="date">Part {{ post.part }} · {{ post.date | date: "%-d %b %Y" }} · {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
+          <div class="date">{% if post.part %}Part {{ post.part }} · {% endif %}{{ post.date | date: "%-d %b %Y" }} · {{ post.content | strip_html | number_of_words | divided_by: 200 | plus: 1 }} min read</div>
           <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}</p>
           <span class="more">Read more →</span>
