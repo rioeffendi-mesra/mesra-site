@@ -39,6 +39,8 @@ The smallest building block of a half-hour is the **one-minute average**. Under 
 
 Forty-five seconds out of sixty is **75%**. If the analyser was warming up, mid-calibration, or simply not returning good data for more than a quarter of that minute, the minute doesn't qualify — and it can't be used as a building block above it.
 
+This isn't just a compliance-test rule sitting off in its own chapter — it's built into the transmission spec itself. The Guidelines' CEMS-DIS data-loading procedure applies this identical 45-second/22-of-30 gate to what gets uploaded to DOE in the first place, which we cover in [DOE iRemote & CEMS-DIS: how CEMS data reaches DOE]({{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}).
+
 ## Tier 2 — the valid half-hour, and the 22-of-30 rule
 
 Half-hourly averages are the unit the law actually judges (alongside the daily figure), so this is the tier that matters most for enforcement. The sub-average period for a half-hour is the one-minute average, and under §2.3.1:
@@ -128,6 +130,7 @@ That is the foundation the rest of enforcement stands on: a clear, mechanical ru
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
+    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">DOE iRemote &amp; CEMS-DIS: how CEMS data reaches DOE</a></li>
   </ul>
 </div>
 

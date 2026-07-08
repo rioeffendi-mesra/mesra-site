@@ -3,6 +3,7 @@ layout: post
 title: "iRemote, \"CEMS 2.0\", \"CEMS 3.0\": what DOE's data platform for CEMS is actually called"
 full_title: "DOE iRemote & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
 date: 2026-07-07 05:00:00
+last_modified_at: 2026-07-08 09:00:00
 description: "iRemote, \"CEMS 2.0\" and \"CEMS 3.0\" all point to the same destination. Here's what the DOE CEMS Guidelines actually call it, what CEMS-DIS requires on your end, and how your data gets there."
 ---
 
@@ -64,6 +65,8 @@ This is where the Guidelines get unusually specific — Volume II gives an actua
 
 That last distinction matters and is easy to conflate: the **5-year CEMS-DIS archive** is a DOE recommendation for your own local database, while the **3-year record retention** under Reg 17(5) is a separate statutory minimum covering your wider compliance file (test reports, correspondence, exceptions log). Keep both — they aren't the same clock.
 
+Chapter 3 doesn't stop at hardware, either. The data-loading procedure right after it folds in the same validity math used at the compliance-test end: a 1-minute average only counts with valid data for at least 45 of the preceding 60 seconds, and DOE's system only treats a 30-minute average as valid when it's built from at least 22 of those one-minute averages — 75% availability. Fall short and the average isn't discounted, it's discarded. We cover that logic in full in [Valid averages and the 75% rule]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) — worth reading alongside this one, since it's the same validity gate CEMS-DIS applies on the way in.
+
 ## Getting connected is a registration process, not a cable
 
 Before any of this runs live, connecting to the DOE System for CEMS is a gated, three-step process under the Guidelines' Figure 2.1 — and it starts well before your CEMS is even installed:
@@ -99,6 +102,7 @@ Whatever it's called when you hear it — iRemote, CEMS 2.0, CEMS 3.0, or the Gu
   <ul>
     <li><a href="{{ '/insights/cems-records-reports-doe-compliance-verification/' | relative_url }}">Records, reports and the regulator's view: how CEMS compliance is actually verified</a></li>
     <li><a href="{{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}">The two clocks: notifying DOE of an excess emission and a CEMS failure</a></li>
+    <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Valid averages and the 75% rule: when a reading counts, and when it doesn't</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration &amp; Variability Test: certifying your CEMS after install</a></li>
   </ul>
