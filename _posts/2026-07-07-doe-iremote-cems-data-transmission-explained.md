@@ -3,7 +3,7 @@ layout: post
 title: "iRemote, \"CEMS 2.0\", \"CEMS 3.0\": what DOE's data platform for CEMS is actually called"
 full_title: "DOE iRemote & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
 date: 2026-07-07 05:00:00
-last_modified_at: 2026-07-08 09:00:00
+last_modified_at: 2026-07-10 11:15:00
 description: "iRemote, \"CEMS 2.0\" and \"CEMS 3.0\" all point to the same destination. Here's what the DOE CEMS Guidelines actually call it, what CEMS-DIS requires on your end, and how your data gets there."
 series: watch
 ---
@@ -36,6 +36,22 @@ Our own [DOE integration service page]({{ '/services/doe-iremote-integration/' |
 </figure>
 
 Two rules govern that last leg, and both are stricter than most people expect. First, **all CEMS data must be transmitted directly from the industrial premise to the DOE System for CEMS, without using any intermediate or centralised server as a medium of temporary data storage** (§2.6.8) — you can't route your data through a third-party dashboard and forward it on afterwards. Second, communication is sequenced and initiated by DOE's side, not yours (Vol II §3.2.1d) — the premise's CEMS-DIS and the DOE server talk on DOE's terms, to avoid the whole national system choking on simultaneous uploads.
+
+Those three logical stages actually run through four physical locations on a typical premise:
+
+<figure class="fig flow">
+<p class="fig-title">The same chain, by physical location</p>
+<div class="flow-row">
+  <div class="flow-step"><span class="fs-k">Stack area</span><span class="fs-name">Analyser</span><span class="fs-q">In-situ or extractive, mounted on or beside the duct</span></div>
+  <div class="flow-arrow" aria-hidden="true">→</div>
+  <div class="flow-step"><span class="fs-k">Boiler house</span><span class="fs-name">MCU + DAS</span><span class="fs-q">Signal conditioning, averaging, power</span></div>
+  <div class="flow-arrow" aria-hidden="true">→</div>
+  <div class="flow-step"><span class="fs-k">Office</span><span class="fs-name">CEMS-DIS PC</span><span class="fs-q">The hardware spec below, running 24/7</span></div>
+  <div class="flow-arrow" aria-hidden="true">→</div>
+  <div class="flow-step hl"><span class="fs-k">Regulator</span><span class="fs-name">DOE System for CEMS</span><span class="fs-q">Over the internet, DOE-sequenced</span></div>
+</div>
+<figcaption>What's actually mounted in the stack area and boiler house — analyser, purge air, MCU, DAS, power distribution — is its own topic: see <a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install</a>.</figcaption>
+</figure>
 
 ## What CEMS-DIS actually requires on your premise
 
@@ -106,6 +122,7 @@ Whatever it's called when you hear it — iRemote, CEMS 2.0, CEMS 3.0, or the Gu
     <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Valid averages and the 75% rule: when a reading counts, and when it doesn't</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the Calibration &amp; Variability Test: certifying your CEMS after install</a></li>
+    <li><a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install: what's actually on the stack</a></li>
   </ul>
 </div>
 

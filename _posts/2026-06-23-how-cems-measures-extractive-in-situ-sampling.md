@@ -3,6 +3,7 @@ layout: post
 title: "How does a CEMS actually measure? Extractive vs in-situ — and what DOE accepts"
 full_title: "How a CEMS Measures: Extractive vs In-Situ | Mesra"
 date: 2026-06-23 03:00:00
+last_modified_at: 2026-07-10 11:00:00
 description: "The two ways a CEMS gets a measurement — extractive and in-situ — how your flue gas decides between them, and the Malaysia-specific rules that disqualify some."
 series: buying
 part: 3
@@ -45,6 +46,38 @@ This is where the international picture and the Malaysian rulebook diverge — a
 **Dilution sampling is not allowed in Malaysia.** Dilution-extractive systems, which mix the sample with clean air at a fixed ratio, are common in some markets. The DOE Guidelines are explicit that they are "rarely and not allowed to be used in Malaysia" (§3.1.1.2). If a quotation offers a dilution probe, that's an immediate red flag.
 
 **Only double-pass in-situ path is accepted.** An in-situ path analyser can be single-pass (beam crosses once) or double-pass (beam crosses, reflects off a mirror and returns). DOE accepts **only double-pass in-situ path CEMS** (§3.1.2). A single-pass path system, however well-built, doesn't meet the requirement.
+
+<figure class="fig">
+<svg viewBox="0 0 680 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dp-t dp-d" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="dp-t">Single-pass versus double-pass in-situ path measurement</title>
+<desc id="dp-d">Two cross-duct optical layouts. Single-pass sends a beam once from a transmitter to a separate receiver on the far wall and is not accepted by DOE. Double-pass sends the beam from a combined sender and receiver unit to a passive reflector on the far wall and back to the same unit, and is the only in-situ path type DOE accepts.</desc>
+<text x="170" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">Single-pass</text>
+<rect x="60" y="70" width="220" height="90" rx="8" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="46" y="92" width="30" height="46" rx="4" fill="var(--white)" stroke="var(--grey)" stroke-width="2"/>
+<text x="61" y="152" text-anchor="middle" font-size="8.5" fill="var(--muted)">Transmitter</text>
+<rect x="264" y="92" width="30" height="46" rx="4" fill="var(--white)" stroke="var(--grey)" stroke-width="2"/>
+<text x="279" y="152" text-anchor="middle" font-size="8.5" fill="var(--muted)">Receiver</text>
+<line x1="78" y1="115" x2="262" y2="115" stroke="#C0392B" stroke-width="2.5"/>
+<path d="M262 115 L252 110 L252 120 Z" fill="#C0392B"/>
+<text x="170" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="#C0392B">Not accepted in Malaysia</text>
+<text x="170" y="212" text-anchor="middle" font-size="9" fill="var(--muted)">beam crosses once, two separate units</text>
+<line x1="340" y1="30" x2="340" y2="240" stroke="var(--line)" stroke-width="1"/>
+<text x="510" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="var(--ink)">Double-pass</text>
+<rect x="400" y="70" width="220" height="90" rx="8" fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="4 4"/>
+<rect x="386" y="88" width="34" height="54" rx="4" fill="var(--green-tint)" stroke="var(--green-d)" stroke-width="2"/>
+<text x="403" y="152" text-anchor="middle" font-size="8" fill="var(--muted)">Sender /</text>
+<text x="403" y="161" text-anchor="middle" font-size="8" fill="var(--muted)">receiver</text>
+<rect x="604" y="92" width="26" height="46" rx="4" fill="var(--white)" stroke="var(--grey)" stroke-width="2"/>
+<text x="617" y="152" text-anchor="middle" font-size="8.5" fill="var(--muted)">Reflector</text>
+<line x1="420" y1="110" x2="602" y2="110" stroke="var(--green-d)" stroke-width="2.5"/>
+<path d="M602 110 L592 105 L592 115 Z" fill="var(--green-d)"/>
+<line x1="602" y1="122" x2="420" y2="122" stroke="var(--green-d)" stroke-width="2.5"/>
+<path d="M420 122 L430 117 L430 127 Z" fill="var(--green-d)"/>
+<text x="510" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="var(--green-d)">Only type DOE accepts</text>
+<text x="510" y="212" text-anchor="middle" font-size="9" fill="var(--muted)">beam reflects back to the same unit</text>
+</svg>
+<figcaption>Guidelines V8 §3.1.2: in-situ path measurement is "taken by transmitter sending a signal across the stack and reflecting it back to a detector near the source of signal" — the double-pass layout on the right, and the only one DOE accepts. The SICK DustHunter T100 systems we install are built this way: a combined sender/receiver unit on one wall, a passive reflector on the other (no cable needed to it) — see how the rest of that system is wired in <a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install</a>.</figcaption>
+</figure>
 
 Knowing these two rules before you read a single quote saves you from shortlisting equipment that can never be registered.
 
@@ -123,6 +156,7 @@ Get the sampling architecture right and the rest of the project — installation
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}">Why a continuous monitor still needs manual stack tests</a></li>
+    <li><a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install: what's actually on the stack</a></li>
   </ul>
 </div>
 
