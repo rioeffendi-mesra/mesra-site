@@ -402,6 +402,25 @@ nav.main .dropdown{display:none;list-style:none;margin:0;padding:0;gap:0}
   nav.main.open .dropdown a{padding:8px 0;font-size:.9rem;color:var(--muted)}
 }
 
+/* --- Nav dropdown: industry-vertical sub-tracks nested under their umbrella
+   series (e.g. "CEMS for palm oil mills" under "CEMS for biomass boilers"),
+   driven by `parent:` in _data/series.yml. Purely a nav-menu grouping —
+   blog.html keeps each track as its own filter chip/section.
+   Markup is a <div> of plain <a> tags (see default.html), not a nested
+   <ul>/<li> — deliberately, so it can't match the broad `nav.main ul` /
+   `nav.main.open ul` selectors used for the flat top-level menu and inherit
+   layout (flex row, or absolute-positioned mobile panel) meant for those. */
+nav.main .dropdown-sub{display:flex;flex-direction:column}
+@media(min-width:901px){
+  nav.main .dropdown-sub{padding-left:14px;border-left:2px solid var(--line);margin:2px 0 6px}
+  nav.main .dropdown-sub a{font-size:.83rem;color:var(--muted)}
+  nav.main .dropdown-sub a:hover{color:var(--green-d)}
+}
+@media(max-width:900px){
+  nav.main.open .dropdown-sub{padding-left:14px;border-left:2px solid var(--line);margin:0 0 4px}
+  nav.main.open .dropdown-sub a{padding:6px 0;font-size:.83rem;color:var(--muted)}
+}
+
 /* --- Series stepper (top of post) --- */
 .series-nav{border:1px solid var(--line);border-radius:14px;background:var(--light);padding:18px 20px;margin-bottom:26px}
 .series-nav-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:12px}

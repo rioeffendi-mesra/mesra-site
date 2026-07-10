@@ -79,8 +79,24 @@
             <ul class="dropdown" aria-label="Insights series">
               <li><a href="{{ '/blog.html' | relative_url }}">All insights</a></li>
               {%- assign nav_series = site.data.series | sort: "order" -%}
-              {%- for s in nav_series -%}{%- if s.nav -%}
-              <li><a href="{{ '/blog.html' | relative_url }}#{{ s.slug }}">{{ s.name }}</a></li>
+              {%- for s in nav_series -%}{%- if s.nav and s.parent == nil -%}
+              <li>
+                <a href="{{ '/blog.html' | relative_url }}#{{ s.slug }}">{{ s.name }}</a>
+                {%- assign nav_children = nav_series | where: "parent", s.slug -%}
+                {%- if nav_children.size > 0 -%}
+                {%- comment -%} Deliberately a <div>, not a nested <ul>/<li>: this site's
+                nav.main styling has broad `ul`/`li`-targeted rules (the flat top-level menu,
+                the mobile open-panel absolute positioning) that match nested lists at any
+                depth via plain descendant selectors. A <div> of plain <a> tags sits outside
+                all of those selectors, so it can't inherit layout meant for a different
+                list. {%- endcomment -%}
+                <div class="dropdown-sub">
+                  {%- for c in nav_children -%}{%- if c.nav -%}
+                  <a href="{{ '/blog.html' | relative_url }}#{{ c.slug }}">{{ c.name }}</a>
+                  {%- endif -%}{%- endfor -%}
+                </div>
+                {%- endif -%}
+              </li>
               {%- endif -%}{%- endfor -%}
               {%- comment -%} Standalone posts with no series (e.g. platform explainers, standards-revision updates) live in blog.html's "Standalone reads" catch-all — surface it here too so it isn't scroll-to-find-only. {%- endcomment -%}
               {%- assign nav_known = site.data.series | map: "slug" -%}

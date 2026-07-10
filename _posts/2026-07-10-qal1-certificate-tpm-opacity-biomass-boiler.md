@@ -127,6 +127,7 @@ Both checks take five minutes. Before you sign anything, go to **[qal1.de](https
   <p class="label">Related insights</p>
   <ul>
     <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
+    <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">What "DOE-registered CEMS" and MCERT/TÜV actually mean</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ — and what DOE accepts</a></li>
     <li><a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install: what's actually on the stack</a></li>
