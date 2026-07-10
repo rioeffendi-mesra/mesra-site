@@ -27,7 +27,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     {%- endif -%}
 
     {%- comment -%} Filter chips {%- endcomment -%}
-    {%- comment -%} Computed once here and reused below by the "More insights" catch-all group, so both the chip and the section stay in sync. {%- endcomment -%}
+    {%- comment -%} Computed once here and reused below by the "Standalone reads" catch-all group, so both the chip and the section stay in sync. {%- endcomment -%}
     {%- assign known = site.data.series | map: "slug" -%}
     {%- assign orphan_count = 0 -%}
     {%- for post in site.posts -%}{%- unless known contains post.series -%}{%- assign orphan_count = orphan_count | plus: 1 -%}{%- endunless -%}{%- endfor -%}
@@ -44,7 +44,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
         {%- endif -%}
       {%- endunless -%}{%- endfor -%}
       {%- if orphan_count > 0 -%}
-      <button class="chip" data-filter="more" aria-pressed="false">More insights</button>
+      <button class="chip" data-filter="more" aria-pressed="false">Standalone reads</button>
       {%- endif -%}
     </div>
 
@@ -95,7 +95,7 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     {%- comment -%} Catch any posts whose series isn't in series.yml, so nothing is ever hidden. `known`/`orphan_count` already computed above, next to the filter chips. {%- endcomment -%}
     {%- if orphan_count > 0 -%}
     <section class="series-group" id="more" data-series="more">
-      <div class="sg-head"><h2>More insights</h2></div>
+      <div class="sg-head"><h2>Standalone reads</h2></div>
       <div class="post-list">
         {%- for post in site.posts -%}{%- unless known contains post.series -%}
         <a class="post-card" href="{{ post.url | relative_url }}">
