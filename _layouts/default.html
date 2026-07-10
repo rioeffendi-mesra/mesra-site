@@ -82,12 +82,12 @@
               {%- for s in nav_series -%}{%- if s.nav -%}
               <li><a href="{{ '/blog.html' | relative_url }}#{{ s.slug }}">{{ s.name }}</a></li>
               {%- endif -%}{%- endfor -%}
-              {%- comment -%} Standalone posts with no series (e.g. platform explainers, standards-revision updates) live in blog.html's "More insights" catch-all — surface it here too so it isn't scroll-to-find-only. {%- endcomment -%}
+              {%- comment -%} Standalone posts with no series (e.g. platform explainers, standards-revision updates) live in blog.html's "Standalone reads" catch-all — surface it here too so it isn't scroll-to-find-only. {%- endcomment -%}
               {%- assign nav_known = site.data.series | map: "slug" -%}
               {%- assign nav_orphan_count = 0 -%}
               {%- for post in site.posts -%}{%- unless nav_known contains post.series -%}{%- assign nav_orphan_count = nav_orphan_count | plus: 1 -%}{%- endunless -%}{%- endfor -%}
               {%- if nav_orphan_count > 0 -%}
-              <li><a href="{{ '/blog.html' | relative_url }}#more">More insights</a></li>
+              <li><a href="{{ '/blog.html' | relative_url }}#more">Standalone reads</a></li>
               {%- endif -%}
             </ul>
           </li>

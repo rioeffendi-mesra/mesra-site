@@ -57,6 +57,7 @@ If you don't yet know your number — whichever biomass you're burning — that'
     <li><a href="{{ '/insights/reading-a-stack-test-report/' | relative_url }}">Reading a stack-test report: concentration, mass flow and the isokinetic % that decide it</a></li>
     <li><a href="{{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }}">MS 1596, ISO 9096 and EN 13284: how Malaysia's stack-test standard fits the international picture</a></li>
     <li><a href="{{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}">Which changes trigger a fresh QAL2 — and the clock that starts when they do</a></li>
+    <li><a href="{{ '/insights/qal1-certificate-tpm-opacity-biomass-boiler/' | relative_url }}">Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?</a></li>
   </ul>
 </div>
 

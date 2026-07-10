@@ -66,6 +66,7 @@ Miss any one of these and you risk a system that can't be registered, can't pass
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
+    <li><a href="{{ '/insights/qal1-certificate-tpm-opacity-biomass-boiler/' | relative_url }}">Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?</a></li>
   </ul>
 </div>
 
