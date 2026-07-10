@@ -3,6 +3,7 @@ layout: post
 title: "What the Clean Air Regulations 2014 mean for your CEMS"
 full_title: "Clean Air Regulations 2014: CEMS Obligations | Mesra"
 date: 2026-06-18
+last_modified_at: 2026-07-10
 description: "A plain-English guide to how Malaysia's Clean Air Regulations 2014 shape Continuous Emission Monitoring System obligations — and how to stay inspection-ready."
 series: foundation
 ---
@@ -13,7 +14,7 @@ Here's what that means in practice, without the jargon.
 
 ## Why CEMS exists
 
-The regulations set emission limits for pollutants from stationary sources — think [boilers at palm oil mills]({{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}), kilns at cement plants, and combustion units at power and manufacturing facilities. For higher-impact sources, periodic manual stack testing isn't enough; the Department of Environment (DOE) expects **continuous** measurement, so that emissions are demonstrably within limits every hour of operation, not just on test day.
+The regulations set emission limits for pollutants from stationary sources — think [biomass boilers at palm oil mills and other biomass-fired industries]({{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}), kilns at cement plants, and combustion units at power and manufacturing facilities. For higher-impact sources, periodic manual stack testing isn't enough; the Department of Environment (DOE) expects **continuous** measurement, so that emissions are demonstrably within limits every hour of operation, not just on test day.
 
 A CEMS continuously measures parameters such as **particulate matter (dust)** and **opacity**, records the data, and makes it available to both the operator and the regulator.
 

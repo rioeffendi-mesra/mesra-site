@@ -3,6 +3,7 @@ layout: post
 title: "MS 1596, ISO 9096 and EN 13284: how Malaysia's stack-test standard fits the international picture"
 full_title: "MS 1596, ISO 9096 & EN 13284 Particulate Standards"
 date: 2026-06-22 02:00:00
+last_modified_at: 2026-07-10
 description: "MS 1596, ISO 9096 and EN 13284 are one gravimetric stack-test method at three levels. How they relate, where Malaysia's MS 1596 sits, and why low-dust matters."
 series: reference-methods
 part: 3
@@ -112,6 +113,7 @@ MS 1596 isn't the only Malaysian standard in this picture, either — it's the S
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-co-periodic-monitoring/' | relative_url }}">Why CO isn't monitored the same way as TPM and opacity at your mill</a></li>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
     <li><a href="{{ '/insights/ms-2564-revision-cems-certification-standard/' | relative_url }}">The MS 2564 revision: why Malaysia's CEMS certification standard is becoming MS 2564-1</a></li>
   </ul>
 </div>

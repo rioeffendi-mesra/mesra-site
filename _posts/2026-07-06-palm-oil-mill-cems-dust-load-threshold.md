@@ -3,7 +3,8 @@ layout: post
 title: "Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test"
 full_title: "Palm Oil Mill CEMS: The 2.5 kg/hour Dust-Load Test | Mesra"
 date: 2026-07-06
-description: "Why Malaysia's Clean Air Regulations 2014 judge most palm oil mill boilers on a 2.5 kg/hour dust-load threshold, not a capacity cutoff — and what that means for whether you need a CEMS."
+last_modified_at: 2026-07-10
+description: "Why Malaysia's Clean Air Regulations 2014 judge most palm oil mill biomass boilers on a 2.5 kg/hour dust-load threshold, not a capacity cutoff — and what that means for whether your biomass boiler needs a CEMS."
 series: palm-oil-mills
 part: 1
 ---
@@ -66,6 +67,7 @@ Either way, the first step is the same: know your number. A stack test tells you
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
     <li><a href="{{ '/insights/reading-a-stack-test-report/' | relative_url }}">Reading a stack-test report: concentration, mass flow and the isokinetic % that decide it</a></li>

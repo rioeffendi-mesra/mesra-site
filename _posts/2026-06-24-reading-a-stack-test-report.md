@@ -3,6 +3,7 @@ layout: post
 title: "Reading a stack-test report: concentration, mass flow and the isokinetic % that decide it"
 full_title: "How to Read a Stack-Test Report | Mesra"
 date: 2026-06-24 05:00:00
+last_modified_at: 2026-07-10
 description: "How to read a stack-test report end to end: corrected concentration vs your ELV, mass emission rate, the isokinetic % and QA checks, and reference conditions."
 series: reference-methods
 part: 5
@@ -112,6 +113,7 @@ That closes this series. From the [reason a CEMS needs a manual test]({{ '/insig
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
   </ul>
 </div>
 

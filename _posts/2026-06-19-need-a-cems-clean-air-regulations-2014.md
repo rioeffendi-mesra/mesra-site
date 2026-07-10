@@ -3,6 +3,7 @@ layout: post
 title: "Do you even need a CEMS? What the Clean Air Regulations 2014 require before you buy"
 full_title: "Do You Need a CEMS? Clean Air Regulations 2014 | Mesra"
 date: 2026-06-19
+last_modified_at: 2026-07-10
 description: "Who is required to install a CEMS under Malaysia's Clean Air Regulations 2014, and the steps the law expects before you spend a ringgit."
 series: buying
 part: 1
@@ -63,6 +64,7 @@ Before you shortlist a single product, you should be able to answer: *Am I requi
 <div class="related">
   <p class="label">Related insights</p>
   <ul>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>

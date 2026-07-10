@@ -3,6 +3,7 @@ layout: post
 title: "Which changes trigger a fresh QAL2 — and the clock that starts when they do"
 full_title: "Changes That Trigger a New QAL2 for CEMS | Mesra"
 date: 2026-06-23 02:00:00
+last_modified_at: 2026-07-10
 description: "The changes that reset CEMS calibration and force a new QAL2-CVT — repairs, fuel switches, process changes, drift — plus the three-month clock each one starts."
 series: operating
 part: 3
@@ -74,6 +75,7 @@ A QAL2 isn't a one-off certificate; it's a calibration that's only true under th
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
   </ul>
 </div>
 
