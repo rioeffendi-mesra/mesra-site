@@ -37,10 +37,11 @@
       idx = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 10 });
-        this.field('excerpt');
+        this.field('excerpt', { boost: 2 });
+        this.field('content');
         var self = this;
         docs.forEach(function(d, i){
-          self.add({ id: String(i), title: d.title, excerpt: d.excerpt });
+          self.add({ id: String(i), title: d.title, excerpt: d.excerpt, content: d.content || '' });
         });
       });
     });
