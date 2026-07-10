@@ -134,19 +134,58 @@ description: Plain-English guidance on CEMS, the DOE Clean Air Regulations 2014,
     });
   }
 
+  function knownFilter(h){
+    return Array.prototype.some.call(chips, function(c){ return c.getAttribute('data-filter') === h; });
+  }
+
+  function goToHash(h, scroll){
+    apply(h);
+    if(scroll){
+      var target = document.getElementById(h);
+      if(target){
+        // apply() just hid every section above this one, so any scroll
+        // position already in effect (browser's own jump-to-anchor, or
+        // wherever the page happened to be scrolled) is now stale against
+        // the new, shorter layout. Re-scroll explicitly, after that reflow
+        // has settled, rather than trusting anything that ran before this.
+        window.requestAnimationFrame(function(){ target.scrollIntoView({ block: 'start' }); });
+      }
+    }
+  }
+
   chips.forEach(function(c){
     c.addEventListener('click', function(){
       var f = c.getAttribute('data-filter');
-      apply(f);
+      goToHash(f, false);
       if(history.replaceState){ history.replaceState(null, '', f === 'all' ? location.pathname : '#' + f); }
     });
   });
 
   // Deep-link support: /blog.html#operating opens that track pre-filtered.
+  // Handles the first, real navigation into this page (from another page,
+  // or a fresh load/reload) with a hash already present.
   var hash = (location.hash || '').replace('#','');
-  if(hash){
-    var match = Array.prototype.some.call(chips, function(c){ return c.getAttribute('data-filter') === hash; });
-    if(match){ apply(hash); }
-  }
+  if(hash && knownFilter(hash)){ goToHash(hash, true); }
+
+  // Re-clicking a series link while already on this page — e.g. the same
+  // nav-dropdown link twice in a row, or a different series link than the
+  // one currently filtered — doesn't fire any navigation event the browser
+  // notices: the URL either doesn't change at all (identical link, no-op)
+  // or changes via a same-document fragment navigation neither `load` nor
+  // `hashchange` reliably restores our filtered layout for, since apply()
+  // has already run once and everything above the target may be hidden.
+  // Intercept these clicks directly instead of trusting navigation events.
+  document.addEventListener('click', function(e){
+    var a = e.target.closest('a');
+    if(!a) return;
+    var url;
+    try{ url = new URL(a.getAttribute('href'), location.href); } catch(err){ return; }
+    if(url.pathname !== location.pathname) return; // real navigation to a different page — let it proceed
+    var h = (url.hash || '').replace('#','');
+    if(!h || !knownFilter(h)) return; // not one of our series anchors — leave default behaviour alone
+    e.preventDefault();
+    goToHash(h, true);
+    if(history.pushState){ history.pushState(null, '', '#' + h); }
+  });
 })();
 </script>
