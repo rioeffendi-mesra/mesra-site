@@ -4,11 +4,12 @@ title: "Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³
 full_title: "How to Calibrate a Transmissometer Dust CEMS (DustHunter T100) | Mesra"
 date: 2026-07-14 00:05:00
 description: "An optical dust monitor never measures milligrams — it measures light. The full calibration chain for a transmissometer TPM CEMS, worked through on the SICK DustHunter T100: normalisation, linearity, initial setting, QAL2 and QAL3."
-series: dust-cems
-part: 2
+image: /assets/og/calibrating-transmissometer-t100.png
+series: reference-methods
+part: 6
 ---
 
-*Dust CEMS in practice — Part 2 of 3. A hands-on track for operators running an optical dust monitor, using the SICK DustHunter T100 — the double-pass transmissometer we install on biomass boilers — as the worked example throughout.*
+*The reference methods behind your CEMS — Part 6. A hands-on walk-through for operators running an optical dust monitor, using the SICK DustHunter T100 — the double-pass transmissometer we install on biomass boilers — as the worked example throughout. Drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
 Here is the fact that every other question about dust-CEMS calibration hangs from: **a transmissometer never measures dust concentration.** It measures light. The DustHunter T100's own QAL1 certificate says so in one sentence — *"the measuring system uses the measured quantities of transmission, opacity and extinction, wherein transmission is determined as the primary optical quantity."* Every mg/m³ figure the instrument will ever report to DOE is a *derived* number, and the thing that derives it — the calibration function — is built on your stack, on your process, against manual gravimetric sampling.
 
@@ -20,7 +21,7 @@ The physics first, because it explains everything downstream. A transmissometer 
 
 Proportional — but with a proportionality constant that belongs to *your* dust. The DOE Guidelines put it plainly: the concentration calibration factor of an optical extinction instrument is *"dependent on particle size, composition, shape, colour and refractive index"* (Guidelines V8, Table 3.2). Fly ash from EFB fibre, sawdust char and rubberwood smoke all attenuate light differently per milligram. No factory, and no test dust, can know that constant in advance — which is why the same table says a transmissometer *"gives a measure of particulate concentration after calibration with gravimetric SRM."*
 
-There's an honest reminder of this printed inside the T100's own certificate: during EN 15267-3 suitability testing, the requirement on the determination coefficient R² of the *laboratory* calibration function was noted as not fulfilled — lab test dust simply isn't your flue gas. The certificate passes the system anyway, on the strength of everything else, because the calibration that legally matters is never the laboratory one. It's the one performed on your stack, which is the subject of the rest of this post.
+There's an honest reminder of this printed inside the T100's own certificate: during EN 15267-3 suitability testing, the requirement on the determination coefficient R² of the *laboratory* calibration function was noted as not fulfilled. Read cold, that sounds alarming — but it's a statistical artefact, not a fault, and it's worth understanding because you'll meet the same effect on your own stack. When dust concentrations are low and tightly clustered, there's little spread for a regression line to "explain," so R² falls even when the instrument is behaving perfectly. The DOE Guidelines carve out exactly this case: an R² below 0.9 *"does not necessarily indicate a QAL2 failure when the emissions are low level cluster,"* and *"the variability test shall always be considered as the definitive test"* (§5.3.9). The same certificate shows the system passing the metric that actually counts — a total expanded uncertainty of **8.1% of the ELV against a 22.5% allowance** (more on that below). The lesson carries straight to site work: judge a transmissometer's calibration on the variability test and uncertainty, never on R² alone. The calibration that legally matters is never the laboratory one anyway — it's the one performed on your stack, which is the subject of the rest of this post.
 
 <figure class="fig flow">
 <p class="fig-title">The five links in the dust-CEMS calibration chain</p>
@@ -92,15 +93,37 @@ A calibration function is a snapshot. Two ongoing procedures keep it honest.
 
 ## The chain on one page
 
-| Link | What's calibrated | Against what | Minimum frequency | Who |
-|---|---|---|---|---|
-| QAL1 | Instrument design | EN 15267 lab + field test | Once (certificate validity) | Manufacturer + TÜV/MCERTS |
-| Normalisation + linearity | Optical zero, span, straightness | Clean path + certified filter glasses | Install, then per service/QAL3 cycle | Installer / operator |
-| Initial setting | First mg/m³ scale | ≥5 gravimetric SRM runs | At installation | Stack-test team |
-| QAL2-CVT | Legal calibration function + valid range | ≥15 gravimetric SRM runs over 3 days | Before data connection; on trigger events | DOE-registered CEMS tester |
-| QAL3 | Drift control | Zero point + filter glasses, control charts | ≤ maintenance interval (3 months for T100); DOE recommends 4-weekly | Operator |
-| AST | Calibration function still valid | Reduced SRM campaign | Yearly | DOE-registered CEMS tester |
+<figure class="fig report">
+<p class="fig-title">The calibration chain on one page</p>
+<div class="rep-rows">
+  <div class="rep-row">
+    <span class="rep-k">1</span>
+    <span class="rep-body"><span class="rep-name">QAL1 — instrument design</span><span class="rep-desc">Proven against the EN 15267 lab + field test. Once, for the certificate's validity. By the manufacturer + TÜV/MCERTS.</span></span>
+  </div>
+  <div class="rep-row">
+    <span class="rep-k">2</span>
+    <span class="rep-body"><span class="rep-name">Normalisation + linearity — optical zero, span, straightness</span><span class="rep-desc">Against a clean path + certified filter glasses. At install, then every service / QAL3 cycle. By the installer / operator. Produces no mg/m³.</span></span>
+  </div>
+  <div class="rep-row">
+    <span class="rep-k">3</span>
+    <span class="rep-body"><span class="rep-name">Initial setting — first mg/m³ scale</span><span class="rep-desc">Against ≥5 gravimetric SRM runs. At installation. By the stack-test team. A working scale, no legal weight.</span></span>
+  </div>
+  <div class="rep-row hl">
+    <span class="rep-k">4</span>
+    <span class="rep-body"><span class="rep-name">QAL2-CVT — legal calibration function + valid range</span><span class="rep-desc">Against ≥15 gravimetric SRM runs over 3 days. Before data connection, and on trigger events. By a DOE-registered CEMS tester. This is the one that counts.</span></span>
+  </div>
+  <div class="rep-row">
+    <span class="rep-k">5</span>
+    <span class="rep-body"><span class="rep-name">QAL3 — drift control</span><span class="rep-desc">Zero point + filter glasses, plotted on control charts. At most every maintenance interval (3 months for the T100); DOE recommends 4-weekly. By the operator.</span></span>
+  </div>
+  <div class="rep-row">
+    <span class="rep-k">6</span>
+    <span class="rep-body"><span class="rep-name">AST — calibration function still valid</span><span class="rep-desc">A reduced SRM campaign re-checking the QAL2 function. Yearly. By a DOE-registered CEMS tester.</span></span>
+  </div>
+</div>
+<figcaption>Six procedures, one purpose: making a light measurement legally mean milligrams per cubic metre. Only after link 4 does the data legally count.</figcaption>
+</figure>
 
 The instrument measures light superbly — the certificate proves that once, at the factory. Whether that light legally means milligrams on *your* stack is decided by this chain, and most of its links are recurring site work, not equipment features. It's also, in our experience, where dust-CEMS compliance is genuinely won or lost: not in the brochure comparison, but in whether the filter glasses are certified and dedicated, the SRM conversions are done on the right basis, and the control chart actually gets plotted.
 
-If you're commissioning a transmissometer, planning a QAL2 on a biomass boiler, or staring at a control chart that's wandering — [talk to us]({{ '/#contact' | relative_url }}). Calibration is the part of this business we'd rather you get right the first time.
+If you're commissioning a transmissometer, planning a QAL2 on a biomass boiler, or staring at a control chart that's wandering — [talk to us]({{ '/' | relative_url }}#contact). Calibration is the part of this business we'd rather you get right the first time.

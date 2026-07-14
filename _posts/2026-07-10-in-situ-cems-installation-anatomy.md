@@ -3,6 +3,7 @@ layout: post
 title: "Anatomy of an in-situ CEMS install: what's actually on the stack"
 full_title: "Anatomy of an In-Situ CEMS Install | Mesra"
 date: 2026-07-10 00:05:00
+last_modified_at: 2026-07-14
 description: "Analyser, purge air, MCU, DAS and power distribution — what a double-pass in-situ CEMS installation actually looks like on a biomass boiler stack, using the SICK DustHunter T100 as a worked example."
 ---
 
@@ -78,7 +79,7 @@ Both the analyser and the DAS need power, usually from a dedicated **power distr
 
 None of this hardware is arbitrary. Where the analyser sits on the duct is governed by the [siting and measurement-plane rules]({{ '/insights/cems-siting-sample-ports-measurement-plane/' | relative_url }}) we cover separately — straight-length from disturbances, distance from the wall, access platform. Which sampling method it uses at all is a choice you have to [justify to DOE]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}) under §3.2, submitted with the equipment's QAL1 certificate. And once it's wired up, the DAS's own output feeds directly into the CEMS-DIS chain we've written about separately — the same 75%-availability validity rule applies at both ends.
 
-Get any one piece wrong — a single-pass analyser, an undersized purge air supply, a DAS that can't produce the right averages — and the problem doesn't show up as a design flaw. It shows up months later, as a failed QAL2 or a registration DOE won't approve. Once the hardware is right, the next question is making it read true: how a transmittance system like this is [calibrated from light beam to legal mg/m³]({{ '/insights/calibrating-transmissometer-tpm-cems-dusthunter-t100/' | relative_url }}).
+Get any one piece wrong — a single-pass analyser, an undersized purge air supply, a DAS that can't produce the right averages — and the problem doesn't show up as a design flaw. It shows up months later, as a failed QAL2 or a registration DOE won't approve. Once the hardware is right, the next question is making it read true: how a transmittance system like this is [calibrated from light beam to legal mg/m³]({{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}).
 
 **Planning an in-situ installation and want the hardware specified right the first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we design, supply and install complete CEMS, including double-pass in-situ systems like the DustHunter T100, against the same DOE CEMS Guidelines we helped write.
 

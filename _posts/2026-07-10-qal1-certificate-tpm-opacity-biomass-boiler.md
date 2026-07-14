@@ -3,6 +3,7 @@ layout: post
 title: "Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?"
 full_title: "How to Read a QAL1 Certificate for a Biomass Boiler CEMS | Mesra"
 date: 2026-07-10 00:15:00
+last_modified_at: 2026-07-14
 description: "A valid EN 15267 / QAL1 certificate doesn't mean a system suits your boiler. Two checks — what it actually measures, and what range it's certified to — worked through using two real, public certificates."
 series: biomass-boilers
 ---
@@ -119,7 +120,7 @@ Two checks, in this order:
 1. **Does the certificate list opacity, or only dust?** If your boiler needs both under Regulation 12(3) and the Second Schedule, a dust-only certificate can't be the whole answer — you'd need a second instrument, or a different analyser.
 2. **Does the certified range reach your ELV, with margin?** Look up your own Second Schedule row — 150 mg/m³ for general solid fuel — and check it against the certificate's stated range, not the sales brochure's.
 
-Both checks take five minutes. Before you sign anything, go to **[qal1.de](https://www.qal1.de/)**, search the exact manufacturer and model on your quotation, and open the certificate yourself — don't rely on a datasheet's summary of what it says. We cover the physical side of a compliant installation — what's actually mounted on the stack — in [Anatomy of an in-situ CEMS install]({{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}), and the broader extractive-vs-in-situ decision in [how a CEMS actually measures]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}). That shared R² caveat, incidentally, is not the red flag it looks like — we explain why in [calibrating a transmissometer particulate CEMS]({{ '/insights/calibrating-transmissometer-tpm-cems-dusthunter-t100/' | relative_url }}).
+Both checks take five minutes. Before you sign anything, go to **[qal1.de](https://www.qal1.de/)**, search the exact manufacturer and model on your quotation, and open the certificate yourself — don't rely on a datasheet's summary of what it says. We cover the physical side of a compliant installation — what's actually mounted on the stack — in [Anatomy of an in-situ CEMS install]({{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}), and the broader extractive-vs-in-situ decision in [how a CEMS actually measures]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}). That shared R² caveat, incidentally, is not the red flag it looks like — we explain why in [calibrating a transmissometer dust CEMS]({{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}).
 
 **Evaluating a quotation and want a second opinion on whether the certificate actually fits your boiler?** [Talk to us]({{ '/' | relative_url }}#contact) — we read these certificates against the DOE CEMS Guidelines we helped write, before anything gets installed.
 
