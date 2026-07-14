@@ -5,6 +5,7 @@ full_title: "Changes That Trigger a New QAL2 for CEMS | Mesra"
 date: 2026-06-23 02:00:00
 last_modified_at: 2026-07-10
 description: "The changes that reset CEMS calibration and force a new QAL2-CVT — repairs, fuel switches, process changes, drift — plus the three-month clock each one starts."
+image: /assets/og/changes-that-trigger-new-qal2-cems.png
 series: operating
 part: 3
 ---

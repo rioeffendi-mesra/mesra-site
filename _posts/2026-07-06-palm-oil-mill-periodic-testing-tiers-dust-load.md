@@ -5,6 +5,7 @@ full_title: "Palm Oil Mill CEMS: Periodic Testing Tiers in Practice | Mesra"
 date: 2026-07-06 02:00:00
 last_modified_at: 2026-07-10
 description: "What periodic stack testing actually looks like for a palm oil mill's biomass boiler under the 2.5 kg/hour threshold, and the operational factors that move your dust-load number between tests."
+image: /assets/og/palm-oil-mill-periodic-testing-tiers-dust-load.png
 series: palm-oil-mills
 part: 2
 ---

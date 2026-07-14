@@ -4,6 +4,7 @@ title: "What 'compliant' actually means: the daily-average and 2× half-hourly r
 full_title: "CEMS Compliance: Daily & Half-Hourly Rule | Mesra"
 date: 2026-06-19 02:00:00
 description: "The two-part CEMS compliance test in Reg 17(3): no daily average above the ELV, and no half-hourly average above twice the ELV — with a worked example."
+image: /assets/og/cems-compliance-daily-half-hourly-rule-reg-17-3.png
 series: enforcing
 part: 1
 ---

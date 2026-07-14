@@ -4,6 +4,7 @@ title: "CEMS for biomass boilers in Malaysia: which industries need one"
 full_title: "CEMS for Biomass Boilers in Malaysia | Mesra"
 date: 2026-07-10
 description: "Palm oil mills aren't the only Malaysian industry running a biomass-fired boiler under DOE's CEMS rules. How the Second Schedule's dust-load test applies whether you burn EFB, sawdust, rubberwood residue or wood waste."
+image: /assets/og/biomass-boiler-cems-which-industries-need-one.png
 series: biomass-boilers
 ---
 

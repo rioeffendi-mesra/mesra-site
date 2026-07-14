@@ -5,6 +5,7 @@ full_title: "Palm Oil Mill CEMS: The Federal Framework Behind Your Licence | Mes
 date: 2026-07-06 04:00:00
 last_modified_at: 2026-07-10
 description: "EQA 1974 is federal law, administered by a single Director General under the Act. Why your mill's biomass boiler obligations trace back to that framework — not to any one locally issued document — and what to do if the two ever look inconsistent."
+image: /assets/og/palm-oil-mill-federal-authority-doe-licence.png
 series: palm-oil-mills
 part: 4
 ---

@@ -5,6 +5,7 @@ full_title: "Clean Air Regulations 2014: CEMS Obligations | Mesra"
 date: 2026-06-18
 last_modified_at: 2026-07-10
 description: "A plain-English guide to how Malaysia's Clean Air Regulations 2014 shape Continuous Emission Monitoring System obligations — and how to stay inspection-ready."
+image: /assets/og/clean-air-regulations-2014-cems.png
 series: foundation
 ---
 

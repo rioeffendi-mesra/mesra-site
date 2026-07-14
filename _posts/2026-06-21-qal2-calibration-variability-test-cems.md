@@ -5,6 +5,7 @@ full_title: "QAL2 Calibration & Variability Test for CEMS | Mesra"
 date: 2026-06-21 02:00:00
 last_modified_at: 2026-07-06
 description: "How the QAL2 Calibration & Variability Test certifies your CEMS against the SRM — the parallel measurements, the calibration function, and the variability test."
+image: /assets/og/qal2-calibration-variability-test-cems.png
 series: operating
 part: 2
 ---

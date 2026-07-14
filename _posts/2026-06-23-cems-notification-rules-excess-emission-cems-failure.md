@@ -5,6 +5,7 @@ full_title: "DOE Notification: Excess Emission & CEMS Failure | Mesra"
 date: 2026-06-23 05:00:00
 last_modified_at: 2026-07-07
 description: "The two DOE notification deadlines: 24 hours from an excess emission (Reg 17(6)) and one hour from a CEMS failure (Reg 17(7)) — what the report must contain."
+image: /assets/og/cems-notification-rules-excess-emission-cems-failure.png
 series: enforcing
 part: 3
 ---

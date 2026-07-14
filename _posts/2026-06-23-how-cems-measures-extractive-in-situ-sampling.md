@@ -5,6 +5,7 @@ full_title: "How a CEMS Measures: Extractive vs In-Situ | Mesra"
 date: 2026-06-23 03:00:00
 last_modified_at: 2026-07-10 11:00:00
 description: "The two ways a CEMS gets a measurement — extractive and in-situ — how your flue gas decides between them, and the Malaysia-specific rules that disqualify some."
+image: /assets/og/how-cems-measures-extractive-in-situ-sampling.png
 series: buying
 part: 3
 ---

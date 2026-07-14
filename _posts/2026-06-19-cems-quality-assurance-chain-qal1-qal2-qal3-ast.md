@@ -4,6 +4,7 @@ title: "The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST, and wh
 full_title: "CEMS QA Chain: QAL1, QAL2, QAL3 & AST | Mesra"
 date: 2026-06-19 02:10:00
 description: "The four-stage EN 14181 quality-assurance programme for CEMS — QAL1, QAL2, QAL3 and the AST — what each stage proves, and who is responsible for it."
+image: /assets/og/cems-quality-assurance-chain-qal1-qal2-qal3-ast.png
 series: operating
 part: 1
 ---

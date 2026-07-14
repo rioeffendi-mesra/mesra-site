@@ -5,6 +5,7 @@ full_title: "Do You Need a CEMS? Clean Air Regulations 2014 | Mesra"
 date: 2026-06-19
 last_modified_at: 2026-07-10
 description: "Who is required to install a CEMS under Malaysia's Clean Air Regulations 2014, and the steps the law expects before you spend a ringgit."
+image: /assets/og/need-a-cems-clean-air-regulations-2014.png
 series: buying
 part: 1
 ---

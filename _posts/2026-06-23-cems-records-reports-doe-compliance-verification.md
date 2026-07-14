@@ -5,6 +5,7 @@ full_title: "CEMS Records & Reports: DOE Verification | Mesra"
 date: 2026-06-23 07:00:00
 last_modified_at: 2026-07-07
 description: "How DOE verifies CEMS compliance — the real-time data link, the periodic reports you file, and the three-year record you must keep and produce on inspection."
+image: /assets/og/cems-records-reports-doe-compliance-verification.png
 series: enforcing
 part: 5
 ---

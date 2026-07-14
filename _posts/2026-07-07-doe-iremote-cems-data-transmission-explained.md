@@ -5,6 +5,7 @@ full_title: "DOE iRemote & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
 date: 2026-07-07 05:00:00
 last_modified_at: 2026-07-10 11:15:00
 description: "iRemote, \"CEMS 2.0\" and \"CEMS 3.0\" all point to the same destination. Here's what the DOE CEMS Guidelines actually call it, what CEMS-DIS requires on your end, and how your data gets there."
+image: /assets/og/doe-iremote-cems-data-transmission-explained.png
 series: watch
 ---
 

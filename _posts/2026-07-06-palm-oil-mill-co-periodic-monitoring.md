@@ -5,6 +5,7 @@ full_title: "Palm Oil Mill CEMS: Why CO Stays Periodic | Mesra"
 date: 2026-07-06 03:00:00
 last_modified_at: 2026-07-10
 description: "Under the Second Schedule of CAR 2014, dust and opacity can escalate to continuous monitoring — but carbon monoxide at a palm oil mill's biomass boiler stays periodic regardless of load. Here's why, and where the line actually sits."
+image: /assets/og/palm-oil-mill-co-periodic-monitoring.png
 series: palm-oil-mills
 part: 3
 ---

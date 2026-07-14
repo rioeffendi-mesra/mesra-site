@@ -5,6 +5,7 @@ full_title: "Anatomy of an In-Situ CEMS Install | Mesra"
 date: 2026-07-10 00:05:00
 last_modified_at: 2026-07-14
 description: "Analyser, purge air, MCU, DAS and power distribution — what a double-pass in-situ CEMS installation actually looks like on a biomass boiler stack, using the SICK DustHunter T100 as a worked example."
+image: /assets/og/in-situ-cems-installation-anatomy.png
 ---
 
 We've written about *how* a CEMS measures — [extractive versus in-situ]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}) — and about the data path from a plant to DOE. What we haven't shown is the physical hardware in between: what's actually bolted to the stack, what sits in the boiler house, and how it's wired together. This is that walk-through, using a real double-pass in-situ system we install — the **SICK DustHunter T100** — as the worked example.

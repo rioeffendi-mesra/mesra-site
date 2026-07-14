@@ -5,6 +5,7 @@ full_title: "How to Read a Stack-Test Report | Mesra"
 date: 2026-06-24 05:00:00
 last_modified_at: 2026-07-10
 description: "How to read a stack-test report end to end: corrected concentration vs your ELV, mass emission rate, the isokinetic % and QA checks, and reference conditions."
+image: /assets/og/reading-a-stack-test-report.png
 series: reference-methods
 part: 5
 ---

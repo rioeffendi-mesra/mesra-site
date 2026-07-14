@@ -4,6 +4,7 @@ title: "QAL1 and certification: what 'DOE-registered CEMS' and MCERT/TÜV actual
 full_title: "QAL1 Certification: MCERT, TÜV & DOE-Registered | Mesra"
 date: 2026-06-19 02:20:00
 description: "How QAL1 type-certification (MCERT/TÜV) works, why the certified range must match your daily ELV, and how a certified CEMS differs from a DOE-registered one."
+image: /assets/og/qal1-certification-mcert-tuv-doe-registered-cems.png
 series: buying
 part: 2
 ---
