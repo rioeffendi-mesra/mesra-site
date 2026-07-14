@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Mesra Alam Sekitar — Calibrating a transmissometer particulate CEMS">
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="10" fill="#2CB34A"/>
+
+  <text x="80" y="118" font-family="'Roboto Mono',ui-monospace,Menlo,Consolas,monospace" font-size="22" letter-spacing="4" font-weight="600" fill="#1E7D33">CEMS INSIGHTS · REFERENCE METHODS · PART 6</text>
+
+  <text x="80" y="212" font-family="Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#1A1C1E" letter-spacing="-1.5">Calibrating a transmissometer</text>
+  <text x="80" y="286" font-family="Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#1A1C1E" letter-spacing="-1.5">particulate CEMS</text>
+
+  <text x="80" y="352" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="400" fill="#3c4247">It measures light, not dust. Which is why calibration is two jobs — worked</text>
+  <text x="80" y="392" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="400" fill="#3c4247">through on the SICK DustHunter T100.</text>
+
+  <g font-family="Helvetica,Arial,sans-serif">
+    <rect x="80" y="440" width="360" height="96" rx="12" fill="#ffffff" stroke="#1E7D33" stroke-width="2.5"/>
+    <text x="104" y="478" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="17" letter-spacing="2" font-weight="600" fill="#1E7D33">JOB 1</text>
+    <text x="104" y="512" font-size="26" font-weight="700" fill="#1A1C1E">Optics reading true?</text>
+
+    <text x="470" y="500" font-size="40" font-weight="700" fill="#1E7D33">&#8594;</text>
+
+    <rect x="520" y="440" width="360" height="96" rx="12" fill="#E9F6EC" stroke="#1E7D33" stroke-width="2.5"/>
+    <text x="544" y="478" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="17" letter-spacing="2" font-weight="600" fill="#1E7D33">JOB 2</text>
+    <text x="544" y="512" font-size="26" font-weight="700" fill="#1A1C1E">Signal &#8594; legal mg/m&#179;</text>
+  </g>
+
+  <line x1="80" y1="576" x2="1120" y2="576" stroke="#E3E5E6" stroke-width="1.5"/>
+  <text x="80" y="608" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#1A1C1E">MESRA <tspan font-weight="400" fill="#5F6062">Alam Sekitar</tspan></text>
+  <text x="1120" y="608" text-anchor="end" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="18" letter-spacing="2" font-weight="600" fill="#1E7D33">CLEAN. COMPLIANT. CONNECTED.</text>
+</svg>
