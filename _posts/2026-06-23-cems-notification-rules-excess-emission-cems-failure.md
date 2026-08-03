@@ -10,7 +10,7 @@ series: enforcing
 part: 3
 ---
 
-*Enforcing the Clean Air Regulations 2014 — Part 3 of 5. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+*Enforcing the Clean Air Regulations 2014 — Part 3 of 6. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
 [Part 1]({{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}) set out *what* compliance means — no daily average above the ELV, no half-hourly average above twice it. [Part 2]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) settled *which numbers count* — only valid averages. This part answers the question both of those raise but neither resolves: **the moment a valid exceedance happens, or the CEMS stops working — what must the operator actually do, and how fast?**
 

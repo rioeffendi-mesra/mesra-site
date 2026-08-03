@@ -9,7 +9,7 @@ series: enforcing
 part: 1
 ---
 
-*Enforcing the Clean Air Regulations 2014 — Part 1 of 5. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+*Enforcing the Clean Air Regulations 2014 — Part 1 of 6. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
 "Is this facility compliant?" sounds like a yes/no question, but the answer rests on a precise test that's easy to half-remember and get wrong. Under the **Environmental Quality (Clean Air) Regulations 2014 (CAR 2014)**, continuous-monitoring compliance is a **two-part** rule — and *both* parts must hold.
 

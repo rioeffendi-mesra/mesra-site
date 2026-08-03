@@ -9,7 +9,7 @@ series: enforcing
 part: 4
 ---
 
-*Enforcing the Clean Air Regulations 2014 — Part 4 of 5. A practical series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+*Enforcing the Clean Air Regulations 2014 — Part 4 of 6. A practical series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
 The earlier parts of this series set out the duties: what ["compliant" actually means]({{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}) under Reg 17(3) (Part 1), how a [valid average]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) is built and when a reading counts (Part 2), and the [notification clocks]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) that start when something goes wrong (Part 3). This part covers the other end of the line — what happens when those duties are breached, and why the stakes rose sharply in 2024.
 

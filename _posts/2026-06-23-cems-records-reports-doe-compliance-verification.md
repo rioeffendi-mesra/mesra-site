@@ -10,9 +10,9 @@ series: enforcing
 part: 5
 ---
 
-*Enforcing the Clean Air Regulations 2014 — Part 5 of 5. A practical series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+*Enforcing the Clean Air Regulations 2014 — Part 5 of 6. A practical series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
-This series has worked through what the law requires of a CEMS: what ["compliant" means]({{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}) under Reg 17(3) (Part 1), how a [valid average]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) is built (Part 2), the [notification clocks]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) when something goes wrong (Part 3), and the [offences and penalties]({{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}) behind it all (Part 4). This final part answers the question underneath the whole series: *how does DOE actually see and verify any of it?* The answer comes in three layers — a continuous live link, periodic reports, and a multi-year record.
+This series has worked through what the law requires of a CEMS: what ["compliant" means]({{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}) under Reg 17(3) (Part 1), how a [valid average]({{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}) is built (Part 2), the [notification clocks]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) when something goes wrong (Part 3), and the [offences and penalties]({{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}) behind it all (Part 4). This part answers the question underneath the whole series: *how does DOE actually see and verify any of it?* The answer comes in three layers — a continuous live link, periodic reports, and a multi-year record.
 
 ## DOE sees your stack in near real time
 
@@ -72,11 +72,11 @@ Put the three layers together and you can see how enforcement actually works. Th
 
 For compliance staff, that reframes the job. It isn't producing a number on a screen; it's maintaining an unbroken, inspection-ready trail — live, reported and archived — that stands up whenever someone looks.
 
-## The takeaway — and the end of the series
+## The takeaway
 
 Compliance under the Clean Air Regulations isn't proven in a single moment; it's demonstrated continuously and on the record. Keep the feed live and report any gap, file the periodic reports on time, and keep three years of everything where you can produce it. Do that and an inspection is a formality rather than a scramble.
 
-That closes our *Enforcing the Clean Air Regulations 2014* series — from what the limits mean, through valid data and notification, to penalties and, finally, the records and reports that make it all verifiable.
+There's one last exposure worth naming, because it turns this record from a shield into a liability: what happens when someone decides to *edit* it. [Part 6]({{ '/insights/cems-data-falsification-false-information-penalties/' | relative_url }}) covers the penalties for falsifying data and misleading DOE — and why the cover-up costs far more than the breach it hides.
 
 **Want your CEMS reporting and records audit-ready, not just running?** [Talk to us]({{ '/' | relative_url }}#contact) — we help facilities keep a clean, inspectable compliance trail, using the same DOE CEMS Guidelines we helped write.
 

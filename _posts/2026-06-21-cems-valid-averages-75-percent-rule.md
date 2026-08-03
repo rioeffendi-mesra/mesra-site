@@ -9,7 +9,7 @@ series: enforcing
 part: 2
 ---
 
-*Enforcing the Clean Air Regulations 2014 — Part 2 of 5. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+*Enforcing the Clean Air Regulations 2014 — Part 2 of 6. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
 
 In [Part 1]({{ '/insights/cems-compliance-daily-half-hourly-rule-reg-17-3/' | relative_url }}) we set out the two-part compliance test: no daily average above the ELV, and no half-hourly average above twice the ELV. But that test only means something if the averages going into it are *valid*. An exceedance, the guidelines are careful to say, is an exceedance "as indicated by **valid measurement**." So before you can ask "did this average breach the limit?", you have to ask a prior question: **does this average even count?**
 
