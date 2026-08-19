@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?"
-full_title: "How to Read a QAL1 Certificate for a Biomass Boiler CEMS | Mesra"
+full_title: "How to Read a QAL1 Certificate for a Biomass CEMS | Mesra"
 date: 2026-07-10 00:15:00
-last_modified_at: 2026-07-14
-description: "A valid EN 15267 / QAL1 certificate doesn't mean a system suits your boiler. Two checks — what it actually measures, and what range it's certified to — worked through using two real, public certificates."
+last_modified_at: 2026-08-19
+description: "A valid EN 15267 / QAL1 certificate doesn't mean a system suits your boiler. Two checks — what it measures, and what range it's certified to."
 image: /assets/og/qal1-certificate-tpm-opacity-biomass-boiler.png
 series: biomass-boilers
 ---

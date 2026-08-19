@@ -3,7 +3,8 @@ layout: post
 title: "The cover-up costs more than the breach: penalties for falsifying data and misleading DOE"
 full_title: "Falsifying CEMS Data & False Information: Penalties | Mesra"
 date: 2026-08-03 00:06:00
-description: "Editing a CEMS reading or filing a clean report you know is false doesn't erase an exceedance — it adds a separate offence. What false information and data falsification cost under the Clean Air Regulations 2014 and the EQA 1974."
+last_modified_at: 2026-08-19
+description: "Editing a CEMS reading or filing a report you know is false doesn't erase an exceedance — it adds a separate offence under CAR 2014 and the EQA 1974."
 image: /assets/og/cems-data-falsification-false-information-penalties.png
 series: enforcing
 part: 6

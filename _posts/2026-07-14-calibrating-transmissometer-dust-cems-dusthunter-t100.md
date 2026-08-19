@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³"
-full_title: "How to Calibrate a Transmissometer Dust CEMS (DustHunter T100) | Mesra"
+full_title: "How to Calibrate a Transmissometer Dust CEMS | Mesra"
 date: 2026-07-14 00:05:00
-description: "An optical dust monitor never measures milligrams — it measures light. The full calibration chain for a transmissometer TPM CEMS, worked through on the SICK DustHunter T100: normalisation, linearity, initial setting, QAL2 and QAL3."
+last_modified_at: 2026-08-19
+description: "An optical dust monitor never measures milligrams — it measures light. The full calibration chain for a transmissometer TPM CEMS, on the SICK DustHunter T100."
 image: /assets/og/calibrating-transmissometer-t100.png
 series: reference-methods
 part: 6

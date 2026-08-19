@@ -3,8 +3,8 @@ layout: post
 title: "Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test"
 full_title: "Palm Oil Mill CEMS: The 2.5 kg/hour Dust-Load Test | Mesra"
 date: 2026-07-06
-last_modified_at: 2026-07-10
-description: "Why Malaysia's Clean Air Regulations 2014 judge most palm oil mill biomass boilers on a 2.5 kg/hour dust-load threshold, not a capacity cutoff — and what that means for whether your biomass boiler needs a CEMS."
+last_modified_at: 2026-08-19
+description: "Why Malaysia's Clean Air Regulations 2014 judge most palm oil mill biomass boilers on a 2.5 kg/hour dust-load threshold, not a capacity cutoff."
 image: /assets/og/palm-oil-mill-cems-dust-load-threshold.png
 series: palm-oil-mills
 part: 1

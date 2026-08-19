@@ -3,8 +3,8 @@ layout: post
 title: "Anatomy of an in-situ CEMS install: what's actually on the stack"
 full_title: "Anatomy of an In-Situ CEMS Install | Mesra"
 date: 2026-07-10 00:05:00
-last_modified_at: 2026-07-14
-description: "Analyser, purge air, MCU, DAS and power distribution — what a double-pass in-situ CEMS installation actually looks like on a biomass boiler stack, using the SICK DustHunter T100 as a worked example."
+last_modified_at: 2026-08-19
+description: "Analyser, purge air, MCU, DAS and power — what a double-pass in-situ CEMS installation looks like on a biomass boiler stack, with the SICK DustHunter T100."
 image: /assets/og/in-situ-cems-installation-anatomy.png
 ---
 
