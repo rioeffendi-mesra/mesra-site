@@ -136,6 +136,15 @@ Both checks take five minutes. Before you sign anything, go to **[qal1.de](https
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.qal1.de/en/main-navigation/certificates/" target="_blank" rel="noopener">QAL1 certified measuring systems (EN 15267)</a> — TÜV Rheinland</li>
+    <li><a href="https://mysol.jsm.gov.my/" target="_blank" rel="noopener">Malaysian Standards catalogue (MySOL)</a> — Department of Standards Malaysia</li>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice. Certificate details are drawn from currently valid, publicly registered EN 15267 / QAL1 certificates at qal1.de; verify the current status of any certificate directly before relying on it. For obligations specific to your facility, refer to the current Clean Air Regulations 2014, the DOE CEMS Guidelines, or speak with us directly.*

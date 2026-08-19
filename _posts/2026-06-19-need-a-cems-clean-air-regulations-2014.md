@@ -73,6 +73,15 @@ Before you shortlist a single product, you should be able to answer: *Am I requi
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/en/environmental-quality-clean-air-regulations-2014/" target="_blank" rel="noopener">Environmental Quality (Clean Air) Regulations 2014 [P.U.(A) 151]</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/environmental-quality-act-1974-act-127-2/" target="_blank" rel="noopener">Environmental Quality Act 1974 (Act 127)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/continuous-release-monitoring-system-cems/" target="_blank" rel="noopener">Continuous Emission Monitoring System (CEMS)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice. For obligations specific to your facility, refer to the current Environmental Quality (Clean Air) Regulations 2014, the EQA 1974, and the DOE CEMS Guidelines, or speak with us directly.*

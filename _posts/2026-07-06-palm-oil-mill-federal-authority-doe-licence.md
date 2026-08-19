@@ -55,6 +55,15 @@ That closes this series. From the number that decides whether you need a CEMS, t
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/en/environmental-quality-act-1974-act-127-2/" target="_blank" rel="noopener">Environmental Quality Act 1974 (Act 127)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://lom.agc.gov.my/ilims/upload/portal/akta/outputaktap/2194944_BI/Act%20127%20(Online%202025).pdf" target="_blank" rel="noopener">Environmental Quality Act 1974 (Act 127) — updated text</a> — Attorney General's Chambers of Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/continuous-release-monitoring-system-cems/" target="_blank" rel="noopener">Continuous Emission Monitoring System (CEMS)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice, based on the Environmental Quality Act 1974 and the Clean Air Regulations 2014 made under it. For obligations specific to your mill, refer to those documents and the DOE CEMS Guidelines directly, or speak with us — and raise any apparent inconsistency in a locally issued document with DOE for clarification against the federal framework.*

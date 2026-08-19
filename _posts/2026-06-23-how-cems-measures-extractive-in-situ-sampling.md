@@ -161,6 +161,14 @@ Get the sampling architecture right and the rest of the project — installation
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/continuous-release-monitoring-system-cems/" target="_blank" rel="noopener">Continuous Emission Monitoring System (CEMS)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice. For obligations specific to your facility, refer to the current Environmental Quality (Clean Air) Regulations 2014, the EQA 1974, and the DOE CEMS Guidelines, or speak with us directly.*

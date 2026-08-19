@@ -71,6 +71,16 @@ Miss any one of these and you risk a system that can't be registered, can't pass
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.qal1.de/en/main-navigation/certificates/" target="_blank" rel="noopener">QAL1 certified measuring systems (EN 15267)</a> — TÜV Rheinland</li>
+    <li><a href="https://www.gov.uk/government/collections/monitoring-emissions-to-air-land-and-water-mcerts" target="_blank" rel="noopener">MCERTS — monitoring emissions to air, land and water</a> — UK Environment Agency</li>
+    <li><a href="https://www.csagroup.org/en-gb/services/mcerts/mcerts-product-certification/" target="_blank" rel="noopener">MCERTS Product Certification register</a> — CSA Group</li>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice. For obligations specific to your facility, refer to the current Environmental Quality (Clean Air) Regulations 2014, the EQA 1974, and the DOE CEMS Guidelines, or speak with us directly.*

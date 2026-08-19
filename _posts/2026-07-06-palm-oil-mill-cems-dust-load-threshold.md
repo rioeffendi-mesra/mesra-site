@@ -79,6 +79,14 @@ Either way, the first step is the same: know your number. A stack test tells you
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/en/environmental-quality-clean-air-regulations-2014/" target="_blank" rel="noopener">Environmental Quality (Clean Air) Regulations 2014 [P.U.(A) 151]</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice, and refers to MS 1596 while it is under revision — nothing here represents the final content of the new edition. For obligations specific to your mill, refer to the current Environmental Quality (Clean Air) Regulations 2014, the EQA 1974, the DOE CEMS Guidelines, and the current editions of MS 1596 and ISO 9096, or speak with us directly.*

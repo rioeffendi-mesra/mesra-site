@@ -94,6 +94,14 @@ Get any one piece wrong — a single-pass analyser, an undersized purge air supp
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.qal1.de/en/main-navigation/certificates/" target="_blank" rel="noopener">QAL1 certified measuring systems (EN 15267)</a> — TÜV Rheinland</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice, based on the DOE CEMS Guidelines Version 8 (2025) and publicly available manufacturer documentation. Specific hardware and configuration requirements depend on your stack and flue-gas conditions — speak with us directly before specifying equipment.*

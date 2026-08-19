@@ -128,3 +128,12 @@ A calibration function is a snapshot. Two ongoing procedures keep it honest.
 The instrument measures light superbly — the certificate proves that once, at the factory. Whether that light legally means milligrams on *your* stack is decided by this chain, and most of its links are recurring site work, not equipment features. It's also, in our experience, where dust-CEMS compliance is genuinely won or lost: not in the brochure comparison, but in whether the filter glasses are certified and dedicated, the SRM conversions are done on the right basis, and the control chart actually gets plotted.
 
 If you're commissioning a transmissometer, planning a QAL2 on a biomass boiler, or staring at a control chart that's wandering — [talk to us]({{ '/' | relative_url }}#contact). Calibration is the part of this business we'd rather you get right the first time.
+
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.iso.org/standard/70547.html" target="_blank" rel="noopener">ISO 9096:2017 — Manual determination of mass concentration of particulate matter</a> — International Organization for Standardization</li>
+    <li><a href="https://www.qal1.de/en/main-navigation/certificates/" target="_blank" rel="noopener">QAL1 certified measuring systems (EN 15267)</a> — TÜV Rheinland</li>
+  </ul>
+</div>

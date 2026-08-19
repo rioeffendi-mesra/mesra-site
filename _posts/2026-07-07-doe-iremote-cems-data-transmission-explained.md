@@ -127,6 +127,16 @@ Whatever it's called when you hear it — iRemote, CEMS 2.0, CEMS 3.0, or the Gu
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://iremote.doe.gov.my/" target="_blank" rel="noopener">iRemote System</a> — Department of Environment Malaysia</li>
+    <li><a href="https://cems.doe.gov.my/" target="_blank" rel="noopener">CEMS online portal</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/online-services-2/" target="_blank" rel="noopener">Online Services (iRemote / CEMS portal)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice, based on the DOE CEMS Guidelines Version 8 (2025) and CAR 2014. Portal names and addresses are drawn from DOE's public materials at the time of writing and may change; for the current registration and connection method, refer to DOE's own procedural guide or speak with us directly.*

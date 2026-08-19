@@ -60,6 +60,14 @@ Two things to take from this: your dust load is what drives your monitoring regi
   </ul>
 </div>
 
+<div class="related">
+  <p class="label">References</p>
+  <ul>
+    <li><a href="https://www.doe.gov.my/en/environmental-quality-clean-air-regulations-2014/" target="_blank" rel="noopener">Environmental Quality (Clean Air) Regulations 2014 [P.U.(A) 151]</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+  </ul>
+</div>
+
 ---
 
 *This article is general guidance, not legal advice, based on the Environmental Quality Act 1974, the Clean Air Regulations 2014 made under it, and the DOE CEMS Guidelines. For obligations specific to your mill, refer to those documents directly or speak with us — and raise any apparent inconsistency in a locally issued document with DOE for clarification against the federal framework.*
