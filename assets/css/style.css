@@ -2,6 +2,8 @@
   --green:#2CB34A; --green-d:#1E7D33; --green-br:#37c957; --green-tint:#E9F6EC;
   --ink:#1A1C1E; --grey:#5F6062; --body:#3c4247; --muted:#6B6E70;
   --dark:#0E1A13; --dark2:#0a130d; --line:#E3E5E6; --light:#F6F7F7; --white:#fff;
+  /* Jalur Gemilang — placeholder values; confirm against the official Jabatan Penerangan spec before go-live */
+  --jg-red:#CC0000; --jg-blue:#0032A0; --jg-yellow:#FFD100;
   --maxw:1140px;
   --sans:"Arimo","Helvetica Neue",Helvetica,Arial,sans-serif;
   --mono:"Roboto Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;
@@ -89,6 +91,14 @@ nav.main a.btn-primary{color:#fff}
 .hero .stream{margin-top:60px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0}
 .hero .stream svg,.hero .stream canvas{display:block;width:100%;height:54px}
 .hero .meta-row{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-between;padding:22px 0 0;color:var(--muted);font-family:var(--mono);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase}
+
+/* NATIONAL-DAY EYEBROW (Hari Merdeka / Hari Malaysia) — see hero in index.html. Full undistorted Jalur Gemilang, official 1:2 ratio. */
+.natday{display:inline-flex;align-items:center;gap:10px;margin-bottom:20px}
+.natday[hidden]{display:none}
+.natday-flag{width:42px;height:21px;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:none}
+.natday-text{font-family:var(--mono);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}
+.natday-text b{color:var(--green-d);font-weight:600}
+.natday-text span{color:var(--ink)}
 
 /* STAT STRIP */
 .facts{background:var(--ink);color:#fff}

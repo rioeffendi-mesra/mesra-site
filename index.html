@@ -7,6 +7,24 @@ description: "DOE iRemote-registered CEMS consultants since 2010. We design, ins
 <!-- ============ HERO ============ -->
 <section class="hero">
   <div class="wrap">
+    <!-- National-day eyebrow: Merdeka (August) / Hari Malaysia (1-16 Sep). Shown by JS during the season only. Full undistorted Jalur Gemilang at the official 1:2 ratio with a 14-point Bintang Persekutuan; colours from --jg-* tokens in style.css (confirm vs official Jabatan Penerangan spec before finalising). -->
+    <div class="natday" id="natday" hidden>
+      <svg class="natday-flag" viewBox="0 0 1200 600" role="img" aria-label="Jalur Gemilang, the national flag of Malaysia" focusable="false">
+        <rect x="0" y="0" width="1200" height="600" fill="#ffffff"/>
+        <rect x="0" y="0" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="85.714286" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="171.428571" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="257.142857" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="342.857143" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="428.571429" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="514.285714" width="1200" height="42.857143" fill="var(--jg-red)"/>
+        <rect x="0" y="0" width="600" height="342.857143" fill="var(--jg-blue)"/>
+        <circle cx="250" cy="171.428571" r="95" fill="var(--jg-yellow)"/>
+        <circle cx="292" cy="171.428571" r="80" fill="var(--jg-blue)"/>
+        <path d="M372.00 107.43L380.83 132.74L399.77 113.77L396.74 140.41L422.04 131.53L407.75 154.21L434.40 157.19L411.68 171.43L434.40 185.67L407.75 188.65L422.04 211.33L396.74 202.45L399.77 229.09L380.83 210.11L372.00 235.43L363.17 210.11L344.23 229.09L347.26 202.45L321.96 211.33L336.25 188.65L309.60 185.67L332.32 171.43L309.60 157.19L336.25 154.21L321.96 131.53L347.26 140.41L344.23 113.77L363.17 132.74Z" fill="var(--jg-yellow)"/>
+      </svg>
+      <span class="natday-text" lang="ms"><b id="natday-greet"></b><span id="natday-date"></span></span>
+    </div>
     <p class="label">Continuous Emission Monitoring Systems · Malaysia</p>
     <h1>Clean.<br>Compliant.<br><span class="g">Connected.</span></h1>
     <div class="sub"><span class="tick" aria-hidden="true"></span><p>We helped write the standard. We help you meet it.</p></div>
@@ -427,5 +445,16 @@ description: "DOE iRemote-registered CEMS consultants since 2010. We design, ins
     requestAnimationFrame(loop);
   }
   requestAnimationFrame(loop);
+})();
+</script>
+<script>
+/* National-day eyebrow: Merdeka greeting in August, Hari Malaysia 1-16 September.
+   Static site, so the date check runs client-side at view time (auto appear/disappear). */
+(function(){
+  var box=document.getElementById('natday'); if(!box) return;
+  var g=document.getElementById('natday-greet'), dd=document.getElementById('natday-date');
+  var now=new Date(), m=now.getMonth()+1, d=now.getDate();
+  if(m===8){ g.textContent='Selamat Hari Merdeka'; dd.textContent=' · 31 Ogos'; box.hidden=false; }
+  else if(m===9 && d<=16){ g.textContent='Selamat Hari Malaysia'; dd.textContent=' · 16 September'; box.hidden=false; }
 })();
 </script>
