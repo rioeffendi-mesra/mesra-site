@@ -3,7 +3,7 @@ layout: post
 title: "Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?"
 full_title: "How to Read a QAL1 Certificate for a Biomass CEMS | Mesra"
 date: 2026-07-10 00:15:00
-last_modified_at: 2026-08-19
+last_modified_at: 2026-08-26
 description: "A valid EN 15267 / QAL1 certificate doesn't mean a system suits your boiler. Two checks — what it measures, and what range it's certified to."
 image: /assets/og/qal1-certificate-tpm-opacity-biomass-boiler.png
 series: biomass-boilers
@@ -33,7 +33,7 @@ Before anything else, the certificate's "measured values" or "certified componen
 
 A QAL1 certificate doesn't just say an analyser works. It states the specific range over which it was tested and found compliant, and that range has to sit sensibly against your Emission Limit Value — the same principle behind MS 2564's rule that "the certification range is always related to the daily ELV," which we cover in the [QAL1 post]({{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}). A certificate is not a blanket license to measure anything; it's a statement about a tested window.
 
-Transmittance-type certificates typically state their range in extinction units (Ext), not mg/m³ directly, because the mg/m³ equivalent depends on the actual measurement path length across your specific duct — that conversion is fixed on-site during QAL2, not printed once on the certificate. A reference conversion is usually given at one path length (for example, a stated range might read "0–0.1 Ext ≙ 15 mg/m³ dust at a 5 m measurement path"), alongside several wider certified ranges extending well beyond it.
+Transmittance-type certificates typically state their range in extinction units (Ext), not mg/m³ directly, because the mg/m³ equivalent depends on the actual measurement path length across your specific duct — that conversion is fixed on-site during QAL2, not printed once on the certificate. A reference conversion is usually given at one path length (for example, a stated range might read "0–0.1 Ext ≙ 15 mg/m³ dust at a 5 m measurement path"), alongside wider extinction ranges among its performance-test settings.
 
 Scattered-light-type certificates, by contrast, are usually stated directly in mg/m³ — no path-length conversion needed, but also no flexibility beyond the figure printed.
 
@@ -54,7 +54,7 @@ Both of the following are current, valid EN 15267 / QAL1 certificates for produc
   </div>
   <div class="rep-row">
     <span class="rep-k">3</span>
-    <span class="rep-body"><span class="rep-name">Certified ranges</span><span class="rep-desc">Five certified ranges, 0–0.05 Ext up to 0–1.0 Ext. Reference point: 0–0.1 Ext ≙ 15 mg/m³ at a 5 m measurement path — the widest certified range extends ten times further.</span></span>
+    <span class="rep-body"><span class="rep-name">Certified range</span><span class="rep-desc">One certification range: 0–0.1 Ext ≙ 15 mg/m³ at a 5 m path. Wider extinction ranges up to 0–1.0 Ext are listed among the performance-test settings; because extinction is path-integrated, the mg/m³ each represents is fixed on your stack at QAL2. The 15 mg/m³ is a reference at 5 m, not a ceiling.</span></span>
   </div>
   <div class="rep-row">
     <span class="rep-k">4</span>
@@ -87,39 +87,40 @@ Both of the following are current, valid EN 15267 / QAL1 certificates for produc
 <figcaption>Registered at qal1.de. Both certificates carry an identical EN 15267-3 calibration-function caveat (the R² requirement wasn't met at testing) — that detail is common to both and isn't a point of difference.</figcaption>
 </figure>
 
-Malaysia's Second Schedule sets the biomass TPM limit at **150 mg/m³** — not 20, not 60.
+A certified range isn't just about the top number — it has to be chosen around your limit. Under EN 15267-3, as the regulators apply it, the certified range must **reach and include the ELV** and sit within about **2.5× of it** for a combustion or "other" process (1.5× for waste incineration), and the operational range must capture emission peaks without capping. For Malaysia's 150 mg/m³ solid-fuel TPM limit, that points to a certified range of roughly **150–375 mg/m³**.
 
 <figure class="fig">
-<svg viewBox="0 0 680 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="qc-t qc-d" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
-<title id="qc-t">The competing system's ranges against Malaysia's biomass TPM limit</title>
-<desc id="qc-d">A number line from 0 to 170 milligrams per cubic metre. The competing scattered-light system's primary range runs from 0 to 20, with supplementary ranges extending to about 60. Malaysia's Second Schedule biomass TPM limit sits at 150, well beyond anything the certificate covers.</desc>
-<line x1="60" y1="100" x2="640" y2="100" stroke="var(--line)" stroke-width="1.5"/>
-<rect x="265" y="70" width="307" height="60" fill="#FCE9E7"/>
-<rect x="60" y="88" width="68" height="24" fill="var(--grey)"/>
-<rect x="128" y="88" width="137" height="24" fill="none" stroke="var(--grey)" stroke-width="1.5" stroke-dasharray="4 3"/>
-<line x1="572" y1="62" x2="572" y2="130" stroke="#C0392B" stroke-width="2.5"/>
-<path d="M572 62 L566 52 L578 52 Z" fill="#C0392B"/>
-<text x="60" y="146" text-anchor="middle" font-size="9" fill="var(--muted)">0</text>
-<text x="128" y="146" text-anchor="middle" font-size="9" fill="var(--ink)" font-weight="700">20</text>
-<text x="265" y="146" text-anchor="middle" font-size="9" fill="var(--muted)">~60</text>
-<text x="572" y="146" text-anchor="middle" font-size="10" fill="#C0392B" font-weight="700">150</text>
-<text x="94" y="76" text-anchor="middle" font-size="8.5" fill="var(--ink)">certified</text>
-<text x="196" y="76" text-anchor="middle" font-size="8.5" fill="var(--muted)">supplementary, to ~60</text>
-<text x="418" y="76" text-anchor="middle" font-size="9" fill="#C0392B" font-weight="700">not covered by this certificate</text>
-<text x="572" y="44" text-anchor="middle" font-size="10" fill="#C0392B" font-weight="700">Malaysia's biomass</text>
-<text x="572" y="56" text-anchor="middle" font-size="10" fill="#C0392B" font-weight="700">TPM ELV — 150 mg/m³</text>
+<svg viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="qc-t qc-d" font-family="'Arimo','Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="qc-t">Certified range selection against a 150 mg/m³ ELV</title>
+<desc id="qc-d">A number line in milligrams per cubic metre. For a 150 mg/m³ emission limit, EN 15267-3 wants the certified range to reach the limit and sit within 2.5 times it — a window from 150 to 375. The competing scattered-light certificate is certified to 0 to 20 with a supplementary range to about 60, stopping well short of the 150 limit.</desc>
+<rect x="278" y="62" width="326" height="52" fill="var(--green-tint)"/>
+<text x="441" y="54" text-anchor="middle" font-size="9.5" fill="var(--green-d)" font-weight="700">suitable certified range — reach ELV, ≤ 2.5×</text>
+<line x1="60" y1="114" x2="640" y2="114" stroke="var(--line)" stroke-width="1.5"/>
+<rect x="60" y="102" width="29" height="24" fill="var(--grey)"/>
+<rect x="89" y="102" width="58" height="24" fill="none" stroke="var(--grey)" stroke-width="1.5" stroke-dasharray="4 3"/>
+<line x1="278" y1="44" x2="278" y2="126" stroke="var(--jg-red)" stroke-width="2.5"/>
+<path d="M278 44 L272 34 L284 34 Z" fill="var(--jg-red)"/>
+<line x1="604" y1="62" x2="604" y2="126" stroke="var(--green-d)" stroke-width="1.5" stroke-dasharray="3 3"/>
+<text x="278" y="28" text-anchor="middle" font-size="9.5" fill="var(--jg-red)" font-weight="700">ELV 150 mg/m³</text>
+<text x="604" y="54" text-anchor="middle" font-size="8.5" fill="var(--green-d)" font-weight="700">2.5 × ELV</text>
+<text x="60" y="142" text-anchor="middle" font-size="9" fill="var(--muted)">0</text>
+<text x="89" y="142" text-anchor="middle" font-size="9" fill="var(--ink)" font-weight="700">20</text>
+<text x="147" y="142" text-anchor="middle" font-size="9" fill="var(--muted)">~60</text>
+<text x="278" y="142" text-anchor="middle" font-size="10" fill="var(--jg-red)" font-weight="700">150</text>
+<text x="604" y="142" text-anchor="middle" font-size="9.5" fill="var(--green-d)" font-weight="700">375</text>
+<text x="60" y="166" text-anchor="start" font-size="8.5" fill="var(--muted)">backscatter certificate — 0–20 certified, ~60 supplementary</text>
 </svg>
-<figcaption>The competing system's own certified and supplementary ranges (mg/m³) plotted against Malaysia's Second Schedule solid-fuel TPM limit. The certificate simply doesn't extend to a 150 mg/m³ application — a gap you can see directly on the document, not a judgement call.</figcaption>
+<figcaption>For a 150 mg/m³ solid-fuel ELV, EN 15267-3 wants a certified range that reaches the limit and sits within 2.5× of it (≈150–375 mg/m³). The scattered-light certificate, stated in mg/m³, stops at ~60 — short of the limit. A transmissometer is not on this axis: it certifies in extinction, mapped to mg/m³ on your own stack at QAL2.</figcaption>
 </figure>
 
-The DustHunter T100's ranges aren't reducible to one number line the same way — extinction units need the installed path length to convert — but the widest of its five certified ranges extends ten times past its stated reference point, which comfortably brackets a 150 mg/m³ application in a way the competing system's single 0–20 mg/m³ range does not.
+That's where the two technologies part ways — for a structural reason, not a rhetorical one. The scattered-light certificate is stated **directly in mg/m³ and stops at ~60** — it never reaches the 150 mg/m³ limit, so within its certification it can't be ranged to monitor a solid-fuel boiler. The DustHunter T100 states its range in **extinction**, which is path-integrated: the same certificate is mapped to whatever mg/m³ span your stack needs during QAL2, and the DOE Guidelines put a transmissometer's usable range at roughly **10–2,000 mg/m³** — comfortably around a 150 mg/m³ ELV. The transmissometer's suitability is proven on your stack; the backscatter certificate's ceiling is printed on the page.
 
 ## What this means before you sign a quotation
 
 Two checks, in this order:
 
 1. **Does the certificate list opacity, or only dust?** If your boiler needs both under Regulation 12(3) and the Second Schedule, a dust-only certificate can't be the whole answer — you'd need a second instrument, or a different analyser.
-2. **Does the certified range reach your ELV, with margin?** Look up your own Second Schedule row — 150 mg/m³ for general solid fuel — and check it against the certificate's stated range, not the sales brochure's.
+2. **Does the certified range reach your ELV — and within 2.5× of it?** For a 150 mg/m³ solid-fuel limit, EN 15267-3 wants a range that reaches the limit and sits within about 2.5× (≈150–375 mg/m³). A dust-only device certified in mg/m³ to ~60 can't monitor a 150 mg/m³ boiler; a transmissometer's extinction range is mapped to that limit on your own stack at QAL2 — so read the *units* on the range, not just the number.
 
 Both checks take five minutes. Before you sign anything, go to **[qal1.de](https://www.qal1.de/qal1/en/main-navigation/start/)**, search the exact manufacturer and model on your quotation, and open the certificate yourself — don't rely on a datasheet's summary of what it says. We cover the physical side of a compliant installation — what's actually mounted on the stack — in [Anatomy of an in-situ CEMS install]({{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}), and the broader extractive-vs-in-situ decision in [how a CEMS actually measures]({{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}). That shared R² caveat, incidentally, is not the red flag it looks like — we explain why in [calibrating a transmissometer dust CEMS]({{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}).
 
@@ -142,6 +143,7 @@ Both checks take five minutes. Before you sign anything, go to **[qal1.de](https
     <li><a href="https://www.qal1.de/en/main-navigation/certificates/" target="_blank" rel="noopener">QAL1 certified measuring systems (EN 15267)</a> — TÜV Rheinland</li>
     <li><a href="https://mysol.jsm.gov.my/" target="_blank" rel="noopener">Malaysian Standards catalogue (MySOL)</a> — Department of Standards Malaysia</li>
     <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.sepa.gov.uk/media/156220/qg1_selecting_cems_v1_sepa_version_1.pdf" target="_blank" rel="noopener">Selecting a CEMS: matching the certified range to the ELV (EN 15267-3)</a> — SEPA / MCERTS guidance</li>
   </ul>
 </div>
 
