@@ -13,22 +13,47 @@ Zeroing is the check that keeps an optical dust monitor honest. A transmissomete
 
 > **Do this on a smoke- and dust-free path only.** Zeroing sets the instrument's reference for a perfectly clean beam. If there is dust or smoke in the path while you zero, that contamination is baked into the reference and every later reading is biased. Perform it during a genuine shutdown with clean air in the duct, or on SICK's normalisation set-up (adjustment mounts or a waste-gas-free tube). Follow your site's confined-space, isolation and purge-air procedures throughout.
 
-<figure class="fig flow">
+<figure class="fig">
 <p class="fig-title">The zero-and-align procedure at a glance</p>
-<div class="flow-row">
-<div class="flow-step"><span class="fs-name">1 · Measure</span><span class="fs-q">Path length + calibration inputs</span></div>
-<div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step"><span class="fs-name">2 · Connect</span><span class="fs-q">SOPAS, log in, maintenance mode</span></div>
-<div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step"><span class="fs-name">3 · Parameters</span><span class="fs-q">Variant, ranges, application data</span></div>
-<div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step"><span class="fs-name">4 · Align</span><span class="fs-q">Beam centred on the target</span></div>
-<div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step hl"><span class="fs-name">5 · Zero</span><span class="fs-q">Set 100 % reference</span></div>
-<div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step"><span class="fs-name">6 · Verify &amp; save</span><span class="fs-q">Check MCU, save, sign off</span></div>
-</div>
-<p class="fig-note">● Six stages. Only stage 5 writes the new reference — everything before it exists to make that reference correct, and everything after it protects the record.</p>
+<svg viewBox="0 0 680 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ov-t ov-d" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">
+<title id="ov-t">The six stages of the DustHunter T100 zero-and-align procedure</title>
+<desc id="ov-d">Six stages in sequence: measure, connect, set parameters, align, zero, then verify and save. Stage five, zero, is highlighted as the step that writes the new reference.</desc>
+<rect x="7" y="40" width="96" height="66" rx="11" fill="var(--white)" stroke="var(--green)" stroke-width="2"/>
+<text x="55" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">1</text>
+<text x="55" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">Measure</text>
+<text x="55" y="99" text-anchor="middle" font-size="8" fill="var(--muted)">path + inputs</text>
+<rect x="121" y="40" width="96" height="66" rx="11" fill="var(--white)" stroke="var(--green)" stroke-width="2"/>
+<text x="169" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">2</text>
+<text x="169" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">Connect</text>
+<text x="169" y="99" text-anchor="middle" font-size="8" fill="var(--muted)">SOPAS &#183; log in</text>
+<rect x="235" y="40" width="96" height="66" rx="11" fill="var(--white)" stroke="var(--green)" stroke-width="2"/>
+<text x="283" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">3</text>
+<text x="283" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">Parameters</text>
+<text x="283" y="99" text-anchor="middle" font-size="8" fill="var(--muted)">ranges &#183; app data</text>
+<rect x="349" y="40" width="96" height="66" rx="11" fill="var(--white)" stroke="var(--green)" stroke-width="2"/>
+<text x="397" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">4</text>
+<text x="397" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">Align</text>
+<text x="397" y="99" text-anchor="middle" font-size="8" fill="var(--muted)">beam centred</text>
+<rect x="463" y="40" width="96" height="66" rx="11" fill="var(--green-tint)" stroke="var(--green-d)" stroke-width="2.5"/>
+<text x="511" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">5</text>
+<text x="511" y="83" text-anchor="middle" font-size="12.5" font-weight="800" fill="var(--ink)">Zero</text>
+<text x="511" y="99" text-anchor="middle" font-size="8" fill="var(--green-d)">100% reference</text>
+<rect x="577" y="40" width="96" height="66" rx="11" fill="var(--white)" stroke="var(--green)" stroke-width="2"/>
+<text x="625" y="63" text-anchor="middle" font-family="'Roboto Mono',ui-monospace,Menlo,monospace" font-size="10.5" font-weight="700" fill="var(--green-d)">6</text>
+<text x="625" y="83" text-anchor="middle" font-size="12.5" font-weight="700" fill="var(--ink)">Verify</text>
+<text x="625" y="99" text-anchor="middle" font-size="8" fill="var(--muted)">check &#183; save</text>
+<line x1="105" y1="73" x2="117" y2="73" stroke="var(--green-d)" stroke-width="2"/>
+<path d="M117 73 L109 69 L109 77 Z" fill="var(--green-d)"/>
+<line x1="219" y1="73" x2="231" y2="73" stroke="var(--green-d)" stroke-width="2"/>
+<path d="M231 73 L223 69 L223 77 Z" fill="var(--green-d)"/>
+<line x1="333" y1="73" x2="345" y2="73" stroke="var(--green-d)" stroke-width="2"/>
+<path d="M345 73 L337 69 L337 77 Z" fill="var(--green-d)"/>
+<line x1="447" y1="73" x2="459" y2="73" stroke="var(--green-d)" stroke-width="2"/>
+<path d="M459 73 L451 69 L451 77 Z" fill="var(--green-d)"/>
+<line x1="561" y1="73" x2="573" y2="73" stroke="var(--green-d)" stroke-width="2"/>
+<path d="M573 73 L565 69 L565 77 Z" fill="var(--green-d)"/>
+</svg>
+<p class="fig-note">&#9679; Six stages. Only stage 5 writes the new reference &#8212; everything before it exists to make that reference correct, and everything after it protects the record.</p>
 <figcaption>The full field routine for a routine zero and alignment on a DustHunter T100 via SOPAS ET.</figcaption>
 </figure>
 
