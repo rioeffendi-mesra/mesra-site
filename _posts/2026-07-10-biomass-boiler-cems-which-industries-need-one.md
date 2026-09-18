@@ -3,7 +3,7 @@ layout: post
 title: "CEMS for biomass boilers in Malaysia: which industries need one"
 full_title: "CEMS for Biomass Boilers in Malaysia | Mesra"
 date: 2026-07-10
-last_modified_at: 2026-08-19
+last_modified_at: 2026-09-18
 description: "Palm oil mills aren't the only Malaysian industry running biomass boilers under DOE's CEMS rules. How the Second Schedule's dust-load test applies across fuels."
 image: /assets/og/biomass-boiler-cems-which-industries-need-one.png
 series: biomass-boilers
@@ -60,6 +60,7 @@ If you don't yet know your number — whichever biomass you're burning — that'
     <li><a href="{{ '/insights/ms-1596-iso-9096-en-13284-particulate-standards/' | relative_url }}">MS 1596, ISO 9096 and EN 13284: how Malaysia's stack-test standard fits the international picture</a></li>
     <li><a href="{{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}">Which changes trigger a fresh QAL2 — and the clock that starts when they do</a></li>
     <li><a href="{{ '/insights/qal1-certificate-tpm-opacity-biomass-boiler/' | relative_url }}">Reading a QAL1 certificate: does it actually cover TPM and opacity on your biomass boiler?</a></li>
+    <li><a href="{{ '/insights/dust-cems-correction-normalisation-co2-reference/' | relative_url }}">When a dust reading becomes a compliance number: correction, normalisation and the CO₂ reference</a></li>
   </ul>
 </div>
 
