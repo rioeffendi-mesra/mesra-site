@@ -3,7 +3,7 @@ layout: post
 title: "Corrected, dry and referenced: when a dust reading becomes a compliance number"
 full_title: "When a Biomass Boiler Dust Reading Becomes a Compliance Number | Mesra"
 date: 2026-09-18 00:05:00
-description: "A transmissometer dust monitor outputs milligrams at stack conditions. Malaysia's dust limit is set at STP, dry and 12% CO₂. What sits between the two — correction, normalisation, and the sensors a biomass boiler dust CEMS actually needs."
+description: "A transmissometer dust CEMS reads mg at stack conditions; Malaysia's limit is STP, dry, 12% CO₂ — the correction and normalisation a biomass boiler needs."
 image: /assets/og/dust-cems-correction-normalisation.png
 series: biomass-boilers
 ---

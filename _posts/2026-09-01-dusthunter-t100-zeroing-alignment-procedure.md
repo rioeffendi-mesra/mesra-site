@@ -3,7 +3,7 @@ layout: post
 title: "How to zero and align a SICK DustHunter T100: the field procedure"
 full_title: "SICK DustHunter T100 Zeroing & Alignment Procedure | Mesra"
 date: 2026-09-01 00:05:00
-description: "A step-by-step field procedure for zeroing and aligning a SICK DustHunter T100 dust CEMS in SOPAS — the QAL3 zero-and-span check that keeps an optical dust monitor's readings valid and DOE-reportable."
+description: "Field procedure for zeroing and aligning a SICK DustHunter T100 dust CEMS in SOPAS — the QAL3 zero-and-span check that keeps readings valid and DOE-reportable."
 image: /assets/og/dusthunter-t100-zeroing-alignment.png
 ---
 
