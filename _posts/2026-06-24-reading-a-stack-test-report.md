@@ -3,7 +3,7 @@ layout: post
 title: "Reading a stack-test report: concentration, mass flow and the isokinetic % that decide it"
 full_title: "How to Read a Stack-Test Report | Mesra"
 date: 2026-06-24 05:00:00
-last_modified_at: 2026-07-10
+last_modified_at: 2026-09-22
 description: "How to read a stack-test report end to end: corrected concentration vs your ELV, mass emission rate, the isokinetic % and QA checks, and reference conditions."
 image: /assets/og/reading-a-stack-test-report.png
 series: reference-methods
@@ -35,12 +35,12 @@ Two figures carry the result, and a third decides compliance.
 <div class="flow-arrow" aria-hidden="true">→</div>
 <div class="flow-step"><span class="fs-name">To standard conditions</span><span class="fs-q">fixed temperature &amp; pressure, dry basis</span></div>
 <div class="flow-arrow" aria-hidden="true">→</div>
-<div class="flow-step"><span class="fs-name">To reference O₂</span><span class="fs-q">the diluent level set for your activity</span></div>
+<div class="flow-step"><span class="fs-name">To reference O₂ or CO₂</span><span class="fs-q">the diluent set by your activity's schedule</span></div>
 <div class="flow-arrow" aria-hidden="true">→</div>
 <div class="flow-step hl"><span class="fs-name">Compare to ELV</span><span class="fs-q">pass or fail</span></div>
 </div>
 <p class="fig-note">● The number that meets your limit is the <em>corrected</em> concentration — never the raw mg/m³</p>
-<figcaption>A raw concentration becomes a compliance figure only after correction to standard conditions and to the reference oxygen level. A report that quotes a bare mg/m³ without its basis hasn't finished the job.</figcaption>
+<figcaption>A raw concentration becomes a compliance figure only after correction to standard conditions and to its reference diluent level — O₂ or CO₂, depending on your activity's schedule. A report that quotes a bare mg/m³ without its basis hasn't finished the job.</figcaption>
 </figure>
 
 ## Can you trust it: the validity checks
@@ -60,7 +60,7 @@ A concentration is only as good as the run that produced it, so before you act o
 <figure class="fig report">
 <p class="fig-title">A stack-test report, field by field</p>
 <div class="rep-rows">
-  <div class="rep-row"><span class="rep-k">A</span><span class="rep-body"><span class="rep-name">Corrected concentration</span><span class="rep-desc">The result in mg/m³ at standard conditions and reference O₂ — the figure that meets, or misses, your ELV.</span></span></div>
+  <div class="rep-row"><span class="rep-k">A</span><span class="rep-body"><span class="rep-name">Corrected concentration</span><span class="rep-desc">The result in mg/m³ at standard conditions and reference diluent (O₂ or CO₂) — the figure that meets, or misses, your ELV.</span></span></div>
   <div class="rep-row"><span class="rep-k">B</span><span class="rep-body"><span class="rep-name">Mass emission rate</span><span class="rep-desc">Concentration × stack gas flow — the actual dust leaving the stack (e.g. kg/h).</span></span></div>
   <div class="rep-row hl"><span class="rep-k">C</span><span class="rep-body"><span class="rep-name">Isokinetic %</span><span class="rep-desc">Must sit within 90–110% (ISO 9096). Outside the window, the run is invalid — check this first.</span></span></div>
   <div class="rep-row"><span class="rep-k">D</span><span class="rep-body"><span class="rep-name">Gas composition &amp; reference conditions</span><span class="rep-desc">Temperature, pressure, and the measured O₂/CO₂, moisture and molecular mass — taken at the plane — that set the gas density and correct the raw reading.</span></span></div>
@@ -76,7 +76,7 @@ Here's the point that trips up most first-time readers: **a concentration with n
 
 - **Standard temperature and pressure** — the raw sample is measured hot; the result is corrected to a fixed reference temperature and pressure so tests are comparable.
 - **Dry basis** — water vapour is removed from the calculation, because moisture content varies and would otherwise dilute or concentrate the figure.
-- **Reference oxygen** — emissions are corrected to a reference O₂ (or CO₂) level set for your activity in the [Schedules of CAR 2014]({{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}), so a plant can't dilute its way under a limit with excess air.
+- **Reference diluent (O₂ or CO₂)** — emissions are corrected to a reference diluent level set for your activity in the [Schedules of CAR 2014]({{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}), so a plant can't dilute its way under a limit with excess air. Which gas is not a preference: fuel-burning equipment under the Second Schedule — a biomass boiler included — is referenced to **12% CO₂**, while large Heat and Power plant under the Third Schedule uses **O₂** (6% for solid fuel). [Correcting to the right diluent is the difference between a measurement and a compliance number]({{ '/insights/dust-cems-correction-normalisation-co2-reference/' | relative_url }}).
 
 A report that gives you a bare "X mg/m³" without naming its reference conditions hasn't given you a compliance number — it's given you a measurement you can't compare to anything. Alongside these, the report should record the **plant's operating conditions during the test**: a result is only representative if the plant was running normally when it was taken.
 
@@ -91,7 +91,7 @@ If the report is the **SRM behind a QAL2**, it does double duty: those same corr
 Next time a report lands, scan these in order:
 
 - ✅ **Isokinetic % in the 90–110% window?** If not, stop — the run is invalid.
-- ✅ **Corrected concentration**, with **standard conditions, dry basis and reference O₂** all stated.
+- ✅ **Corrected concentration**, with **standard conditions, dry basis and reference diluent (O₂ or CO₂)** all stated.
 - ✅ **Mass emission rate** quoted where load-based limits apply.
 - ✅ **QA present**: leak test passed, blank value low, traverse points suited to the duct.
 - ✅ **Raw data supplied**: per-run velocities, volumes and flows, gas composition, and the intermediate calculations — not just summary figures.
