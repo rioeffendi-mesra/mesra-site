@@ -3,7 +3,7 @@ layout: post
 title: "Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³"
 full_title: "How to Calibrate a Transmissometer Dust CEMS | Mesra"
 date: 2026-07-14 00:05:00
-last_modified_at: 2026-08-19
+last_modified_at: 2026-10-06
 description: "An optical dust monitor never measures milligrams — it measures light. The full calibration chain for a transmissometer TPM CEMS, on the SICK DustHunter T100."
 image: /assets/og/calibrating-transmissometer-t100.png
 series: reference-methods
@@ -14,7 +14,7 @@ part: 6
 
 Here is the fact that every other question about dust-CEMS calibration hangs from: **a transmissometer never measures dust concentration.** It measures light. The DustHunter T100's own QAL1 certificate says so in one sentence — *"the measuring system uses the measured quantities of transmission, opacity and extinction, wherein transmission is determined as the primary optical quantity."* Every mg/m³ figure the instrument will ever report to DOE is a *derived* number, and the thing that derives it — the calibration function — is built on your stack, on your process, against manual gravimetric sampling.
 
-That's why "calibrating" an optical dust CEMS isn't one procedure. It's a chain of five, each answering a different question, each with its own owner, tools and frequency. Skip a link and the numbers going to [DOE's CEMS monitoring system]({{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}) are — in the Guidelines' own words — "unverified and invalid."
+That's why "calibrating" an optical dust CEMS isn't one procedure. It's a chain of five, each answering a different question, each with its own owner, tools and frequency. Skip a link and the numbers going to [DOE's CEMS monitoring system]({{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}) are — in the Guidelines' own words — "unverified and invalid."
 
 ## Why light can't be factory-calibrated into milligrams
 

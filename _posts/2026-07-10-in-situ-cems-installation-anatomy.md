@@ -3,7 +3,7 @@ layout: post
 title: "Anatomy of an in-situ CEMS install: what's actually on the stack"
 full_title: "Anatomy of an In-Situ CEMS Install | Mesra"
 date: 2026-07-10 00:05:00
-last_modified_at: 2026-08-19
+last_modified_at: 2026-10-06
 description: "Analyser, purge air, MCU, DAS and power — what a double-pass in-situ CEMS installation looks like on a biomass boiler stack, with the SICK DustHunter T100."
 image: /assets/og/in-situ-cems-installation-anatomy.png
 ---
@@ -73,7 +73,7 @@ Both the analyser and the DAS need power, usually from a dedicated **power distr
     <span class="rep-body"><span class="rep-name">Power distribution panel</span><span class="rep-desc">A dedicated supply for the analyser, MCU and DAS — common installation practice, kept separate from the plant's main board.</span></span>
   </div>
 </div>
-<figcaption>Rows 1, 2, 3 and 5 describe common hardware and installation practice, not text lifted from the Guidelines — row 4 is the exception, defined and required by Guidelines V8 §3.4. What happens after the boiler house — the office PC and the link to DOE — is covered in <a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0"</a>.</figcaption>
+<figcaption>Rows 1, 2, 3 and 5 describe common hardware and installation practice, not text lifted from the Guidelines — row 4 is the exception, defined and required by Guidelines V8 §3.4. What happens after the boiler house — the office PC and the link to DOE — is covered in <a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">cems.doe.gov.my, "CEMS 2.0", "CEMS 3.0"</a>.</figcaption>
 </figure>
 
 ## Why the physical layout is a compliance question, not just an engineering one
@@ -89,7 +89,7 @@ Get any one piece wrong — a single-pass analyser, an undersized purge air supp
   <ul>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ — and what DOE accepts</a></li>
     <li><a href="{{ '/insights/cems-siting-sample-ports-measurement-plane/' | relative_url }}">Where your CEMS goes: siting, sample ports and the measurement plane DOE accepts</a></li>
-    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
+    <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">cems.doe.gov.my, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">What "DOE-registered CEMS" and MCERT/TÜV actually mean</a></li>
   </ul>
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: "QAL2 and the Calibration & Variability Test: certifying your CEMS after install"
 full_title: "QAL2 Calibration & Variability Test for CEMS | Mesra"
 date: 2026-06-21 02:00:00
-last_modified_at: 2026-07-06
+last_modified_at: 2026-10-06
 description: "How the QAL2 Calibration & Variability Test certifies your CEMS against the SRM — the parallel measurements, the calibration function, and the variability test."
 image: /assets/og/qal2-calibration-variability-test-cems.png
 series: operating
@@ -20,7 +20,7 @@ In [Part 1]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | re
 
 The **QAL2 Calibration and Variability Test (QAL2-CVT)** is the test that **accepts and certifies your CEMS installation and operation** at the plant. It does two jobs at once: it *calibrates* your analyser against a trusted reference, and it *checks* that the calibrated system is precise enough to be relied on.
 
-Here's the part operators most often underestimate: QAL2 **must be completed before your CEMS data is connected to the DOE System for CEMS** (the iRemote platform). Any data transmitted before that is, in the words of the guidelines, **"unverified and invalid."** QAL2 is the gate between *installed* and *officially reporting*.
+Here's the part operators most often underestimate: QAL2 **must be completed before your CEMS data is connected to the DOE System for CEMS** (the CEMS portal platform). Any data transmitted before that is, in the words of the guidelines, **"unverified and invalid."** QAL2 is the gate between *installed* and *officially reporting*.
 
 <figure class="fig flow">
 <p class="fig-title">The QAL2-CVT sequence · from functional check to valid data</p>

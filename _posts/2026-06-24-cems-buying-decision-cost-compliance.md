@@ -7,6 +7,7 @@ description: "How to choose a CEMS partner, what a system truly costs once runni
 image: /assets/og/cems-buying-decision-cost-compliance.png
 series: buying
 part: 5
+last_modified_at: 2026-10-06
 ---
 
 *Buying a CEMS — Part 5 of 5. A practical series for industry, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -64,7 +65,7 @@ The single most expensive buyer mistake isn't picking the wrong analyser — it'
 <figcaption>The fixed order from order to compliance. Register and apply first; install and site; commission and pass the Functional Test; pass an independent QAL2; only then connect to the DOE System for CEMS and report.</figcaption>
 </figure>
 
-A few of these steps carry hard rules worth knowing as you plan and budget. You [register and apply to DOE *before* installing]({{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}) — not after. The system is [installed and commissioned]({{ '/services/cems-installation/' | relative_url }}) to the siting you designed in Part 4. Then the **[QAL2 calibration]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }})** is the gate: until it passes, any data your CEMS transmits is, in the guidelines' words, *unverified and invalid*. Only once QAL2 is signed off does the system [connect to the DOE System for CEMS]({{ '/services/doe-iremote-integration/' | relative_url }}) and start reporting for real — after which the [QAL3 drift checks and annual AST]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) keep that calibration valid year after year.
+A few of these steps carry hard rules worth knowing as you plan and budget. You [register and apply to DOE *before* installing]({{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}) — not after. The system is [installed and commissioned]({{ '/services/cems-installation/' | relative_url }}) to the siting you designed in Part 4. Then the **[QAL2 calibration]({{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }})** is the gate: until it passes, any data your CEMS transmits is, in the guidelines' words, *unverified and invalid*. Only once QAL2 is signed off does the system [connect to the DOE System for CEMS]({{ '/services/doe-cems-integration/' | relative_url }}) and start reporting for real — after which the [QAL3 drift checks and annual AST]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) keep that calibration valid year after year.
 
 That hand-off — from a commissioned system to a compliant, reporting one, and then into routine operation — is where the Buying series meets the [Operating series]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}).
 

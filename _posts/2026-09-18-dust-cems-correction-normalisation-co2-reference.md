@@ -3,7 +3,7 @@ layout: post
 title: "Corrected, dry and referenced: when a dust reading becomes a compliance number"
 full_title: "When a Biomass Boiler Dust Reading Becomes a Compliance Number | Mesra"
 date: 2026-09-18 00:05:00
-last_modified_at: 2026-09-22
+last_modified_at: 2026-10-06
 description: "A transmissometer dust CEMS reads mg at stack conditions; Malaysia's limit is STP, dry, 12% CO₂ — the correction and normalisation a biomass boiler needs."
 image: /assets/og/dust-cems-correction-normalisation.png
 series: biomass-boilers
@@ -201,7 +201,7 @@ They do not, and the reason is instructive — and worth being precise about, be
 
 Now the subtle part. Because the same correction factor is applied to the CEMS value and the reference value — they are the same gas at the same moment — the normalisation scales both together and preserves their agreement. A monitor that tracks the reference well at stack conditions tracks it just as well after both are standardised. Normalisation cannot make a well-calibrated instrument fail. **So the dust-only CEMS passes QAL2 and passes AST.**
 
-And that is the trap, because passing is not the same as reporting correctly. The tester plugs the sensor gap for one day and leaves. The other 364 days, with no CO₂ and no moisture on the stack, the DAHS — where there is one — has nothing to normalise with, and the value transmitted to [DOE's CEMS system]({{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}) every minute is dust at actual conditions — compared, at DOE's end, against a limit written at 12% CO₂. The annual test certifies a referenced measurement the installation only assembles on test day.
+And that is the trap, because passing is not the same as reporting correctly. The tester plugs the sensor gap for one day and leaves. The other 364 days, with no CO₂ and no moisture on the stack, the DAHS — where there is one — has nothing to normalise with, and the value transmitted to [DOE's CEMS system]({{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}) every minute is dust at actual conditions — compared, at DOE's end, against a limit written at 12% CO₂. The annual test certifies a referenced measurement the installation only assembles on test day.
 
 <figure class="fig">
 <p class="fig-title">The inversion: the test passes, the daily data does not</p>
@@ -239,7 +239,7 @@ If you are running a dust-only transmissometer on a biomass boiler and are not s
   <ul>
     <li><a href="{{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}">Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³</a></li>
     <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">Which biomass boilers need a CEMS — and the 2.5 kg/h dust-load trigger</a></li>
-    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">How CEMS data reaches DOE: iRemote and the data interface system</a></li>
+    <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">How CEMS data reaches DOE: cems.doe.gov.my and the data interface system</a></li>
   </ul>
 </div>
 

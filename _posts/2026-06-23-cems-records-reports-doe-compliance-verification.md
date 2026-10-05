@@ -3,7 +3,7 @@ layout: post
 title: "Records, reports and the regulator's view: how CEMS compliance is actually verified"
 full_title: "CEMS Records & Reports: DOE Verification | Mesra"
 date: 2026-06-23 07:00:00
-last_modified_at: 2026-07-07
+last_modified_at: 2026-10-06
 description: "How DOE verifies CEMS compliance — the real-time data link, the periodic reports you file, and the three-year record you must keep and produce on inspection."
 image: /assets/og/cems-records-reports-doe-compliance-verification.png
 series: enforcing
@@ -68,7 +68,7 @@ The retention rule is the one to underline: **all of it, softcopy or hardcopy, f
 
 ## Why this is the real enforcement mechanism
 
-Put the three layers together and you can see how enforcement actually works. The **live feed** means DOE can see an excursion close to when it happens — often before you've filed anything. The **reports** make your quality-assurance discipline and annual performance auditable. The **three-year record** means a question raised today can be tested against years of history. This is the through-line back to [Part 4]({{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}): the same trail that proves good-faith compliance is the evidence in any enforcement action — and with the [data link]({{ '/services/doe-iremote-integration/' | relative_url }}) always on, there's little daylight between what your stack does and what the regulator can see.
+Put the three layers together and you can see how enforcement actually works. The **live feed** means DOE can see an excursion close to when it happens — often before you've filed anything. The **reports** make your quality-assurance discipline and annual performance auditable. The **three-year record** means a question raised today can be tested against years of history. This is the through-line back to [Part 4]({{ '/insights/offences-penalties-clean-air-regulations-eqa-1974/' | relative_url }}): the same trail that proves good-faith compliance is the evidence in any enforcement action — and with the [data link]({{ '/services/doe-cems-integration/' | relative_url }}) always on, there's little daylight between what your stack does and what the regulator can see.
 
 For compliance staff, that reframes the job. It isn't producing a number on a screen; it's maintaining an unbroken, inspection-ready trail — live, reported and archived — that stands up whenever someone looks.
 
@@ -87,7 +87,7 @@ There's one last exposure worth naming, because it turns this record from a shie
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: QAL1 → QAL2 → QAL3 → AST</a></li>
     <li><a href="{{ '/insights/need-a-cems-clean-air-regulations-2014/' | relative_url }}">Do you even need a CEMS? What the law requires before you buy</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-periodic-testing-tiers-dust-load/' | relative_url }}">Below 2.5 kg/hour: the periodic tiers in practice, and what moves your number</a></li>
-    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
+    <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">cems.doe.gov.my, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
   </ul>
 </div>
 

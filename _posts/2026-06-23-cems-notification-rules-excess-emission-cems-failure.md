@@ -3,7 +3,7 @@ layout: post
 title: "The two clocks: notifying DOE of an excess emission and a CEMS failure"
 full_title: "DOE Notification: Excess Emission & CEMS Failure | Mesra"
 date: 2026-06-23 05:00:00
-last_modified_at: 2026-07-07
+last_modified_at: 2026-10-06
 description: "The two DOE notification deadlines: 24 hours from an excess emission (Reg 17(6)) and one hour from a CEMS failure (Reg 17(7)) — what the report must contain."
 image: /assets/og/cems-notification-rules-excess-emission-cems-failure.png
 series: enforcing
@@ -56,7 +56,7 @@ For an **excess emission**, the clock starts at **discovery**. An excess emissio
 
 For a **CEMS failure**, the clock starts at the **occurrence** of the failure — the moment the monitoring device fails to operate. There's no evaluation step to wait for: a CEMS that has gone down is down, and the hour runs from then.
 
-That difference matters in practice. The excess-emission duty depends on an operator running its evaluations promptly and honestly; the failure duty depends on someone noticing the monitor is offline quickly. The [DOE System for CEMS]({{ '/services/doe-iremote-integration/' | relative_url }}) (the iRemote platform) helps on both fronts — it carries an alert feature for excess emissions, and a gap in transmitted data is itself a visible signal that a device may have failed.
+That difference matters in practice. The excess-emission duty depends on an operator running its evaluations promptly and honestly; the failure duty depends on someone noticing the monitor is offline quickly. The [DOE System for CEMS]({{ '/services/doe-cems-integration/' | relative_url }}) (the CEMS portal platform) helps on both fronts — it carries an alert feature for excess emissions, and a gap in transmitted data is itself a visible signal that a device may have failed.
 
 ## Don't confuse these with the neighbouring duties
 
@@ -110,7 +110,7 @@ With the limits (Part 1), the data that counts (Part 2), and now the duties that
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/qal2-calibration-variability-test-cems/' | relative_url }}">QAL2 and the variability test: how a CEMS earns the right to report</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
-    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">iRemote, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
+    <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">cems.doe.gov.my, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
   </ul>
 </div>
 

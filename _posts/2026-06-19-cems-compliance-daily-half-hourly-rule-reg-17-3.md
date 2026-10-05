@@ -7,6 +7,7 @@ description: "The two-part CEMS compliance test in Reg 17(3): no daily average a
 image: /assets/og/cems-compliance-daily-half-hourly-rule-reg-17-3.png
 series: enforcing
 part: 1
+last_modified_at: 2026-10-06
 ---
 
 *Enforcing the Clean Air Regulations 2014 — Part 1 of 6. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -88,7 +89,7 @@ Assessing a year's data comes down to two passes:
 
 A single valid exceedance of either threshold is non-compliance for that period — and the basis for the reporting and enforcement steps that follow.
 
-**Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers [the way the regulator does]({{ '/services/doe-iremote-integration/' | relative_url }}), using the DOE CEMS Guidelines we helped write.
+**Operate a regulated facility and want to understand how your data will be assessed?** [Talk to us]({{ '/' | relative_url }}#contact) — we help operators read their numbers [the way the regulator does]({{ '/services/doe-cems-integration/' | relative_url }}), using the DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>

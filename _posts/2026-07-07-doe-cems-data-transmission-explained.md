@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "iRemote, \"CEMS 2.0\", \"CEMS 3.0\": what DOE's data platform for CEMS is actually called"
-full_title: "DOE iRemote & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
+title: "cems.doe.gov.my, \"CEMS 2.0\", \"CEMS 3.0\": what DOE's data platform for CEMS is actually called"
+full_title: "DOE cems.doe.gov.my & CEMS-DIS: How CEMS Data Reaches DOE | Mesra"
 date: 2026-07-07 05:00:00
-last_modified_at: 2026-08-19
-description: "iRemote, \"CEMS 2.0\" and \"CEMS 3.0\" point to the same destination. What the DOE CEMS Guidelines actually call it, and what CEMS-DIS requires on your end."
-image: /assets/og/doe-iremote-cems-data-transmission-explained.png
+last_modified_at: 2026-10-06
+description: "cems.doe.gov.my, \"CEMS 2.0\" and \"CEMS 3.0\" point to the same destination. What the DOE CEMS Guidelines actually call it, and what CEMS-DIS requires on your end."
+image: /assets/og/doe-cems-data-transmission-explained.png
 series: watch
 ---
 
-If you've spent any time around Malaysian CEMS, you've heard the platform your data lands on called at least three different names — **iRemote**, **"CEMS 2.0"**, **"CEMS 3.0"** — often in the same conversation, sometimes by the same person. That's not sloppiness on anyone's part. The **DOE CEMS Guidelines (Version 8, 2025)**, which we helped develop, are surprisingly candid about why: describing the platform in detail isn't actually their job. Volume II says so directly — "*the details of DOE's CEMS System will not be described in this guideline*." So the naming has been left to whoever's talking, and it drifts.
+If you've spent any time around Malaysian CEMS, you've heard the platform your data lands on called at least three different names — **cems.doe.gov.my**, **"CEMS 2.0"**, **"CEMS 3.0"** — often in the same conversation, sometimes by the same person. That's not sloppiness on anyone's part. The **DOE CEMS Guidelines (Version 8, 2025)**, which we helped develop, are surprisingly candid about why: describing the platform in detail isn't actually their job. Volume II says so directly — "*the details of DOE's CEMS System will not be described in this guideline*." So the naming has been left to whoever's talking, and it drifts.
 
 Here's what's actually verifiable, and what your CEMS needs to do regardless of which name is current when you read this.
 
 ## What the Guidelines call it
 
-The Guidelines' own term, used consistently through Chapters 2, 3 and 6, is the **DOE System for CEMS** (Volume II also calls it **"DOE's CEMS Monitoring System"**) — a web-based application that receives CEMS data from industrial premises and shows each premise's compliance status based on its own readings (§6.2.6). **iRemote** is the public portal name DOE has used for that system since at least the early 2020s — it's a real, named DOE service, not informal shorthand. **"CEMS 2.0" and "CEMS 3.0" don't appear anywhere in the Guidelines or on DOE's own CEMS page** — as far as we can verify, they're industry shorthand for "whichever version of the portal is current," which is exactly the kind of drift you'd expect when the Guidelines deliberately leave the platform undescribed. Worth knowing: DOE's public portal addresses have themselves shifted over the years, with older iRemote links now pointing to a data-reference-only endpoint alongside a newer one — so "which URL is current" is a fair question to ask us directly rather than assume, precisely because the Guidelines don't fix it in writing.
+The Guidelines' own term, used consistently through Chapters 2, 3 and 6, is the **DOE System for CEMS** (Volume II also calls it **"DOE's CEMS Monitoring System"**) — a web-based application that receives CEMS data from industrial premises and shows each premise's compliance status based on its own readings (§6.2.6). **cems.doe.gov.my** is the public portal name DOE has used for that system since at least the early 2020s — it's a real, named DOE service, not informal shorthand. **"CEMS 2.0" and "CEMS 3.0" don't appear anywhere in the Guidelines or on DOE's own CEMS page** — as far as we can verify, they're industry shorthand for "whichever version of the portal is current," which is exactly the kind of drift you'd expect when the Guidelines deliberately leave the platform undescribed. Worth knowing: DOE's public portal addresses have themselves shifted over the years, with older CEMS portal links now pointing to a data-reference-only endpoint alongside a newer one — so "which URL is current" is a fair question to ask us directly rather than assume, precisely because the Guidelines don't fix it in writing.
 
 None of that changes what the regulation requires of your CEMS. That part is written down precisely, in Volume II's **CEMS Data Interface System (CEMS-DIS)** specification.
 
 ## The chain from stack to DOE, with the missing link named
 
-Our own [DOE integration service page]({{ '/services/doe-iremote-integration/' | relative_url }}) shows the chain from stack to regulator. The part that's easy to skate past is the **CEMS-DIS** in the middle — a real, specified component, not just "the connection."
+Our own [DOE integration service page]({{ '/services/doe-cems-integration/' | relative_url }}) shows the chain from stack to regulator. The part that's easy to skate past is the **CEMS-DIS** in the middle — a real, specified component, not just "the connection."
 
 <figure class="fig flow">
 <p class="fig-title">From stack to regulator — with CEMS-DIS named</p>
@@ -30,7 +30,7 @@ Our own [DOE integration service page]({{ '/services/doe-iremote-integration/' |
   <div class="flow-arrow" aria-hidden="true">→</div>
   <div class="flow-step hl"><span class="fs-k">Interface</span><span class="fs-name">CEMS-DIS</span><span class="fs-q">Stores readings, formats for transfer</span></div>
   <div class="flow-arrow" aria-hidden="true">→</div>
-  <div class="flow-step"><span class="fs-k">Regulator</span><span class="fs-name">DOE System for CEMS</span><span class="fs-q">"iRemote" in everyday use</span></div>
+  <div class="flow-step"><span class="fs-k">Regulator</span><span class="fs-name">DOE System for CEMS</span><span class="fs-q">"cems.doe.gov.my" in everyday use</span></div>
 </div>
 <p class="fig-note">Direct transmission only — no intermediate storage server permitted</p>
 <figcaption>DOE CEMS Guidelines V8, Volume II Ch. 3 (CEMS-DIS specification) and §2.6.8.</figcaption>
@@ -111,9 +111,9 @@ The obligation that catches people out is narrower and easy to miss: **if your C
 
 ## The takeaway
 
-Whatever it's called when you hear it — iRemote, CEMS 2.0, CEMS 3.0, or the Guidelines' own "DOE System for CEMS" — the underlying requirement is fixed and specific: a CEMS-DIS interface running on your premise, 24/7, transmitting directly with no intermediate server, registered through a gated process before it ever goes live, and watched continuously once it does. The name will keep drifting because the Guidelines deliberately leave it undescribed; the specification behind it won't.
+Whatever it's called when you hear it — cems.doe.gov.my, CEMS 2.0, CEMS 3.0, or the Guidelines' own "DOE System for CEMS" — the underlying requirement is fixed and specific: a CEMS-DIS interface running on your premise, 24/7, transmitting directly with no intermediate server, registered through a gated process before it ever goes live, and watched continuously once it does. The name will keep drifting because the Guidelines deliberately leave it undescribed; the specification behind it won't.
 
-**Want your data connection built and registered right the first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we're a DOE-registered CEMS party, and our own [DOE integration service]({{ '/services/doe-iremote-integration/' | relative_url }}) is built directly to the CEMS-DIS specification in Volume II of the Guidelines we helped write.
+**Want your data connection built and registered right the first time?** [Talk to us]({{ '/' | relative_url }}#contact) — we're a DOE-registered CEMS party, and our own [DOE integration service]({{ '/services/doe-cems-integration/' | relative_url }}) is built directly to the CEMS-DIS specification in Volume II of the Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>
@@ -130,9 +130,8 @@ Whatever it's called when you hear it — iRemote, CEMS 2.0, CEMS 3.0, or the Gu
 <div class="related">
   <p class="label">References</p>
   <ul>
-    <li><a href="https://iremote.doe.gov.my/" target="_blank" rel="noopener">iRemote System</a> — Department of Environment Malaysia</li>
     <li><a href="https://cems.doe.gov.my/" target="_blank" rel="noopener">CEMS online portal</a> — Department of Environment Malaysia</li>
-    <li><a href="https://www.doe.gov.my/en/online-services-2/" target="_blank" rel="noopener">Online Services (iRemote / CEMS portal)</a> — Department of Environment Malaysia</li>
+    <li><a href="https://www.doe.gov.my/en/online-services-2/" target="_blank" rel="noopener">Online Services (CEMS portal)</a> — Department of Environment Malaysia</li>
     <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>
   </ul>
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: "The cover-up costs more than the breach: penalties for falsifying data and misleading DOE"
 full_title: "Falsifying CEMS Data & False Information: Penalties | Mesra"
 date: 2026-08-03 00:06:00
-last_modified_at: 2026-08-19
+last_modified_at: 2026-10-06
 description: "Editing a CEMS reading or filing a report you know is false doesn't erase an exceedance — it adds a separate offence under CAR 2014 and the EQA 1974."
 image: /assets/og/cems-data-falsification-false-information-penalties.png
 series: enforcing
@@ -67,7 +67,7 @@ Two things make manipulation far riskier than it looks from the inside.
 
 The first is evidential. Under **Section 40**, documents prepared under the Act are presumed correct until the contrary is proved. Your CEMS record cuts both ways: it is the [evidence that protects you]({{ '/insights/cems-records-reports-doe-compliance-verification/' | relative_url }}) when you are honest, and the evidence against you when you are not — and it is presumed accurate, so a manipulated entry is a documented false statement sitting in the regulator's hands.
 
-The second is technical. A CEMS is not a single number that can be quietly rewritten; it is a [quality-assured chain]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) that continuously checks itself against reality. [QAL3 drift control]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) tracks the analyser's zero and span over time; the [annual surveillance test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }}) and [independent stack tests]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}) cross-check the instrument against a reference method; and the continuous [iRemote link]({{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}) means DOE holds its own copy of the data stream in real time. Edited figures rarely reconcile with all of that. A number that disagrees with the drift log, the reference-method result and the transmitted record doesn't hide an exceedance — it flags one, and evidences intent while doing so.
+The second is technical. A CEMS is not a single number that can be quietly rewritten; it is a [quality-assured chain]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) that continuously checks itself against reality. [QAL3 drift control]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) tracks the analyser's zero and span over time; the [annual surveillance test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }}) and [independent stack tests]({{ '/insights/why-cems-needs-manual-stack-tests-srm/' | relative_url }}) cross-check the instrument against a reference method; and the continuous [CEMS portal link]({{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}) means DOE holds its own copy of the data stream in real time. Edited figures rarely reconcile with all of that. A number that disagrees with the drift log, the reference-method result and the transmitted record doesn't hide an exceedance — it flags one, and evidences intent while doing so.
 
 ## The cheap way out has narrowed too
 

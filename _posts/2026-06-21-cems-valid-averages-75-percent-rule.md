@@ -7,6 +7,7 @@ description: "How a valid CEMS average is built from the minute up — the 45-se
 image: /assets/og/cems-valid-averages-75-percent-rule.png
 series: enforcing
 part: 2
+last_modified_at: 2026-10-06
 ---
 
 *Enforcing the Clean Air Regulations 2014 — Part 2 of 6. A series for regulators and compliance staff, drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
@@ -40,7 +41,7 @@ The smallest building block of a half-hour is the **one-minute average**. Under 
 
 Forty-five seconds out of sixty is **75%**. If the analyser was warming up, mid-calibration, or simply not returning good data for more than a quarter of that minute, the minute doesn't qualify — and it can't be used as a building block above it.
 
-This isn't just a compliance-test rule sitting off in its own chapter — it's built into the transmission spec itself. The Guidelines' CEMS-DIS data-loading procedure applies this identical 45-second/22-of-30 gate to what gets uploaded to DOE in the first place, which we cover in [DOE iRemote & CEMS-DIS: how CEMS data reaches DOE]({{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}).
+This isn't just a compliance-test rule sitting off in its own chapter — it's built into the transmission spec itself. The Guidelines' CEMS-DIS data-loading procedure applies this identical 45-second/22-of-30 gate to what gets uploaded to DOE in the first place, which we cover in [DOE cems.doe.gov.my & CEMS-DIS: how CEMS data reaches DOE]({{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}).
 
 ## Tier 2 — the valid half-hour, and the 22-of-30 rule
 
@@ -123,7 +124,7 @@ Three practical consequences follow, and they're worth holding onto when reviewi
 
 That is the foundation the rest of enforcement stands on: a clear, mechanical rule for which numbers are real. With validity settled, the next question is what an operator must *do* the moment a valid exceedance — or a CEMS failure — occurs, which is exactly where [Part 3]({{ '/insights/cems-notification-rules-excess-emission-cems-failure/' | relative_url }}) picks up.
 
-**Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this — and our [data platform builds and validates these averages]({{ '/services/doe-iremote-integration/' | relative_url }}) — helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
+**Assessing CEMS data and want to read validity the way the guidelines intend?** [Talk to us]({{ '/' | relative_url }}#contact) — we work both sides of this — and our [data platform builds and validates these averages]({{ '/services/doe-cems-integration/' | relative_url }}) — helping operators and regulators interpret the same DOE CEMS Guidelines we helped write.
 
 <div class="related">
   <p class="label">Related insights</p>
@@ -131,7 +132,7 @@ That is the foundation the rest of enforcement stands on: a clear, mechanical ru
     <li><a href="{{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}">The CEMS quality-assurance chain: why your data is valid in the first place</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/clean-air-regulations-2014-cems/' | relative_url }}">What the Clean Air Regulations 2014 mean for your CEMS</a></li>
-    <li><a href="{{ '/insights/doe-iremote-cems-data-transmission-explained/' | relative_url }}">DOE iRemote &amp; CEMS-DIS: how CEMS data reaches DOE</a></li>
+    <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">DOE cems.doe.gov.my &amp; CEMS-DIS: how CEMS data reaches DOE</a></li>
   </ul>
 </div>
 

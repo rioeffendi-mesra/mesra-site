@@ -3,7 +3,7 @@ layout: post
 title: "What the Clean Air Regulations 2014 mean for your CEMS"
 full_title: "Clean Air Regulations 2014: CEMS Obligations | Mesra"
 date: 2026-06-18
-last_modified_at: 2026-07-10
+last_modified_at: 2026-10-06
 description: "A plain-English guide to how Malaysia's Clean Air Regulations 2014 shape Continuous Emission Monitoring System obligations — and how to stay inspection-ready."
 image: /assets/og/clean-air-regulations-2014-cems.png
 series: foundation
@@ -25,7 +25,7 @@ In our experience sitting on both sides of the table — as a consultant and as 
 
 1. **Is the system measuring the right things, accurately?** The analysers must be appropriate for your source and kept within accepted tolerances through scheduled calibration.
 2. **Can you prove it?** This is where [**QAL2 and QAL3** testing]({{ '/insights/cems-quality-assurance-chain-qal1-qal2-qal3-ast/' | relative_url }}) (to the EN 14181 standard) comes in — formal quality-assurance procedures that demonstrate, and keep demonstrating, that your CEMS data is reliable.
-3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **[iRemote / CEMS 3.0]({{ '/services/doe-iremote-integration/' | relative_url }})** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
+3. **Is the data reaching the regulator?** CEMS data must be transmitted to the DOE's **[CEMS portal (CEMS 3.0)]({{ '/services/doe-cems-integration/' | relative_url }})** national platform. A system that measures perfectly but doesn't report continuously is not a compliant system.
 
 ## Where operators get caught out
 
@@ -33,7 +33,7 @@ The most common compliance gaps we see aren't dramatic failures — they're quie
 
 - **Calibration drift** that goes unnoticed until an audit.
 - **A lapsed QAL certification**, because QAL3 is an ongoing obligation, not a one-time event.
-- **A broken iRemote connection** that stops transmitting without anyone noticing for days.
+- **A broken CEMS portal connection** that stops transmitting without anyone noticing for days.
 
 Any of these can turn a well-run facility into a non-compliant one on paper — and that's what triggers notices, fines, or in the worst case, a shutdown order.
 
