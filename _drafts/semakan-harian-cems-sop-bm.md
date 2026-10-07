@@ -46,7 +46,7 @@ DAHS ialah kabinet dan skrin sentuh yang merekod output penganalisis dan menghan
 <figcaption>DAHS merekod, memurnikan dan menghantar data. Semak terlebih dahulu.</figcaption>
 </figure>
 
-Bukan sebahagian daripada semakan harian: kesihatan kuasa Raspberry Pi, ruang cakera, sandaran dan versi perisian. Mesra menyemaknya semasa lawatan penyelenggaraan pencegahan suku tahunan.
+Bukan sebahagian daripada semakan harian: kesihatan kuasa komputer terbenam DAHS, ruang cakera, sandaran dan versi perisian. Mesra menyemaknya semasa lawatan penyelenggaraan pencegahan suku tahunan.
 
 ## Bahagian B: Sistem Pengukuran Automatik (AMS)
 

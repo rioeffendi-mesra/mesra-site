@@ -41,7 +41,7 @@ The DAHS is the cabinet and touch screen that record the analyser output and sen
 <figcaption>The DAHS records, averages and sends the data. Check it first.</figcaption>
 </figure>
 
-Not part of the daily check: Raspberry Pi power health, disk space, backups and software versions. Mesra checks these at the quarterly preventive-maintenance visit.
+Not part of the daily check: DAHS embedded computer power health, disk space, backups and software versions. Mesra checks these at the quarterly preventive-maintenance visit.
 
 ## Part B: Automated Measuring System (AMS)
 
