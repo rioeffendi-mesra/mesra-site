@@ -113,6 +113,7 @@ That closes this series. From the [reason a CEMS needs a manual test]({{ '/insig
     <li><a href="{{ '/insights/cems-valid-averages-75-percent-rule/' | relative_url }}">Valid averages and the 75% rule: when a reading counts</a></li>
     <li><a href="{{ '/insights/en-14181-explained-cems-quality-assurance/' | relative_url }}">EN 14181 explained: the standard that keeps your CEMS data trustworthy</a></li>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ</a></li>
+    <li><a href="{{ '/insights/ms-1596-revision-low-dust-alignment/' | relative_url }}">The MS 1596 revision: why Malaysia's dust standard is being rewritten</a></li>
     <li><a href="{{ '/insights/palm-oil-mill-cems-dust-load-threshold/' | relative_url }}">Does your palm oil mill need a CEMS? The 2.5 kg/hour dust-load test</a></li>
     <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a></li>
   </ul>

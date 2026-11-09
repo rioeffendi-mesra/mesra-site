@@ -3,14 +3,16 @@ layout: post
 title: "Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³"
 full_title: "How to Calibrate a Transmissometer Dust CEMS | Mesra"
 date: 2026-07-14 00:05:00
-last_modified_at: 2026-10-06
-description: "An optical dust monitor never measures milligrams — it measures light. The full calibration chain for a transmissometer TPM CEMS, on the SICK DustHunter T100."
+last_modified_at: 2026-11-09
+description: "Why can't an optical dust monitor be factory-calibrated? It measures light, not milligrams. The five-link calibration chain, using the SICK DustHunter T100."
 image: /assets/og/calibrating-transmissometer-t100.png
 series: reference-methods
 part: 6
 ---
 
 *The reference methods behind your CEMS — Part 6. A hands-on walk-through for operators running an optical dust monitor, using the SICK DustHunter T100 — the double-pass transmissometer we install on biomass boilers — as the worked example throughout. Drawn from the DOE CEMS Guidelines (Version 8, 2025), which we helped develop.*
+
+*This post explains why a transmissometer needs a five-link calibration chain. For the hands-on zero-and-align routine, see [How to zero and align a SICK DustHunter T100]({{ '/insights/dusthunter-t100-zeroing-alignment-procedure/' | relative_url }}); for what the hardware looks like on the stack, see [Anatomy of an in-situ CEMS install]({{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}).*
 
 Here is the fact that every other question about dust-CEMS calibration hangs from: **a transmissometer never measures dust concentration.** It measures light. The DustHunter T100's own QAL1 certificate says so in one sentence — *"the measuring system uses the measured quantities of transmission, opacity and extinction, wherein transmission is determined as the primary optical quantity."* Every mg/m³ figure the instrument will ever report to DOE is a *derived* number, and the thing that derives it — the calibration function — is built on your stack, on your process, against manual gravimetric sampling.
 
@@ -88,7 +90,7 @@ The [QAL2 Calibration and Variability Test]({{ '/insights/qal2-calibration-varia
 
 A calibration function is a snapshot. Two ongoing procedures keep it honest.
 
-**QAL3 — your job, every cycle.** [QAL3]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) is the operator's routine of zero-and-span checks plotted on Shewhart or CUSUM control charts to catch drift before it becomes an exceedance. For the T100 the mechanics are optical: the automatic control cycle checks the zero point, the span is verified against the certified filter glasses, and the instrument's **swivel-element contamination measurement** tracks window fouling between checks. The frequency rule comes straight from the certificate: checks must happen at least every **QAL1 maintenance interval — three months for the T100** — but DOE recommends **every 4 weeks**, and explicitly expects *shorter* intervals for PM systems on *"high and dirty dust load"* stacks where fouling drives drift (§5.5.7–5.5.8). Two T100 design notes belong in your QAL3 thinking: unlike its T200 sibling it has **no automatic deflection compensation** and measures contamination **on one side only** — so mounting rigidity, flange alignment and purge-air health (the blower keeping hot dusty gas off the optics) deserve a place on the same checklist as the filter checks.
+**QAL3 — your job, every cycle.** [QAL3]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) is the operator's routine of zero-and-span checks plotted on Shewhart or CUSUM control charts to catch drift before it becomes an exceedance. For the T100 the mechanics are optical: the automatic control cycle checks the zero point, the span is verified against the certified filter glasses, and the instrument's **swivel-element contamination measurement** tracks window fouling between checks. The frequency rule comes straight from the certificate: checks must happen at least every **QAL1 maintenance interval — three months for the T100** — but DOE recommends **every 4 weeks**, and explicitly expects *shorter* intervals for PM systems on *"high and dirty dust load"* stacks where fouling drives drift (§5.5.7–5.5.8). Two T100 design notes belong in your QAL3 thinking: unlike its T200 sibling it has **no automatic deflection compensation** and measures contamination **on one side only** — so mounting rigidity, flange alignment and purge-air health (the blower keeping hot dusty gas off the optics) deserve a place on the same checklist as the filter checks. The hands-on routine for the zero check itself — geometry, alignment and the SOPAS steps — is in our [T100 zeroing and alignment field procedure]({{ '/insights/dusthunter-t100-zeroing-alignment-procedure/' | relative_url }}).
 
 **AST — the yearly referee.** The [Annual Surveillance Test]({{ '/insights/annual-surveillance-test-ast-cems/' | relative_url }}) repeats a reduced parallel-measurement campaign to confirm the calibration function still holds — which lines up with the Guidelines' blunt statement for PM that *"calibration must be undertaken typically on an annual basis"* based on gravimetric measurement (§4.1.18). And some events don't wait for the anniversary: a fuel change, a new fuel mixture, or plant modifications [trigger a fresh QAL2]({{ '/insights/changes-that-trigger-new-qal2-cems/' | relative_url }}) — with the new function in place within three months — because different dust means a different extinction-per-milligram, and yesterday's line no longer describes it.
 
@@ -128,6 +130,14 @@ A calibration function is a snapshot. Two ongoing procedures keep it honest.
 The instrument measures light superbly — the certificate proves that once, at the factory. Whether that light legally means milligrams on *your* stack is decided by this chain, and most of its links are recurring site work, not equipment features. It's also, in our experience, where dust-CEMS compliance is genuinely won or lost: not in the brochure comparison, but in whether the filter glasses are certified and dedicated, the SRM conversions are done on the right basis, and the control chart actually gets plotted.
 
 If you're commissioning a transmissometer, planning a QAL2 on a biomass boiler, or staring at a control chart that's wandering — [talk to us]({{ '/' | relative_url }}#contact). Calibration is the part of this business we'd rather you get right the first time.
+
+<div class="related">
+  <p class="label">Related insights</p>
+  <ul>
+    <li><a href="{{ '/insights/dusthunter-t100-zeroing-alignment-procedure/' | relative_url }}">How to zero and align a SICK DustHunter T100: the field procedure</a> — the QAL3 zero check, step by step</li>
+    <li><a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install: what's actually on the stack</a> — where the T100 sits on the stack</li>
+  </ul>
+</div>
 
 <div class="related">
   <p class="label">References</p>

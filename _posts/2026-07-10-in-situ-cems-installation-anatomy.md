@@ -88,6 +88,7 @@ Get any one piece wrong — a single-pass analyser, an undersized purge air supp
   <p class="label">Related insights</p>
   <ul>
     <li><a href="{{ '/insights/how-cems-measures-extractive-in-situ-sampling/' | relative_url }}">How does a CEMS actually measure? Extractive vs in-situ — and what DOE accepts</a></li>
+    <li><a href="{{ '/insights/cems-buying-decision-cost-compliance/' | relative_url }}">Making the call: choosing a CEMS partner, the true cost, and the road to your first compliant report</a></li>
     <li><a href="{{ '/insights/cems-siting-sample-ports-measurement-plane/' | relative_url }}">Where your CEMS goes: siting, sample ports and the measurement plane DOE accepts</a></li>
     <li><a href="{{ '/insights/doe-cems-data-transmission-explained/' | relative_url }}">cems.doe.gov.my, "CEMS 2.0", "CEMS 3.0": what DOE's data platform for CEMS is actually called</a></li>
     <li><a href="{{ '/insights/qal1-certification-mcert-tuv-doe-registered-cems/' | relative_url }}">What "DOE-registered CEMS" and MCERT/TÜV actually mean</a></li>

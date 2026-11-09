@@ -3,11 +3,14 @@ layout: post
 title: "How to zero and align a SICK DustHunter T100: the field procedure"
 full_title: "SICK DustHunter T100 Zeroing & Alignment Procedure | Mesra"
 date: 2026-09-01 00:05:00
+last_modified_at: 2026-11-09
 description: "Field procedure for zeroing and aligning a SICK DustHunter T100 dust CEMS in SOPAS — the QAL3 zero-and-span check that keeps readings valid and DOE-reportable."
 image: /assets/og/dusthunter-t100-zeroing-alignment.png
 ---
 
 *A hands-on field procedure for technicians and CEMS operators running a SICK DustHunter T100 double-pass transmissometer — the optical dust monitor we install on biomass boilers. It covers the routine **zero and alignment** performed in SICK's SOPAS ET software: what to measure first, how to centre the optics, how to set the reference, and how to confirm the result before you sign off.*
+
+*This is the routine QAL3 zero check only. It does not re-derive the mg/m³ scale — that comes from QAL2; see [Calibrating a transmissometer dust CEMS]({{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}).*
 
 Zeroing is the check that keeps an optical dust monitor honest. A transmissometer doesn't measure milligrams — [it measures light]({{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}), and every mg/m³ it reports to DOE is derived from how much of its beam survives the trip across your stack. If the instrument no longer knows what a *clean* path looks like — because the optics have drifted, or the sender and reflector are no longer aligned — then every reading downstream is off by that error. Zeroing re-establishes the 100 % transmission reference; alignment makes sure the beam is actually landing where it should before you set it. Done together, on a smoke-free path, they are the practical core of the [QAL3 drift check]({{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}) every operator owns.
 
@@ -215,6 +218,8 @@ If you'd rather have this done for you — or want your technicians trained on i
 <div class="related">
   <p class="label">References</p>
   <ul>
+    <li><a href="{{ '/insights/in-situ-cems-installation-anatomy/' | relative_url }}">Anatomy of an in-situ CEMS install: what's actually on the stack</a> — what you are aligning, and the purge air and mounting behind it</li>
+    <li><a href="{{ '/insights/biomass-boiler-cems-which-industries-need-one/' | relative_url }}">CEMS for biomass boilers in Malaysia: which industries need one</a> — where the T100 is used</li>
     <li><a href="{{ '/insights/calibrating-transmissometer-dust-cems-dusthunter-t100/' | relative_url }}">Calibrating a transmissometer dust CEMS: from light beam to legal mg/m³</a> — the full calibration chain this zero sits inside</li>
     <li><a href="{{ '/insights/qal3-ongoing-performance-monitoring-drift-control/' | relative_url }}">QAL3: ongoing performance monitoring &amp; drift control</a> — where routine zero-and-span checks live</li>
     <li><a href="https://www.doe.gov.my/wp-content/uploads/2025/12/SERIES-OF-CEMS_V12_final_interactive.pdf" target="_blank" rel="noopener">CEMS Guidelines, Volumes I &amp; II (Version 8, 2025)</a> — Department of Environment Malaysia</li>

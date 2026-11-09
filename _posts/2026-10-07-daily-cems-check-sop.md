@@ -3,7 +3,7 @@ layout: post
 title: "Daily CEMS check: a one-page SOP for plant operators"
 full_title: "Daily CEMS Check SOP for Plant Operators (DAHS, AMS, DOE Portal) | Mesra"
 date: 2026-10-07 00:05:00
-description: "A one-page daily SOP for CEMS operators: check the DAHS, the T100 opacity monitor and the DOE CEMS portal in 15 minutes, with the exact DOE notification deadlines under CAR 2014 and the EQA 1974."
+description: "One-page daily CEMS SOP: check the DAHS, T100 opacity monitor and DOE CEMS portal in 15 minutes, with DOE notification deadlines under CAR 2014 and EQA 1974."
 ---
 
 *A one-page daily routine for plant operators: three short checks, about 15 minutes in total, to confirm your CEMS is measuring, recording and reporting to the Department of Environment. Written for our SICK DustHunter T100 opacity installations, and free for you to print and use.*

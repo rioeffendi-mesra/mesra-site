@@ -3,7 +3,7 @@ layout: post
 title: "Making the call: choosing a CEMS partner, the true cost, and the road to your first compliant report"
 full_title: "Choosing a CEMS Partner: Cost & Timeline | Mesra"
 date: 2026-06-24 04:00:00
-description: "How to choose a CEMS partner, what a system truly costs once running expenses are counted, and the timeline from purchase order to your first compliant report."
+description: "Choosing a CEMS partner in Malaysia: what a CEMS really costs once running costs are counted, and the road from purchase order to your first compliant report."
 image: /assets/og/cems-buying-decision-cost-compliance.png
 series: buying
 part: 5

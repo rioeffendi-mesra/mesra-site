@@ -3,7 +3,7 @@ layout: post
 title: "The MS 1596 revision: why Malaysia's dust standard is being rewritten — and where it's heading"
 full_title: "The MS 1596 Revision: Low-Dust Alignment | Mesra"
 date: 2026-06-24 03:00:00
-description: "Malaysia's MS 1596 particulate standard is being revised. Why the 2003 edition is being rewritten, what it aligns to (ISO 9096, EN 13284-1), and how it is made."
+description: "Malaysia's dust standard, MS 1596, is being rewritten. Why the 2003 edition is being replaced, what it aligns to (ISO 9096, EN 13284-1), and how it is made."
 image: /assets/og/ms-1596-revision-low-dust-alignment.png
 series: reference-methods
 part: 4
